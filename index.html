@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digital SAT Practice Portal — Verification</title>
+<style>
+:root {
+  --ink: #12233C;
+  --ink-soft: #48607F;
+  --paper: #EEF1F6;
+  --surface: #FFFFFF;
+  --rule: #D3DAE5;
+  --primary: #2447C9;
+  --primary-dk: #1A34A0;
+  --wrong: #BE2F2F;
+  --shadow: 0 1px 0 rgba(18,35,60,.06), 0 8px 24px -14px rgba(18,35,60,.35);
+  --serif: "Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --ui: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  background: linear-gradient(145deg, #0F2038, #07101E);
+  color: var(--surface);
+  font-family: var(--ui);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+.access-card {
+  width: min(420px, 100%);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 28px 80px -26px rgba(0,0,0,0.85);
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+}
+.access-mark {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: #E8EDFA;
+  color: var(--primary);
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+  margin: 0 auto 20px;
+}
+h1 {
+  font-family: var(--serif);
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0 0 8px;
+}
+p {
+  margin: 0 0 24px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.45;
+}
+label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+  text-align: left;
+}
+.access-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+}
+.access-input {
+  min-width: 0;
+  width: 100%;
+  font-size: 18px;
+  border: 1.5px solid var(--rule);
+  border-radius: 9px;
+  padding: 12px 14px;
+  background: #FBFCFE;
+  color: var(--ink);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.access-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(36,71,201,.14);
+}
+.access-submit {
+  border: 0;
+  border-radius: 9px;
+  padding: 0 22px;
+  background: var(--primary);
+  color: var(--surface);
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background .12s ease;
+}
+.access-submit:hover {
+  background: var(--primary-dk);
+}
+.access-error {
+  min-height: 20px;
+  margin: 10px 0 0 !important;
+  color: var(--wrong) !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<main class="access-card" role="dialog" aria-labelledby="access-title">
+  <div class="access-mark" aria-hidden="true">🔑</div>
+  <h1 id="access-title">Practice Portal Locked</h1>
+  <p>Please enter your access password to launch the Digital SAT Math Prep application.</p>
+  
+  <form id="access-form" autocomplete="off">
+    <label for="access-password">Password</label>
+    <div class="access-row">
+      <input id="access-password" class="access-input" type="password" autocomplete="current-password" placeholder="Enter password" aria-describedby="access-error" required>
+      <button class="access-submit" type="submit">Unlock</button>
+    </div>
+    <p id="access-error" class="access-error" role="alert" aria-live="polite"></p>
+  </form>
+</main>
+
+<script>
+const ACCESS_PASSWORD = "katie";
+const TARGET_PAGE = "digital-sat-math-30-tests-plots-fixed.html";
+
+const form = document.getElementById('access-form');
+const input = document.getElementById('access-password');
+const error = document.getElementById('access-error');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  
+  // Case-insensitive verification
+  if (input.value.trim().toLowerCase() === ACCESS_PASSWORD.toLowerCase()) {
+    error.textContent = '';
+    // Store simple state locally so users don't get immediate bounce-backs
+    try {
+      sessionStorage.setItem('portal_unlocked', 'true');
+    } catch (e) {}
+    
+    // Smooth redirect to the test app
+    window.location.href = TARGET_PAGE;
+  } else {
+    error.textContent = 'Incorrect password. Please try again.';
+    input.value = '';
+    input.focus();
+  }
+});
+
+// Auto-focus input on load
+window.addEventListener('DOMContentLoaded', () => {
+  input.focus();
+});
+</script>
+</body>
+</html>
