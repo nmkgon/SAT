@@ -1,2 +1,0 @@
-# SAT
-SAT mastery
