@@ -84,3 +84,6 @@ Removed scrollable overflow from inline MathML. Variables and equations no longe
 
 ## Study guide math repair
 Paired numerical expressions containing LaTeX multiplication commands now render correctly, including $1.15 \times 80 = 92$ and sums using \cdot. Currency prose still stays plain text. The shared renderer repairs saved guide content when reopened and newly exported printable guides; regenerate any previously exported HTML file to update its rendering.
+
+## Recover from unconfirmed-cost pause
+Open Cost → Reconcile month. Check both projects' month-to-date Gemini API spending, accounting for billing delays and interrupted calls. Enter a conservative total (at least the app's tracked estimate), confirm, and save. This establishes a monthly baseline and resumes requests only if funds remain. History is retained; future costs are added to the baseline. The $10 stop and $0.25 margin remain. Reconciliation is blocked during an active request in another tab. No keys or answers are removed.
