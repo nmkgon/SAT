@@ -58,3 +58,9 @@ After completing an attempt, open My progress → Review & save.
 Printable HTML guides have a Print / Save as PDF button. Save the HTML or JSON/Markdown copy too: PDF alone cannot be reimported as a review pack. Reports/review packs contain student answers, but no API keys. Imported Test 2 data should be opened in Test 2, not silently assigned to Test 1. Imports are bounded to 2 MB and 500 questions and validate plot/table structure. Generated AI questions may still contain errors; guide content for them inherits their saved solutions.
 
 Combined-pack tests passed for incorrect/unanswered selection, study-guide inclusion, round-trip JSON/Markdown/HTML import, embedded-script escaping and test-origin checks.
+
+## Test 1 direct-entry update
+The newly uploaded Practice Test #1 Math PDF has the same extracted contents as the earlier reference. The 54 original skill-aligned questions are retained, consistent with the request not to copy College Board questions. Test 1 now embeds the shared settings/password code and displays its own Katie password screen when opened directly, rather than requiring a redirect to the index. Opening Test 1 from an already-unlocked index still opens immediately. Shared AI settings continue to use the same folder-scoped browser storage. Keep the package files together to use All tests and shared AI setup. The password remains a convenience gate rather than secure authentication.
+
+## Reference-aligned revision
+All 54 study questions follow the uploaded reference sequence (27 per module), with new wording and values. See QUESTION_MAP.md. Each module has 20 multiple-choice and 7 numeric-entry questions. Start a new Study session to load the revised bank; earlier saved attempts retain their original question snapshots. Timed rehearsal remains a 44-question selection, not the full 54-question reference sequence.

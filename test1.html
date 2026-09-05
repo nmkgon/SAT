@@ -1,4 +1,19 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#122b42"><meta name="description" content="Original SAT-style math practice with worked solutions, timed modules, skill reports, and a Gemini-powered practice studio."><title>Test 1 · Vertex SAT Math</title><script src="hub.js"></script><script>VertexHub.requireAccess();window.addEventListener("pageshow",()=>VertexHub.requireAccess());</script><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#122b42"><meta name="description" content="Original SAT-style math practice with worked solutions, timed modules, skill reports, and a Gemini-powered practice studio."><title>Test 1 · Password-protected practice</title><script>'use strict';
+// Shared browser settings; never put real API keys in this file.
+window.VertexHub=(()=>{
+ const ROOT=new URL('.',document.currentScript.src||location.href),SCOPE='vertex-hub:'+ROOT.pathname,SETTINGS=SCOPE+':ai',ACCESS=SCOPE+':access';
+ const HASH='0e7ba1c1a960f6da5a9567b6c25f49c61dff0ad7be4a8c1008f097926c47ec06';
+ function load(){try{const d=JSON.parse(localStorage.getItem(SETTINGS)||'null');if(d)return d;}catch{}return{key1:'',key2:'',active:'key1',model:'gemini-3.5-flash'};}
+ function save(d){const clean={key1:String(d.key1||'').trim(),key2:String(d.key2||'').trim(),active:'key1',model:String(d.model||'gemini-3.5-flash')};if(!clean[clean.active])throw Error('Enter a key for the selected API slot.');if(!/^[a-zA-Z0-9._-]+$/.test(clean.model))throw Error('Check the model ID.');localStorage.setItem(SETTINGS,JSON.stringify(clean));return clean;}
+ function clear(){localStorage.removeItem(SETTINGS);}
+ function unlocked(){try{return sessionStorage.getItem(ACCESS)===HASH;}catch{return false;}}
+ async function unlock(password){if(!crypto.subtle)throw Error('Open this website through HTTPS or localhost.');const bytes=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(password));const digest=Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('');if(digest!==HASH)return false;sessionStorage.setItem(ACCESS,HASH);return true;}
+ function lock(){sessionStorage.removeItem(ACCESS);location.replace(new URL('index.html',ROOT));}
+ function requireAccess(){if(unlocked())return true;document.documentElement.setAttribute('data-vertex-locked','');if(!document.getElementById('vertex-gate-style')){const style=document.createElement('style');style.id='vertex-gate-style';style.textContent='html[data-vertex-locked] body > :not(#vertex-entry){display:none!important}#vertex-entry{position:fixed;inset:0;z-index:999999;background:#f3f6f9;display:grid;place-items:center;font:16px/1.5 system-ui,sans-serif;color:#163047;padding:20px}#vertex-entry form{background:white;padding:28px;border:1px solid #dce5ec;border-radius:14px;width:100%;max-width:380px}#vertex-entry h1{font-size:26px;margin:0 0 8px}#vertex-entry p{font-size:14px;color:#617385}#vertex-entry label{display:block;margin-bottom:6px}#vertex-entry input{box-sizing:border-box;width:100%;padding:12px;border:1px solid #bccbd5;border-radius:8px;font:inherit}#vertex-entry button{width:100%;padding:12px;background:#086c59;color:white;border:0;border-radius:8px;margin-top:16px;font:inherit;font-weight:650}#vertex-entry .error{color:#b23849;min-height:20px}';document.head.append(style);}const mount=()=>{if(document.getElementById('vertex-entry'))return;const entry=document.createElement('section');entry.id='vertex-entry';entry.innerHTML='<form><h1>Test 1</h1><p>Enter your password to open practice.</p><label for="vertex-password">Password</label><input id="vertex-password" type="password" autocomplete="current-password" required><button>Open Test 1</button><p class="error" role="status"></p></form>';document.body.append(entry);entry.querySelector('form').onsubmit=async event=>{event.preventDefault();try{if(!await unlock(entry.querySelector('input').value)){entry.querySelector('.error').textContent='Incorrect password. Try again.';return;}document.documentElement.removeAttribute('data-vertex-locked');entry.remove();}catch(e){entry.querySelector('.error').textContent=e.message;}};entry.querySelector('input').focus();};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount,{once:true});else mount();return false;}
+
+ return{load,save,clear,unlocked,unlock,lock,requireAccess,settingsKey:SETTINGS,root:ROOT};
+})();
+</script><script>VertexHub.requireAccess();window.addEventListener("pageshow",()=>VertexHub.requireAccess());</script><style>
 :root{--ink:#142d43;--muted:#596b7b;--line:#dce4ea;--paper:#fff;--bg:#f2f5f8;--accent:#076b5c;--mint:#e3f5ed;--blue:#315fe5;--red:#b93549;--gold:#9a5c0d;--shadow:0 18px 70px #142d4326}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}button,input,select,textarea{font:inherit}button,a,input,select,textarea{outline-offset:4px}button{cursor:pointer;color:inherit;background:white;border:1px solid var(--line);border-radius:9px;padding:10px 16px;font-weight:600;transition:background .15s,transform .15s}button:hover{background:#eaf0f5}button:disabled{opacity:.45;cursor:not-allowed}button.primary{background:var(--accent);border-color:var(--accent);color:white}button.primary:hover{background:#055447}button.dark{background:var(--ink);color:white;border-color:var(--ink)}button.quiet{background:transparent;border-color:transparent}button.small{font-size:14px;padding:7px 11px}a{color:var(--blue)}input,select,textarea{padding:10px 12px;border:1px solid #b9c7d2;border-radius:8px;background:white;color:var(--ink);max-width:100%}label{display:block;font-size:14px;font-weight:650;margin-bottom:6px}header{height:78px;background:white;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 36px;gap:38px}.brand{display:flex;gap:10px;align-items:center;font-size:24px;letter-spacing:-1px;font-weight:800}.brand-mark{width:34px;height:34px;display:grid;place-items:center;background:var(--ink);color:#79e8bd;font-size:22px;border-radius:10px}.brand small{font-size:12px;letter-spacing:1.5px;font-weight:650;color:var(--muted);display:block;line-height:1.2}nav{display:flex;gap:6px;flex:1}nav button{border:0;background:none;color:var(--muted);border-radius:0;height:78px;border-bottom:3px solid transparent;padding:0 18px;font-size:14px}nav button.active{color:var(--accent);border-bottom-color:var(--accent)}.connection{font-size:13px;color:var(--muted)}main{max-width:1480px;margin:0 auto;padding:28px 36px}.eyebrow{text-transform:uppercase;font-size:12px;letter-spacing:1.6px;font-weight:750;color:var(--accent)}h1{font-size:30px;line-height:1.2;letter-spacing:-.8px;margin:7px 0 8px}h2{font-size:22px;line-height:1.35;margin:0 0 12px;letter-spacing:-.4px}h3{font-size:17px;margin:0 0 12px}p{margin:8px 0 14px}.muted{color:var(--muted)}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.between{justify-content:space-between}.intro{margin-bottom:23px}.pill{font-size:12px;padding:5px 9px;background:#edf1f6;color:#40566b;border-radius:5px;font-weight:650;display:inline-block}.pill.green{background:var(--mint);color:var(--accent)}.pill.gold{background:#fff0d7;color:var(--gold)}.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:24px}.card{background:white;border:1px solid var(--line);border-radius:14px}.rail{padding:22px;height:fit-content}.rail .row{gap:7px}.rail hr{border:0;border-top:1px solid var(--line);margin:20px 0}.question-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin:16px 0}.question-grid button{padding:0;min-height:35px;border-radius:6px;font-size:13px;position:relative}.question-grid button.current{border:2px solid var(--ink)}.question-grid button.answered{background:var(--mint);color:var(--accent);border-color:#9ecdbb}.question-grid button.flagged:after{content:'';position:absolute;right:2px;top:2px;width:6px;height:6px;background:#d18b26;border-radius:50%}.meter{height:6px;border-radius:10px;background:#e8edf1;overflow:hidden}.meter i{display:block;height:100%;background:var(--accent);border-radius:10px}.rail-note{font-size:13px;line-height:1.5;color:var(--muted)}.question-top{padding:16px 25px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.question-body{padding:32px;min-height:380px;display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,.82fr);gap:42px}.prompt{font-size:20px;line-height:1.8}.answer-col{border-left:1px solid var(--line);padding-left:32px}.choice{display:flex;align-items:center;gap:12px;margin-bottom:12px}.choice>button:first-child{width:100%;display:flex;gap:14px;align-items:center;min-height:56px;text-align:left;font-weight:450}.letter{font-size:13px;border:1px solid #c8d2dc;border-radius:50%;width:27px;height:27px;display:grid;place-items:center;flex-shrink:0}.choice.selected>button:first-child{border:2px solid var(--accent);background:#eff9f4}.choice.selected .letter{background:var(--accent);color:white;border-color:var(--accent)}.choice.eliminated>button:first-child{text-decoration:line-through;opacity:.45}.eliminate{padding:4px;border:0;background:none;font-size:16px;color:var(--muted)}.question-bottom{padding:17px 25px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.solution{margin:0 32px 28px;padding:24px;background:#eff8f4;border:1px solid #bcdece;border-radius:10px}.solution li{margin:12px 0;padding-left:6px}.feedback{padding:12px 16px;margin-bottom:16px;border-radius:8px;background:#e3f5ed;color:#076b5c}.feedback.bad{background:#fcecf0;color:var(--red)}.practice-banner{padding:19px 23px;margin-top:18px;display:flex;align-items:center;justify-content:space-between;gap:16px;background:#e8eefb;border:1px solid #d5dff6;border-radius:12px}.practice-banner p{font-size:14px;margin:3px 0;color:#4c607b}.mini{font-size:13px}.tools{display:flex;gap:6px;flex-wrap:wrap}.footer-note{text-align:center;font-size:12px;color:var(--muted);margin:25px 0 0}.chart{width:100%;max-height:300px;display:block;margin:20px 0 6px}.data-table{border-collapse:collapse;width:100%;margin:18px 0;font-size:16px}.data-table td,.data-table th{padding:9px 15px;border:1px solid var(--line);text-align:center}.data-table th{background:#eef3f7;font-weight:650}.math{font-family:Cambria Math,STIX Two Math,serif;font-size:1.1em;white-space:normal}math{font-size:1.1em}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:24px 0}.stat{padding:24px}.stat strong{display:block;font-size:34px;letter-spacing:-1px}.stat span{font-size:14px;color:var(--muted)}.report-layout{display:grid;grid-template-columns:1fr 1.25fr;gap:22px}.pad{padding:25px}.domain{margin:19px 0}.domain .row{margin-bottom:7px;font-size:14px}.review-item{padding:16px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:15px}.review-item:last-child{border-bottom:0}.review-item p{margin:0;font-size:14px}.window{position:fixed;top:100px;left:calc(50% - 280px);width:560px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);background:white;border:1px solid #bbcbd5;border-radius:14px;box-shadow:var(--shadow);z-index:100;overflow:hidden;resize:both;min-width:280px;min-height:200px}.window-bar{padding:12px 18px;background:var(--ink);color:white;display:flex;justify-content:space-between;align-items:center;cursor:move;touch-action:none;user-select:none}.window-bar button{color:white;background:none;border:0;font-size:18px;padding:0 6px}.window-bar span{font-size:14px;font-weight:650}.window-body{padding:24px;overflow:auto;max-height:calc(100dvh - 120px);height:calc(100% - 51px)}.window .full{width:100%}.window p{font-size:14px}.field{margin-bottom:18px}.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.levels button{padding:12px 5px;font-size:14px}.levels button.active{background:var(--mint);border:2px solid var(--accent);color:var(--accent)}.levels small{display:block;font-size:11px;font-weight:400;margin-top:4px}.notice{padding:12px 15px;background:#edf3f9;border-radius:8px;font-size:13px;color:#42596b;margin:12px 0}.error{color:var(--red)}.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;padding:12px 20px;border-radius:10px;z-index:1000;max-width:90vw;box-shadow:var(--shadow)}.empty{text-align:center;padding:64px 20px}.empty h2{font-size:26px}.calculator-result{font-family:Cambria Math,serif;font-size:26px;min-height:48px;margin-top:15px;overflow-wrap:anywhere}.session-list{display:grid;gap:12px}.library-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.library-grid .card{padding:25px}.num-input{width:100%;font-size:22px;min-height:58px}.timer{font-variant-numeric:tabular-nums;letter-spacing:1px}.warn{color:var(--red)}textarea{width:100%;min-height:150px;resize:vertical}.hide{display:none!important}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(max-width:1100px){header{padding:0 20px;gap:20px}.connection{display:none}main{padding:24px 20px}.layout{grid-template-columns:205px minmax(0,1fr);gap:16px}.rail{padding:16px}.question-body{padding:25px;gap:25px;grid-template-columns:1fr}.answer-col{border-left:0;padding-left:0}.prompt{font-size:19px}.report-layout{grid-template-columns:1fr}}@media(max-width:700px){header{height:auto;min-height:70px;flex-wrap:wrap;gap:4px;padding:12px 16px 0}.brand{font-size:21px}nav{order:3;flex-basis:100%;justify-content:space-between}nav button{height:45px;padding:0 8px;font-size:13px}.header-ai{margin-left:auto}main{padding:20px 12px}.layout{display:flex;flex-direction:column}.rail{order:2;width:100%}.rail .question-grid{grid-template-columns:repeat(9,1fr)}.question-body{padding:22px 18px;min-height:300px;gap:24px}.question-top,.question-bottom{padding:14px 16px}.question-top .tools button{font-size:12px;padding:6px 8px}.intro{gap:15px}h1{font-size:26px}.practice-banner{align-items:flex-start;flex-direction:column}.stats{grid-template-columns:repeat(2,1fr);gap:10px}.stat{padding:17px}.stat strong{font-size:28px}.library-grid{grid-template-columns:1fr}.window{left:12px!important;max-height:calc(100dvh - 24px);top:12px;width:calc(100vw - 24px)}.solution{margin:0 16px 20px;padding:18px}.question-bottom button{padding:9px 12px;font-size:14px}.window-body{padding:19px}math{font-size:1em}}@media print{header,.window,.toast,button,.footer-note,.practice-banner{display:none!important}body{background:white}main{padding:0;max-width:none}.card{break-inside:avoid}.stats{grid-template-columns:repeat(4,1fr)}.report-layout{display:block}.review-item{break-inside:avoid}.layout{display:block}.rail{display:none}.question-body{min-height:0}.answer-col{display:none}}
 .popup-review{border-top:1px solid var(--line);padding:16px 0}.popup-review summary{cursor:pointer;font-weight:600}#aiPracticeWindow .solution{margin:18px 0}#aiPracticeWindow .window-body{max-height:none;height:calc(100% - 51px)}
 .test-library{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px}.test-folders{padding:18px;height:fit-content}.test-folder{display:flex;flex-direction:column;align-items:flex-start;width:100%;gap:4px;border:0;margin-bottom:6px}.test-folder.selected{background:var(--mint);color:var(--accent)}.test-actions{padding:24px}.test-set-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}@media(max-width:700px){.test-library{grid-template-columns:1fr}.test-folders{display:flex;gap:8px;overflow:auto}.test-folders h3{display:none}.test-folder{width:auto;min-width:130px;margin:0}.test-set-grid{grid-template-columns:1fr}}
@@ -66,131 +81,1401 @@ nav button{white-space:nowrap}
 .practice-banner{flex-wrap:wrap}.practice-banner .gen-inline{margin-top:0}
 [data-theme=dark] .seg button.on{background:var(--ink);color:var(--bg)}
 </style></head><body><header><a href="index.html" class="small" style="text-decoration:none;white-space:nowrap">← All tests</a><div class="brand"><span class="brand-mark">∠</span><div>vertex<small>TEST 1</small></div></div><nav aria-label="Main navigation"><button data-view="home" class="active">Home</button><button data-view="practice">Practice</button><button data-view="library">Library</button><button data-view="report">Progress</button></nav><span class="connection" id="connection">Saved on this device</span><button class="small header-ai" id="settingsBtn">AI setup</button><button class="header-icon" id="prefsBtn" title="Settings" aria-label="Settings">⚙</button></header><main id="app"></main><div id="windows"></div><div id="toast" role="status" class="toast hide"></div><script>/* Original questions; reference used only for skill coverage. */
-const BANK = [];
-
-function Q(skill, domain, level, prompt, choices, answer, steps, visual = null) {
-    BANK.push({
-        id: 'v' + (BANK.length + 1),
-        skill,
-        domain,
-        level,
-        prompt,
-        choices,
-        answer: String(answer),
-        steps,
-        visual,
-        source: 'Original',
-        tolerance: 0.0001
-    });
-}
-Q('Percentages', 'Data', 'Easy', 'A gallery sold 240 tickets on Saturday. Of these, 35% were student tickets. How many student tickets were sold?', ['72', '84', '156', '205'], 1, ['Convert 35% to 0.35.', 'Multiply: $0.35(240)=84$.']);
-Q('Equivalent equations', 'Algebra', 'Easy', 'Which equation has the same solution as $7x-9=40$?', ['$7x=31$', '$x=49$', '$7x=49$', '$7x=360$'], 2, ['Add 9 to both sides: $7x=49$.', 'Both equations have the solution $x=7$.']);
-Q('Budget inequalities', 'Algebra', 'Easy', 'A ceramics studio charges a 16-dollar booking fee and 12 dollars per hour. Mei can spend at most 88 dollars. Which inequality models the possible number of hours, $h$?', ['$16h+12\\le88$', '$12h-16\\le88$', '$16+12h\\ge88$', '$16+12h\\le88$'], 3, ['Total cost is the fixed fee plus the hourly charge: $16+12h$.', 'At most means less than or equal to, so $16+12h\\le88$.']);
-Q('Quadratic evaluation', 'Advanced', 'Easy', 'Let $g(t)=2t^2+3$. If $t>0$ and $g(t)=75$, what is $t$?', ['6', '9', '18', '36'], 0, ['Solve $2t^2+3=75$, giving $t^2=36$.', 'The positive solution is $t=6$.']);
-Q('Probability', 'Data', 'Easy', 'A bag contains 7 blue, 5 gold, and 8 white tokens. One token is selected at random. What is the probability it is gold?', ['$\\frac15$', '$\\frac14$', '$\\frac38$', '$\\frac34$'], 1, ['There are $7+5+8=20$ tokens.', 'The probability is $\\frac5{20}=\\frac14$.']);
-Q('Unit rates', 'Data', 'Easy', 'A conveyor moves 18 boxes every 45 seconds. At this constant rate, how many boxes does it move in 5 minutes?', null, 120, ['Five minutes equals 300 seconds.', 'The rate is $18/45=0.4$ box per second.', 'Multiply $0.4(300)=120$.']);
-Q('Function evaluation', 'Algebra', 'Easy', 'If $f(x)=9-4x$, what is $f(-3)$?', null, 21, ['Substitute $x=-3$.', '$f(-3)=9-4(-3)=9+12=21$.']);
-Q('Linear modeling', 'Algebra', 'Easy', 'A museum sells adult tickets for 14 dollars and youth tickets for 9 dollars. Ticket revenue is 513 dollars. Which equation relates adult tickets, $a$, and youth tickets, $y$?', ['$23(a+y)=513$', '$9a+14y=513$', '$14a+9y=513$', '$14ay=513$'], 2, ['Adult revenue is $14a$ and youth revenue is $9y$.', 'Add the two revenues: $14a+9y=513$.']);
-Q('Similar triangles', 'Geometry', 'Easy', 'Triangles ABC and DEF are similar, with A corresponding to D and B to E. Angle A is 38° and angle B is 72°. What is the measure of angle F?', ['38°', '70°', '72°', '110°'], 1, ['The third angle of ABC is $180-38-72=70$ degrees.', 'Corresponding angles C and F are equal.']);
-Q('Linear systems', 'Algebra', 'Easy', 'The equations $y=2x+1$ and $3x+y=26$ intersect. What is the $x$-coordinate of the intersection?', ['4', '5', '7', '11'], 1, ['Substitute $y=2x+1$ into the second equation.', '$3x+2x+1=26$, so $5x=25$ and $x=5$.']);
-Q('Scatterplots', 'Data', 'Hard', 'The scatterplot relates practice hours, $x$, to a student’s task completion time, $y$, in minutes. Which model best fits the data?', ['$y=2x+18$', '$y=-2x-18$', '$y=-2x+18$', '$y=-8x+18$'], 2, ['The data decrease by about 2 minutes for each added practice hour.', 'The vertical intercept is about 18, so $y=-2x+18$.'], {
-    type: 'scatter',
-    points: [
-        [1, 16],
-        [2, 14.4],
-        [3, 11.7],
-        [4, 10.2],
-        [5, 7.8],
-        [6, 6.3],
-        [7, 3.8]
+const BANK = [
+  {
+    "id": "v1",
+    "skill": "Percentages",
+    "domain": "Data",
+    "level": "Easy",
+    "prompt": "What number equals 35% of 240?",
+    "choices": [
+      "72",
+      "84",
+      "156",
+      "205"
     ],
-    range: [0, 8, 0, 20],
-    xLabel: 'Practice hours',
-    yLabel: 'Minutes'
-});
-Q('Polynomial zeros', 'Advanced', 'Hard', 'The graph of a polynomial is shown. How many distinct real solutions does $f(x)=0$ have?', ['1', '2', '3', '4'], 2, ['Real zeros occur where the graph meets the horizontal axis.', 'The graph crosses at $x=-3$, $x=1$, and $x=4$: three distinct zeros.'], {
-    type: 'curve',
-    coeff: [0.12, -0.24, -1.32, 1.44],
-    range: [-5, 6, -6, 6]
-});
-Q('Cost equations', 'Algebra', 'Easy', 'A club spends 146 dollars on notebooks and pens. It buys 18 notebooks at 6 dollars each; pens cost 2 dollars each. How many pens does it buy?', null, 19, ['Notebooks cost $18(6)=108$ dollars.', 'Pens cost $146-108=38$ dollars.', 'The number of pens is $38/2=19$.']);
-Q('Quadratic roots', 'Advanced', 'Hard', 'What is the positive solution of $x^2+3x-28=0$?', null, 4, ['Factor: $(x+7)(x-4)=0$.', 'The roots are $-7$ and 4. The positive root is 4.']);
-Q('Exponential growth', 'Advanced', 'Hard', 'A culture starts with 640 cells and triples every 4 hours. How many cells are predicted after 12 hours?', ['1920', '5760', '17280', '23040'], 2, ['There are $12/4=3$ growth periods.', 'The count is $640(3)^3=17280$.']);
-Q('Factoring expressions', 'Advanced', 'Hard', 'Which expression is equivalent to $15x^7y^3+25x^3y^5$?', ['$5x^3y^3(3x^4+5y^2)$', '$5x^3y^3(3x^4+5y^5)$', '$5xy(3x^6+5y^4)$', '$15x^3y^3(x^4+25y^2)$'], 0, ['The greatest common factor is $5x^3y^3$.', 'Divide each term by it to obtain $3x^4+5y^2$.']);
-Q('Interpreting coefficients', 'Algebra', 'Hard', 'A solar array has 12 rooftop panels and 20 ground panels. Its daily energy output is modeled by $12r+20g=184$. What does $r$ represent?', ['Total output of the rooftop array', 'Average daily output per rooftop panel', 'Number of rooftop panels', 'Average daily output per ground panel'], 1, ['The coefficient 12 counts the rooftop panels.', 'Therefore $r$ is the daily energy output of one rooftop panel on average.']);
-Q('Graph modeling', 'Algebra', 'Hard', 'The graph shows combinations of small crates, $x$, and large crates, $y$, that fill a truck. Which equation represents the line?', ['$4x+6y=48$', '$6x+4y=48$', '$x+y=48$', '$4x-6y=48$'], 0, ['The intercepts are $(12,0)$ and $(0,8)$.', 'Thus $x/12+y/8=1$. Multiply by 48 to obtain $4x+6y=48$.'], {
-    type: 'curve',
-    coeff: [-2 / 3, 8],
-    range: [0, 14, 0, 10],
-    xLabel: 'Small crates',
-    yLabel: 'Large crates'
-});
-Q('Area scaling', 'Geometry', 'Hard', 'A circular garden’s radius is enlarged from $2s$ to $10s$, where $s>0$. Its new area is how many times its original area?', ['5', '10', '25', '100'], 2, ['The radius scale factor is $10s/(2s)=5$.', 'Area scales by the square: $5^2=25$.']);
-Q('Frequency tables', 'Data', 'Easy', 'The table records books read by a group. What is the largest observed number of books?', null, 9, ['A value is observed only if its frequency is positive.', 'The row for 12 has frequency zero. The largest observed value is 9.'], {
-    type: 'table',
-    headers: ['Books', 'Students'],
-    rows: [
-        [2, 4],
-        [4, 7],
-        [6, 9],
-        [9, 3],
-        [12, 0]
-    ]
-});
-Q('Circle geometry', 'Geometry', 'Hard', 'A diameter of a circle has endpoints $(-2,-1)$ and $(4,7)$. What is the circle’s radius?', null, 5, ['The diameter length is $\\sqrt{6^2+8^2}=10$.', 'The radius is half the diameter: 5.']);
-Q('Radians and degrees', 'Geometry', 'Hard', 'Angle A measures $\\frac{5\\pi}{6}$ radians. Angle B is $\\frac{\\pi}{4}$ radians larger. What is angle B in degrees?', ['165°', '195°', '210°', '225°'], 1, ['Convert each part: $5\\pi/6=150$ degrees and $\\pi/4=45$ degrees.', 'Add: $150+45=195$ degrees.']);
-Q('Area unit conversion', 'Data', 'Hard', 'A rectangular field covers 0.72 square kilometer. How many square meters is this?', null, 720000, ['Since 1 kilometer equals 1000 meters, 1 square kilometer equals $1000^2$ square meters.', '$0.72(1000000)=720000$.']);
-Q('Linear translations', 'Algebra', 'Harder', 'The table gives points on line $h$. Line $k$ is formed by shifting $h$ down 7 units. What is the $x$-coordinate of the $x$-intercept of $k$?', null, -1.5, ['The slope is $(29-21)/(4-2)=4$.', 'Using $(2,21)$ gives $h(x)=4x+13$.', 'After shifting down 7, $k(x)=4x+6$. Solve $4x+6=0$: $x=-1.5$.'], {
-    type: 'table',
-    headers: ['x', 'h(x)'],
-    rows: [
-        [2, 21],
-        [4, 29],
-        [7, 41]
-    ]
-});
-Q('Quadratic extrema', 'Advanced', 'Harder', 'The horizontal line $y=c$ meets $y=-2x^2+12x-11$ at exactly one point. What is $c$?', ['-11', '3', '7', '18'], 2, ['The one-point intersection occurs at the vertex.', 'Complete the square: $y=-2(x-3)^2+7$.', 'The vertex height is 7, so $c=7$.']);
-Q('Dependent systems', 'Algebra', 'Harder', 'Every solution of $3x+4y=18$ also solves $9x+12y=54$. If $y=t$, which expression gives $x$?', ['$6-\\frac43t$', '$6+\\frac43t$', '$18-4t$', '$\\frac34t-6$'], 0, ['The second equation is 3 times the first.', 'Set $y=t$ in $3x+4y=18$ and isolate $x$: $x=6-4t/3$.']);
-Q('Special triangles', 'Geometry', 'Hard', 'An equilateral triangle has perimeter 90 centimeters. Its height is $k\\sqrt3$ centimeters. What is $k$?', null, 15, ['Each side has length $90/3=30$.', 'The altitude is $(30/2)\\sqrt3=15\\sqrt3$, so $k=15$.'], {
-    type: 'triangle',
-    labels: ['30', '30', '30']
-});
-Q('Proportional earnings', 'Algebra', 'Easy', 'A translator earns $p$ dollars for 5 pages at a constant rate. How much is earned for 35 pages?', ['$5p$', '$7p$', '$30p$', '$p/7$'], 1, ['There are $35/5=7$ groups of 5 pages.', 'The earnings are $7p$.']);
-Q('Rate functions', 'Algebra', 'Easy', 'A drone travels 14 meters each second at a constant speed. Which function gives the distance $d(t)$, in meters, traveled in $t$ seconds?', ['$d(t)=t+14$', '$d(t)=t/14$', '$d(t)=14t$', '$d(t)=14-t$'], 2, ['Distance equals speed times time.', 'Thus $d(t)=14t$.']);
-Q('System substitution', 'Algebra', 'Easy', 'If $4x=28$ and $y-2x=9$, what is $y$?', ['5', '14', '21', '23'], 3, ['From $4x=28$, $x=7$.', 'Substitute: $y-14=9$, so $y=23$.']);
-Q('Linear evaluation', 'Algebra', 'Easy', 'A tank’s water depth in centimeters is $d=62-3t$, where $t$ is minutes after a valve opens. What is the depth at $t=8$?', ['24', '38', '54', '86'], 1, ['Substitute $t=8$.', '$d=62-3(8)=38$ centimeters.']);
-Q('Pythagorean theorem', 'Geometry', 'Easy', 'A right triangle has legs 8 cm and 15 cm. What is its hypotenuse in centimeters?', ['7', '17', '23', '289'], 1, ['Use $c^2=8^2+15^2=289$.', 'Thus $c=17$.'], {
-    type: 'rightTriangle',
-    labels: ['8', '15', 'c']
-});
-Q('Linear equations', 'Algebra', 'Easy', 'Solve $6x-17=103$.', null, 20, ['Add 17 to both sides to get $6x=120$.', 'Divide by 6: $x=20$.']);
-Q('Graph intercepts', 'Algebra', 'Easy', 'The line shown crosses the horizontal axis at $(a,0)$. What is $a$?', null, 4, ['At the horizontal intercept, the vertical coordinate is 0.', 'The line crosses at $(4,0)$, so $a=4$.'], {
-    type: 'curve',
-    coeff: [-1.5, 6],
-    range: [-2, 8, -6, 9]
-});
-Q('Vertical intercepts', 'Algebra', 'Easy', 'What is the $y$-intercept of $f(x)=\\frac35x+7$?', ['$(7,0)$', '$(0,7)$', '$(0,3/5)$', '$(3/5,0)$'], 1, ['At a y-intercept, $x=0$.', '$f(0)=7$, so the point is $(0,7)$.']);
-Q('Function shifts', 'Advanced', 'Hard', 'The graph of $f(x)=4x^3$ is translated up 9 units. Which function describes the new graph?', ['$g(x)=4(x+9)^3$', '$g(x)=36x^3$', '$g(x)=4x^3-9$', '$g(x)=4x^3+9$'], 3, ['An upward translation adds a constant to the output.', 'Therefore $g(x)=f(x)+9=4x^3+9$.']);
-Q('Nonlinear systems', 'Advanced', 'Hard', 'If $x-4=5$ and $y=(x-4)^2+2$, what is $y$?', ['11', '23', '27', '83'], 2, ['The expression $x-4$ already equals 5.', 'Thus $y=5^2+2=27$.']);
-Q('Polynomial operations', 'Advanced', 'Hard', 'Simplify $(8x^3-5x+2)-(3x^3+4x-7)$.', ['$5x^3-x-5$', '$5x^3-9x+9$', '$11x^3-9x-5$', '$5x^3+9x+9$'], 1, ['Distribute the subtraction to every term in the second polynomial.', 'Combine: $(8-3)x^3+(-5-4)x+(2+7)=5x^3-9x+9$.']);
-Q('Cubic equations', 'Advanced', 'Hard', 'For $p(n)=6n^3$, what is $n$ when $p(n)=162$?', null, 3, ['Divide by 6 to obtain $n^3=27$.', 'Taking the cube root gives $n=3$.']);
-Q('Parallel line angles', 'Geometry', 'Hard', 'Two parallel horizontal lines are cut by a transversal. The marked angles are on the same side of the transversal and inside the parallel lines. What is $x$, in degrees?', null, 64, ['Same-side interior angles are supplementary.', '$x+116=180$, so $x=64$.'], {
-    type: 'parallel'
-});
-Q('Mean', 'Data', 'Easy', 'A team records completion times of 12, 18, 15, 21, 9, and 15 minutes. What is the mean time?', null, 15, ['The sum is $12+18+15+21+9+15=90$.', 'Divide by the 6 observations: $90/6=15$.']);
-Q('Exponential parameters', 'Advanced', 'Hard', 'The model $N(t)=240(1.12)^t$ predicts subscriptions $t$ months after launch. What does 240 represent?', ['The monthly increase in subscriptions', 'The predicted subscriptions at launch', 'The monthly percentage increase', 'The number of months'], 1, ['At launch, $t=0$.', '$N(0)=240(1.12)^0=240$.']);
-Q('Quadratic minimum', 'Advanced', 'Hard', 'What is the minimum value of $g(x)=3(x+2)^2-8$?', ['-8', '-2', '0', '8'], 0, ['A square is nonnegative, so $3(x+2)^2\\ge0$.', 'The minimum occurs at $x=-2$ and equals $-8$.']);
-Q('Growth models', 'Advanced', 'Hard', 'The amount of a substance decreases by 6% of its current amount each hour. Which model type describes this change?', ['Increasing linear', 'Decreasing linear', 'Increasing exponential', 'Decreasing exponential'], 3, ['A constant percentage change multiplies the amount by the same factor each hour.', 'The factor is 0.94, which is between 0 and 1: decreasing exponential.']);
-Q('Percent multipliers', 'Data', 'Easy', 'A price rises by 18%. The new price is $k$ times the old price. What is $k$?', null, 1.18, ['Keep 100% of the old price and add 18%.', 'The multiplier is $1+0.18=1.18$.']);
-Q('Rational exponents', 'Advanced', 'Hard', 'For $a>0$, which expression equals $a^{7/5}$?', ['$\\sqrt[5]{a^7}$', '$\\sqrt[7]{a^5}$', '$a^{12}$', '$a^{35}$'], 0, ['The denominator of a rational exponent gives the root index.', 'Thus $a^{7/5}=\\sqrt[5]{a^7}$.']);
-Q('Integer budget constraints', 'Algebra', 'Hard', 'A robotics club pays a 48-dollar registration fee plus 13.50 dollars per participant. It has 260 dollars. What is the greatest number of participants it can afford?', null, 15, ['Solve $48+13.5n\\le260$ to obtain $n\\le212/13.5\\approx15.70$.', 'Participants must be whole people. Round down to 15.']);
-Q('Radical equations', 'Advanced', 'Harder', 'If $3x^2-12=135$ and $x>0$, what is $x-2$?', null, 5, ['Add 12 and divide by 3: $x^2=49$.', 'Since $x>0$, $x=7$; therefore $x-2=5$.']);
-Q('Composite volume', 'Geometry', 'Harder', 'A sphere of radius 6 cm fits inside a cube of edge length 12 cm. To the nearest cubic centimeter, what volume inside the cube is outside the sphere?', ['452', '823', '905', '1728'], 1, ['Cube volume: $12^3=1728$.', 'Sphere volume: $(4/3)\\pi(6^3)=288\\pi$.', 'The difference is $1728-288\\pi\\approx823.22$, which rounds to 823.']);
-Q('Circle equations', 'Geometry', 'Hard', 'The circle $(x+4)^2+(y-6)^2=81$ has what diameter?', ['9', '18', '40.5', '81'], 1, ['The squared radius is 81, so the radius is 9.', 'The diameter is $2(9)=18$.']);
-Q('Exponential rewriting', 'Advanced', 'Harder', 'For $f(x)=40(1.5)^x$, let $k=f(2)$. Which equivalent form displays $k$ as its coefficient?', ['$60(1.5)^{x-1}$', '$90(1.5)^{x-2}$', '$40(1.5)^{x+2}$', '$90(1.5)^{x+2}$'], 1, ['Compute $k=40(1.5)^2=90$.', 'Then $f(x)=90(1.5)^{x-2}$, with coefficient $k$.']);
-Q('Exponential baseline', 'Advanced', 'Harder', 'A collection increases by 80% each year. It contains 324 items at the end of year 2. Which model gives the number $N(t)$ at the end of year $t$?', ['$N(t)=100(1.8)^t$', '$N(t)=180(0.8)^t$', '$N(t)=324(1.8)^t$', '$N(t)=100(0.8)^t$'], 0, ['An 80% increase has multiplier 1.8.', 'The initial amount is $324/(1.8)^2=100$.', 'Therefore $N(t)=100(1.8)^t$.']);
-Q('Perpendicular slopes', 'Algebra', 'Harder', 'A line has equation $6x+5y=20$. A second line is perpendicular to it and passes through $(3,4)$. What is the second line’s $y$-intercept?', null, 1.5, ['The first slope is $-6/5$, so the perpendicular slope is $5/6$.', 'Substitute $(3,4)$ into $y=(5/6)x+b$: $4=2.5+b$.', 'Thus $b=1.5$.']);
-Q('Discriminants', 'Advanced', 'Harder', 'The equation $x^2-18x+c=0$ has no real solutions when $c>n$. What is the least possible value of $n$?', null, 81, ['No real roots means the discriminant is negative.', '$(-18)^2-4c<0$, so $324<4c$.', 'Therefore $c>81$ and the threshold is $n=81$.']);
+    "answer": "1",
+    "steps": [
+      "Write 35% as 0.35.",
+      "Calculate $0.35(240)=84$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 1,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v2",
+    "skill": "Equivalent equations",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "Which equation has the same solution as $7x-9=40$?",
+    "choices": [
+      "$7x=31$",
+      "$x=49$",
+      "$7x=49$",
+      "$7x=360$"
+    ],
+    "answer": "2",
+    "steps": [
+      "Add 9 to both sides: $7x=49$.",
+      "Both equations have the solution $x=7$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 2,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v3",
+    "skill": "Budget inequalities",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "A ceramics studio charges a 16-dollar booking fee and 12 dollars per hour. Mei can spend at most 88 dollars. Which inequality models the possible number of hours, $h$?",
+    "choices": [
+      "$16h+12\\le88$",
+      "$12h-16\\le88$",
+      "$16+12h\\ge88$",
+      "$16+12h\\le88$"
+    ],
+    "answer": "3",
+    "steps": [
+      "Total cost is the fixed fee plus the hourly charge: $16+12h$.",
+      "At most means less than or equal to, so $16+12h\\le88$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 3,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v4",
+    "skill": "Quadratic evaluation",
+    "domain": "Advanced",
+    "level": "Easy",
+    "prompt": "The function $g$ is defined by $g(t)=t^2+13$. Which value of $t$ makes $g(t)=49$?",
+    "choices": [
+      "6",
+      "13",
+      "18",
+      "36"
+    ],
+    "answer": "0",
+    "steps": [
+      "Subtract 13: $t^2=36$.",
+      "The solutions are 6 and −6; only 6 is listed."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 4,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v5",
+    "skill": "Probability",
+    "domain": "Data",
+    "level": "Easy",
+    "prompt": "A fair 16-sided die is labeled with the integers 1 through 16. What is the probability of rolling a 5?",
+    "choices": [
+      "$\\frac1{16}$",
+      "$\\frac5{16}$",
+      "$\\frac1{5}$",
+      "$\\frac{15}{16}$"
+    ],
+    "answer": "0",
+    "steps": [
+      "All 16 outcomes are equally likely.",
+      "One outcome is a 5, so the probability is $1/16$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 5,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v6",
+    "skill": "Unit rates",
+    "domain": "Data",
+    "level": "Easy",
+    "prompt": "A label printer produces 38 labels per minute at a constant rate. How many labels can it print in one hour?",
+    "choices": null,
+    "answer": "2280",
+    "steps": [
+      "One hour contains 60 minutes.",
+      "$38(60)=2280$ labels."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 6,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v7",
+    "skill": "Function evaluation",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "If $f(x)=9-4x$, what is $f(-3)$?",
+    "choices": null,
+    "answer": "21",
+    "steps": [
+      "Substitute $x=-3$.",
+      "$f(-3)=9-4(-3)=9+12=21$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 7,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v8",
+    "skill": "Linear modeling",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "A museum sells adult tickets for 14 dollars and youth tickets for 9 dollars. Ticket revenue is 513 dollars. Which equation relates adult tickets, $a$, and youth tickets, $y$?",
+    "choices": [
+      "$23(a+y)=513$",
+      "$9a+14y=513$",
+      "$14a+9y=513$",
+      "$14ay=513$"
+    ],
+    "answer": "2",
+    "steps": [
+      "Adult revenue is $14a$ and youth revenue is $9y$.",
+      "Add the two revenues: $14a+9y=513$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 8,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v9",
+    "skill": "Similar triangles",
+    "domain": "Geometry",
+    "level": "Easy",
+    "prompt": "Right triangles ABC and DEF are similar, with A, B, and C corresponding to D, E, and F, respectively. Angle B measures 47°. What is the measure of angle E?",
+    "choices": [
+      "43°",
+      "47°",
+      "90°",
+      "133°"
+    ],
+    "answer": "1",
+    "steps": [
+      "Corresponding angles of similar triangles have equal measures.",
+      "B corresponds to E, so angle E is 47°."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 9,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v10",
+    "skill": "Linear systems",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "The equations $y=2x+1$ and $3x+y=26$ intersect. What is the $x$-coordinate of the intersection?",
+    "choices": [
+      "4",
+      "5",
+      "7",
+      "11"
+    ],
+    "answer": "1",
+    "steps": [
+      "Substitute $y=2x+1$ into the second equation.",
+      "$3x+2x+1=26$, so $5x=25$ and $x=5$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 10,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v11",
+    "skill": "Scatterplots",
+    "domain": "Data",
+    "level": "Hard",
+    "prompt": "The scatterplot relates practice hours, $x$, to a student’s task completion time, $y$, in minutes. Which model best fits the data?",
+    "choices": [
+      "$y=2x+18$",
+      "$y=-2x-18$",
+      "$y=-2x+18$",
+      "$y=-8x+18$"
+    ],
+    "answer": "2",
+    "steps": [
+      "The data decrease by about 2 minutes for each added practice hour.",
+      "The vertical intercept is about 18, so $y=-2x+18$."
+    ],
+    "visual": {
+      "type": "scatter",
+      "points": [
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          14.4
+        ],
+        [
+          3,
+          11.7
+        ],
+        [
+          4,
+          10.2
+        ],
+        [
+          5,
+          7.8
+        ],
+        [
+          6,
+          6.3
+        ],
+        [
+          7,
+          3.8
+        ]
+      ],
+      "range": [
+        0,
+        8,
+        0,
+        20
+      ],
+      "xLabel": "Practice hours",
+      "yLabel": "Minutes"
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 11,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v12",
+    "skill": "Polynomial zeros",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "The graph of a polynomial is shown. How many distinct real solutions does $f(x)=0$ have?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "steps": [
+      "Real zeros occur where the graph meets the horizontal axis.",
+      "The graph crosses at $x=-3$, $x=1$, and $x=4$: three distinct zeros."
+    ],
+    "visual": {
+      "type": "curve",
+      "coeff": [
+        -0.12,
+        0.24,
+        1.32,
+        -1.44
+      ],
+      "range": [
+        -5,
+        6,
+        -6,
+        6
+      ]
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 12,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v13",
+    "skill": "Cost equations",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "A club spends 146 dollars on notebooks and pens. It buys 18 notebooks at 6 dollars each; pens cost 2 dollars each. How many pens does it buy?",
+    "choices": null,
+    "answer": "19",
+    "steps": [
+      "Notebooks cost $18(6)=108$ dollars.",
+      "Pens cost $146-108=38$ dollars.",
+      "The number of pens is $38/2=19$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 13,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v14",
+    "skill": "Quadratic roots",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "What is one solution of $x^2+3x-28=0$?",
+    "choices": null,
+    "answer": "4",
+    "steps": [
+      "Factor: $(x+7)(x-4)=0$.",
+      "Either $x=-7$ or $x=4$ is a correct response."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "acceptedAnswers": [
+      "4",
+      "-7"
+    ],
+    "referenceModule": 1,
+    "referenceQuestion": 14,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v15",
+    "skill": "Exponential growth",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "A culture starts with 640 cells and triples every 4 hours. How many cells are predicted after 12 hours?",
+    "choices": [
+      "1920",
+      "5760",
+      "17280",
+      "23040"
+    ],
+    "answer": "2",
+    "steps": [
+      "There are $12/4=3$ growth periods.",
+      "The count is $640(3)^3=17280$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 15,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v16",
+    "skill": "Factoring expressions",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "Which expression is equivalent to $15x^7y^3+25x^3y^5$?",
+    "choices": [
+      "$5x^3y^3(3x^4+5y^2)$",
+      "$5x^3y^3(3x^4+5y^5)$",
+      "$5xy(3x^6+5y^4)$",
+      "$15x^3y^3(x^4+25y^2)$"
+    ],
+    "answer": "0",
+    "steps": [
+      "The greatest common factor is $5x^3y^3$.",
+      "Divide each term by it to obtain $3x^4+5y^2$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 16,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v17",
+    "skill": "Interpreting coefficients",
+    "domain": "Algebra",
+    "level": "Hard",
+    "prompt": "A solar array has 12 rooftop panels and 20 ground panels. Its daily energy output is modeled by $12r+20g=184$. What does $r$ represent?",
+    "choices": [
+      "Total output of the rooftop array",
+      "Average daily output per rooftop panel",
+      "Number of rooftop panels",
+      "Average daily output per ground panel"
+    ],
+    "answer": "1",
+    "steps": [
+      "The coefficient 12 counts the rooftop panels.",
+      "Therefore $r$ is the daily energy output of one rooftop panel on average."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 17,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v18",
+    "skill": "Graph modeling",
+    "domain": "Algebra",
+    "level": "Hard",
+    "prompt": "The graph shows combinations of small crates, $x$, and large crates, $y$, that fill a truck. Which equation represents the line?",
+    "choices": [
+      "$4x+6y=48$",
+      "$6x+4y=48$",
+      "$x+y=48$",
+      "$4x-6y=48$"
+    ],
+    "answer": "0",
+    "steps": [
+      "The intercepts are $(12,0)$ and $(0,8)$.",
+      "Thus $x/12+y/8=1$. Multiply by 48 to obtain $4x+6y=48$."
+    ],
+    "visual": {
+      "type": "curve",
+      "coeff": [
+        -0.6666666666666666,
+        8
+      ],
+      "range": [
+        0,
+        14,
+        0,
+        10
+      ],
+      "xLabel": "Small crates",
+      "yLabel": "Large crates"
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 18,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v19",
+    "skill": "Area scaling",
+    "domain": "Geometry",
+    "level": "Hard",
+    "prompt": "A circular garden’s radius is enlarged from $2s$ to $10s$, where $s>0$. Its new area is how many times its original area?",
+    "choices": [
+      "5",
+      "10",
+      "25",
+      "100"
+    ],
+    "answer": "2",
+    "steps": [
+      "The radius scale factor is $10s/(2s)=5$.",
+      "Area scales by the square: $5^2=25$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 19,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v20",
+    "skill": "Frequency tables",
+    "domain": "Data",
+    "level": "Easy",
+    "prompt": "The frequency table summarizes a data set. What is its maximum value?",
+    "choices": null,
+    "answer": "17",
+    "steps": [
+      "Look for the greatest data value with a nonzero frequency.",
+      "The value 17 occurs 4 times, so the maximum is 17."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "Data value",
+        "Frequency"
+      ],
+      "rows": [
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          4
+        ]
+      ]
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 20,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v21",
+    "skill": "Circle geometry",
+    "domain": "Geometry",
+    "level": "Hard",
+    "prompt": "A circle has diameter endpoints $(-3,2)$ and $(-3,18)$. Its equation is $(x+3)^2+(y-10)^2=r^2$, where $r>0$. What is $r$?",
+    "choices": null,
+    "answer": "8",
+    "steps": [
+      "The vertical diameter has length $18-2=16$.",
+      "Its radius is $16/2=8$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 21,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v22",
+    "skill": "Radians and degrees",
+    "domain": "Geometry",
+    "level": "Hard",
+    "prompt": "Angle A measures $\\frac{5\\pi}{6}$ radians. Angle B is $\\frac{\\pi}{4}$ radians larger. What is angle B in degrees?",
+    "choices": [
+      "165°",
+      "195°",
+      "210°",
+      "225°"
+    ],
+    "answer": "1",
+    "steps": [
+      "Convert each part: $5\\pi/6=150$ degrees and $\\pi/4=45$ degrees.",
+      "Add: $150+45=195$ degrees."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 22,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v23",
+    "skill": "Area unit conversion",
+    "domain": "Data",
+    "level": "Hard",
+    "prompt": "A nature reserve covers 2.75 square miles. What is its area in square yards? (1 mile = 1,760 yards.)",
+    "choices": [
+      "4,840",
+      "8,518,400",
+      "850,840",
+      "2,129,600"
+    ],
+    "answer": "1",
+    "steps": [
+      "Square the conversion factor: $1760^2=3097600$.",
+      "Multiply: $2.75(3097600)=8518400$ square yards."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 23,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v24",
+    "skill": "Linear translations",
+    "domain": "Algebra",
+    "level": "Harder",
+    "prompt": "The table lists three points on line $h$. Translating $h$ down 7 units produces line $k$. Which point is the $x$-intercept of $k$?",
+    "choices": [
+      "$(-\\frac32,0)$",
+      "$(0,6)$",
+      "$(-\\frac{13}{4},0)$",
+      "$(\\frac32,0)$"
+    ],
+    "answer": "0",
+    "steps": [
+      "The slope is $(29-21)/(4-2)=4$.",
+      "Using $(2,21)$ gives $h(x)=4x+13$.",
+      "After shifting down 7, $k(x)=4x+6$. Solve $4x+6=0$: $x=-1.5$."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "x",
+        "h(x)"
+      ],
+      "rows": [
+        [
+          2,
+          21
+        ],
+        [
+          4,
+          29
+        ],
+        [
+          7,
+          41
+        ]
+      ]
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 24,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v25",
+    "skill": "Quadratic extrema",
+    "domain": "Advanced",
+    "level": "Harder",
+    "prompt": "The graphs of $y=-x^2+11x-80$ and $y=c$ have exactly one point in common. What is $c$?",
+    "choices": [
+      "$-\\frac{441}{4}$",
+      "$-80$",
+      "$-\\frac{199}{4}$",
+      "$\\frac{11}{2}$"
+    ],
+    "answer": "2",
+    "steps": [
+      "The horizontal line must pass through the vertex.",
+      "The vertex has $x=11/2$.",
+      "$c=-(11/2)^2+11(11/2)-80=-199/4$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 25,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v26",
+    "skill": "Dependent systems",
+    "domain": "Algebra",
+    "level": "Harder",
+    "prompt": "Consider $3x+4y=18$ and $9x+12y=54$. For every real number $t$, which ordered pair lies on both lines?",
+    "choices": [
+      "$(t,-\\frac34t+\\frac92)$",
+      "$(t,\\frac34t+\\frac92)$",
+      "$(t,-\\frac43t+6)$",
+      "$(t,-3t+18)$"
+    ],
+    "answer": "0",
+    "steps": [
+      "The second equation is three times the first.",
+      "Set $x=t$ and solve $3t+4y=18$.",
+      "This gives $y=-3t/4+9/2$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 26,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v27",
+    "skill": "Special triangles",
+    "domain": "Geometry",
+    "level": "Hard",
+    "prompt": "An equilateral triangle has perimeter 90 centimeters. Its height is $k\\sqrt3$ centimeters. What is $k$?",
+    "choices": null,
+    "answer": "15",
+    "steps": [
+      "Each side has length $90/3=30$.",
+      "The altitude is $(30/2)\\sqrt3=15\\sqrt3$, so $k=15$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 1,
+    "referenceQuestion": 27,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v28",
+    "skill": "Proportional earnings",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "A proofreader earns $p$ dollars for $w$ hours of work at a constant hourly rate. How much will the proofreader earn for $24w$ hours?",
+    "choices": [
+      "$24p$",
+      "$24pw$",
+      "$p/24$",
+      "$p+24w$"
+    ],
+    "answer": "0",
+    "steps": [
+      "The work time is multiplied by 24.",
+      "At a constant rate, earnings are multiplied by 24: $24p$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 1,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v29",
+    "skill": "Rate functions",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "A drone travels 14 meters each second at a constant speed. Which function gives the distance $d(t)$, in meters, traveled in $t$ seconds?",
+    "choices": [
+      "$d(t)=t+14$",
+      "$d(t)=t/14$",
+      "$d(t)=14t$",
+      "$d(t)=14-t$"
+    ],
+    "answer": "2",
+    "steps": [
+      "Distance equals speed times time.",
+      "Thus $d(t)=14t$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 2,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v30",
+    "skill": "System substitution",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "If $4x=28$ and $y-2x=9$, what is $y$?",
+    "choices": [
+      "5",
+      "14",
+      "21",
+      "23"
+    ],
+    "answer": "3",
+    "steps": [
+      "From $4x=28$, $x=7$.",
+      "Substitute: $y-14=9$, so $y=23$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 3,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v31",
+    "skill": "Linear evaluation",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "A tank’s water depth in centimeters is $d=62-3t$, where $t$ is minutes after a valve opens. What is the depth at $t=8$?",
+    "choices": [
+      "24",
+      "38",
+      "54",
+      "86"
+    ],
+    "answer": "1",
+    "steps": [
+      "Substitute $t=8$.",
+      "$d=62-3(8)=38$ centimeters."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 4,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v32",
+    "skill": "Pythagorean theorem",
+    "domain": "Geometry",
+    "level": "Easy",
+    "prompt": "In the right triangle shown, $a=6$ and $b=11$. Which expression gives the length of $c$?",
+    "choices": [
+      "$6+11$",
+      "$\\sqrt{6(11)}$",
+      "$\\sqrt{6+11}$",
+      "$\\sqrt{6^2+11^2}$"
+    ],
+    "answer": "3",
+    "steps": [
+      "The Pythagorean theorem gives $c^2=a^2+b^2$.",
+      "Since a length is positive, $c=\\sqrt{6^2+11^2}$."
+    ],
+    "visual": {
+      "type": "rightTriangle",
+      "labels": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 5,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v33",
+    "skill": "Linear equations",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "Solve $6x-17=103$.",
+    "choices": null,
+    "answer": "20",
+    "steps": [
+      "Add 17 to both sides to get $6x=120$.",
+      "Divide by 6: $x=20$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 6,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v34",
+    "skill": "Graph intercepts",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "The $x$-intercept of the graph is $(a,0)$. What is $a$?",
+    "choices": null,
+    "answer": "5",
+    "steps": [
+      "The parabola touches the horizontal axis at its vertex.",
+      "The vertex is $(5,0)$, so $a=5$."
+    ],
+    "visual": {
+      "type": "curve",
+      "coeff": [
+        2,
+        -20,
+        50
+      ],
+      "range": [
+        0,
+        10,
+        -2,
+        10
+      ]
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 7,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v35",
+    "skill": "Vertical intercepts",
+    "domain": "Algebra",
+    "level": "Easy",
+    "prompt": "What is the $y$-intercept of $f(x)=\\frac35x+7$?",
+    "choices": [
+      "$(7,0)$",
+      "$(0,7)$",
+      "$(0,3/5)$",
+      "$(3/5,0)$"
+    ],
+    "answer": "1",
+    "steps": [
+      "At a y-intercept, $x=0$.",
+      "$f(0)=7$, so the point is $(0,7)$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 8,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v36",
+    "skill": "Function shifts",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "Let $f(x)=4x^3$. Moving the graph of $f$ down 9 units gives the graph of $g$. Which equation defines $g$?",
+    "choices": [
+      "$g(x)=4(x-9)^3$",
+      "$g(x)=36x^3$",
+      "$g(x)=4x^3+9$",
+      "$g(x)=4x^3-9$"
+    ],
+    "answer": "3",
+    "steps": [
+      "A downward shift subtracts 9 from the output.",
+      "$g(x)=f(x)-9=4x^3-9$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 9,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v37",
+    "skill": "Nonlinear systems",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "The equations $x+6=14$ and $(x+6)^2=y$ form a system. Which ordered pair $(x,y)$ satisfies both?",
+    "choices": [
+      "$(8,14)$",
+      "$(8,196)$",
+      "$(14,64)$",
+      "$(8,64)$"
+    ],
+    "answer": "1",
+    "steps": [
+      "The first equation gives $x=8$.",
+      "The second gives $y=14^2=196$, so the solution is $(8,196)$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 10,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v38",
+    "skill": "Polynomial operations",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "Which expression is equivalent to $(9x^3+8x)-(4x^3-5x)$?",
+    "choices": [
+      "$5x^3+3x$",
+      "$13x^3+13x$",
+      "$5x^3+13x$",
+      "$-5x^3+13x$"
+    ],
+    "answer": "2",
+    "steps": [
+      "Distribute the minus sign: $9x^3+8x-4x^3+5x$.",
+      "Combine like terms: $5x^3+13x$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 11,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v39",
+    "skill": "Cubic equations",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "For $p(n)=6n^3$, what is $n$ when $p(n)=162$?",
+    "choices": [
+      "3",
+      "9",
+      "27",
+      "54"
+    ],
+    "answer": "0",
+    "steps": [
+      "Divide by 6 to obtain $n^3=27$.",
+      "Taking the cube root gives $n=3$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 12,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v40",
+    "skill": "Parallel line angles",
+    "domain": "Geometry",
+    "level": "Hard",
+    "prompt": "In the diagram, transversal $c$ crosses parallel lines $s$ and $t$. What is the value of $x$?",
+    "choices": null,
+    "answer": "64",
+    "steps": [
+      "The angle above line $t$ and right of the transversal is $180-116=64$ degrees.",
+      "Corresponding angles on parallel lines are equal, so $x=64$."
+    ],
+    "visual": {
+      "type": "parallel"
+    },
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 13,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v41",
+    "skill": "Mean",
+    "domain": "Data",
+    "level": "Easy",
+    "prompt": "The following ten measurements were recorded: 8, 11, 19, 7, 20, 29, 11, 8, 8, 9. What is their mean?",
+    "choices": null,
+    "answer": "13",
+    "steps": [
+      "The ten values sum to 130.",
+      "The mean is $130/10=13$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 14,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v42",
+    "skill": "Exponential parameters",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "The model $N(t)=240(1.12)^t$ predicts subscriptions $t$ months after launch. What does 240 represent?",
+    "choices": [
+      "The monthly increase in subscriptions",
+      "The predicted subscriptions at launch",
+      "The monthly percentage increase",
+      "The number of months"
+    ],
+    "answer": "1",
+    "steps": [
+      "At launch, $t=0$.",
+      "$N(0)=240(1.12)^0=240$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 15,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v43",
+    "skill": "Quadratic minimum",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "The function $g$ is defined by $g(x)=x^2+63$. What is its minimum value?",
+    "choices": [
+      "0",
+      "63",
+      "126",
+      "3969"
+    ],
+    "answer": "1",
+    "steps": [
+      "For every real $x$, $x^2$ is nonnegative.",
+      "At $x=0$, the square equals zero and $g(0)=63$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 16,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v44",
+    "skill": "Growth models",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "An account balance grows each year by 0.65% of the previous year’s balance. Which function type models this change?",
+    "choices": [
+      "Decreasing exponential",
+      "Decreasing linear",
+      "Increasing exponential",
+      "Increasing linear"
+    ],
+    "answer": "2",
+    "steps": [
+      "A fixed percentage change means exponential growth.",
+      "The yearly multiplier is $1.0065>1$, so the function increases."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 17,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v45",
+    "skill": "Percent multipliers",
+    "domain": "Data",
+    "level": "Easy",
+    "prompt": "A price rises by 18%. The new price is $k$ times the old price. What is $k$?",
+    "choices": [
+      "0.18",
+      "0.82",
+      "1.18",
+      "1.8"
+    ],
+    "answer": "2",
+    "steps": [
+      "Keep 100% of the old price and add 18%.",
+      "The multiplier is $1+0.18=1.18$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 18,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v46",
+    "skill": "Rational exponents",
+    "domain": "Advanced",
+    "level": "Hard",
+    "prompt": "For $a>0$, which expression is equivalent to $a^{9/10}$?",
+    "choices": [
+      "$\\sqrt[10]{a^{90}}$",
+      "$\\sqrt[100]{a^{90}}$",
+      "$\\sqrt[81]{a^{90}}$",
+      "$\\sqrt[9]{a^{90}}$"
+    ],
+    "answer": "1",
+    "steps": [
+      "$\\sqrt[n]{a^m}=a^{m/n}$ for $a>0$.",
+      "Since $90/100=9/10$, the 100th root of $a^{90}$ is correct."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 19,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v47",
+    "skill": "Integer budget constraints",
+    "domain": "Algebra",
+    "level": "Hard",
+    "prompt": "A robotics club pays a 48-dollar registration fee plus 13.50 dollars per participant. It has 260 dollars. What is the greatest number of participants it can afford?",
+    "choices": null,
+    "answer": "15",
+    "steps": [
+      "Solve $48+13.5n\\le260$ to obtain $n\\le212/13.5\\approx15.70$.",
+      "Participants must be whole people. Round down to 15."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 20,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v48",
+    "skill": "Absolute value equations",
+    "domain": "Advanced",
+    "level": "Harder",
+    "prompt": "If $|6x-12|=150$, what is the positive value of $x-2$?",
+    "choices": null,
+    "answer": "25",
+    "steps": [
+      "Factor inside the absolute value: $6|x-2|=150$.",
+      "Divide by 6: $|x-2|=25$.",
+      "Thus $x-2$ is 25 or −25. Its positive value is 25."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 21,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v49",
+    "skill": "Composite volume",
+    "domain": "Geometry",
+    "level": "Harder",
+    "prompt": "A sphere of radius 6 cm fits inside a cube of edge length 12 cm. To the nearest cubic centimeter, what volume inside the cube is outside the sphere?",
+    "choices": [
+      "452",
+      "823",
+      "905",
+      "1728"
+    ],
+    "answer": "1",
+    "steps": [
+      "Cube volume: $12^3=1728$.",
+      "Sphere volume: $(4/3)\\pi(6^3)=288\\pi$.",
+      "The difference is $1728-288\\pi\\approx823.22$, which rounds to 823."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 22,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v50",
+    "skill": "Circle equations",
+    "domain": "Geometry",
+    "level": "Hard",
+    "prompt": "The circle $(x+4)^2+(y-6)^2=81$ has what diameter?",
+    "choices": [
+      "9",
+      "18",
+      "40.5",
+      "81"
+    ],
+    "answer": "1",
+    "steps": [
+      "The squared radius is 81, so the radius is 9.",
+      "The diameter is $2(9)=18$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 23,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v51",
+    "skill": "Exponential rewriting",
+    "domain": "Advanced",
+    "level": "Harder",
+    "prompt": "For an exponential function $f$, let $k=f(1)$. All four expressions below define the same function. Which displays $k$ as a coefficient or base?",
+    "choices": [
+      "$f(x)=32(1.5)^{x+1}$",
+      "$f(x)=48(1.5)^x$",
+      "$f(x)=72(1.5)^{x-1}$",
+      "$f(x)=108(1.5)^{x-2}$"
+    ],
+    "answer": "2",
+    "steps": [
+      "Using $f(x)=48(1.5)^x$, compute $f(1)=72$.",
+      "The form $72(1.5)^{x-1}$ explicitly displays 72 as its coefficient."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 24,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v52",
+    "skill": "Exponential baseline",
+    "domain": "Advanced",
+    "level": "Harder",
+    "prompt": "A model predicts that a pond’s fish population is 120% greater at the end of each year than at the end of the previous year. At the end of 2022, it predicts 330 fish. Which equation gives the predicted population $N$, $t$ years after the end of 2021?",
+    "choices": [
+      "$N=150(1.2)^t$",
+      "$N=150(2.2)^t$",
+      "$N=330(1.2)^t$",
+      "$N=330(2.2)^t$"
+    ],
+    "answer": "1",
+    "steps": [
+      "A 120% increase has multiplier $1+1.20=2.2$.",
+      "The baseline population is $330/2.2=150$.",
+      "Therefore $N=150(2.2)^t$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 25,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v53",
+    "skill": "Perpendicular slopes",
+    "domain": "Algebra",
+    "level": "Harder",
+    "prompt": "The lines $4x+9y=1$ and $ax+by=1$ are perpendicular, where $a$ and $b$ are constants. Which pair of equations also represents perpendicular lines?",
+    "choices": [
+      "$12x+9y=1$ and $ax-3by=1$",
+      "$12x+9y=1$ and $ax+3by=1$",
+      "$12x+9y=1$ and $3ax+by=1$",
+      "$4x-9y=1$ and $ax+by=1$"
+    ],
+    "answer": "1",
+    "steps": [
+      "The original slopes are $-4/9$ and $-a/b$. Perpendicularity gives $a/b=-9/4$.",
+      "The first line in choice B has slope $-12/9=-4/3$.",
+      "The other slope is $-a/(3b)=3/4$. Their product is −1."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 26,
+    "bankRevision": "2026-09-05-aligned"
+  },
+  {
+    "id": "v54",
+    "skill": "Discriminants",
+    "domain": "Advanced",
+    "level": "Harder",
+    "prompt": "The equation $x^2-18x+c=0$ has no real solutions when $c>n$. What is the least possible value of $n$?",
+    "choices": null,
+    "answer": "81",
+    "steps": [
+      "No real roots means the discriminant is negative.",
+      "$(-18)^2-4c<0$, so $324<4c$.",
+      "Therefore $c>81$ and the threshold is $n=81$."
+    ],
+    "visual": null,
+    "source": "Original",
+    "tolerance": 0.0001,
+    "referenceModule": 2,
+    "referenceQuestion": 27,
+    "bankRevision": "2026-09-05-aligned"
+  }
+];
 if (typeof module !== 'undefined') module.exports = BANK;
 </script><script>'use strict';
 const $ = id => document.getElementById(id),
@@ -302,7 +1587,7 @@ function visual(v) {
         let right = v.type === 'rightTriangle';
         return begin + '<path d="' + (right ? 'M95 45L95 235L335 235Z' : 'M210 40L80 235L340 235Z') + '" fill="#f0f8f5" stroke="#142d43" stroke-width="2.5"/>' + (right ? '<path d="M95 215H115V235" fill="none" stroke="#142d43"/>' : '') + '<g fill="#142d43" font-size="19" text-anchor="middle"><text x="' + (right ? 65 : 125) + '" y="140">' + esc(v.labels[0]) + '</text><text x="210" y="264">' + esc(v.labels[1]) + '</text><text x="285" y="130">' + esc(v.labels[2]) + '</text></g>' + end + '<p class="mini muted">Diagram not drawn to scale.</p>';
     }
-    if (v.type === 'parallel') return begin + '<g stroke="#142d43" stroke-width="2.5"><path d="M30 80H390M30 210H390M110 260L285 25"/><path d="M345 72L357 80L345 88M345 202L357 210L345 218" fill="none"/></g><g font-size="22" fill="#142d43"><text x="246" y="116">116°</text><text x="178" y="194">x°</text></g>' + end + '<p class="mini muted">Diagram not drawn to scale.</p>';
+    if (v.type === 'parallel') return begin + '<g stroke="#142d43" stroke-width="2.5"><path d="M30 80H390M30 210H390M110 260L285 25"/><path d="M345 72L357 80L345 88M345 202L357 210L345 218" fill="none"/></g><g font-size="22" fill="#142d43"><text x="120" y="194">116°</text><text x="262" y="66">x°</text><text x="392" y="85">s</text><text x="392" y="215">t</text><text x="291" y="27">c</text></g>' + end + '<p class="mini muted">Diagram not drawn to scale.</p>';
     let [xmin, xmax, ymin, ymax] = v.range || [-10, 10, -10, 10], X = x => 48 + (x - xmin) / (xmax - xmin) * 345, Y = y => 239 - (y - ymin) / (ymax - ymin) * 210;
     let o = begin;
     let nice = (a, b) => {
@@ -424,7 +1709,7 @@ function correct(q, a) {
     if (q.choices) return String(a) === String(q.answer);
     let x = numeric(a),
         y = numeric(q.answer);
-    return Number.isFinite(x) && Math.abs(x - y) <= Number(q.tolerance || 0.0001);
+    return Number.isFinite(x) && [q.answer,...(q.acceptedAnswers || [])].some(v => Math.abs(x - numeric(v)) <= Number(q.tolerance || 0.0001));
 }
 
 function readStore() {
@@ -715,7 +2000,7 @@ function renderPractice() {
         }
         return c;
     };
-    $('app').innerHTML = `<div class="intro row between"><div><div class="eyebrow">${esc(testName(s.parentTestId))} / Workspace</div><h1>${esc(s.name)}</h1><span class="muted mini">${limited?'Timed simulation · Module '+(s.module+1)+' of 2 · Fixed difficulty':'Work at your pace. Review, then build on what you learn.'}</span></div><div class="row">${limited?'<span class="pill timer" id="timer"></span>':'<span class="pill green">STUDY MODE</span>'}<button id="finishBtn" class="small">${limited&&s.module===0?'Submit module':'Finish & report'}</button></div></div><div class="layout"><aside class="card rail"><div class="row between"><h3 style="margin:0">Questions</h3><span class="mini muted">${answered}/${s.questions.length}</span></div><div class="meter" style="margin-top:14px"><i style="width:${100*answered/s.questions.length}%"></i></div><div class="chips" role="group" aria-label="Filter question map">${[['all','All'],['unanswered','Blank'],['flagged','★']].map(([k,l])=>`<button data-gf="${k}" class="${gridFilter===k?'on':''}" aria-pressed="${gridFilter===k}">${l}</button>`).join('')}</div><div class="question-grid">${s.questions.slice(lo,hi).map((x,j)=>`<button data-q="${lo+j}" class="${gridClass(x,lo+j)}" aria-label="Question ${lo+j+1}${s.flags[x.id]?', bookmarked':''}" ${s.index===lo+j?'aria-current="step"':''}>${limited?j+1:lo+j+1}</button>`).join('')}</div><button id="nextBlank" class="small" style="width:100%;margin-top:10px" ${answered>=hi-lo?'disabled':''}>Jump to next blank</button><hr><div class="eyebrow">${limited?'Test tools':'Practice tools'}</div>${!limited?`<label class="switch"><input type="checkbox" id="instantToggle" ${instant?'checked':''}><span>Instant feedback</span></label>`:''}<button id="scratchBtn" class="quiet small" style="padding-left:0">✎ Scratch notes${s.notes[q.id]?' ·':''}</button><p class="rail-note">${limited?'Each module locks when you submit it.':'Press ? for keyboard shortcuts.'}</p><button id="newTest" class="small" style="width:100%">Choose another set</button></aside><section><article class="card"><div class="question-top"><div class="row"><span class="pill">${limited?s.index-lo+1:s.index+1}</span><span class="mini">${limited?'Math':esc(q.skill)}</span>${!limited?'<span class="pill '+(q.level==='Easy'?'green':'gold')+'">'+esc(q.level)+'</span>':''}<span class="mini muted qtime" title="Time on this question">⏱ <span id="qTime">${fmtTime(s.times[q.id])}</span></span></div><div class="tools"><button id="flagBtn" class="small" aria-pressed="${!!s.flags[q.id]}">${s.flags[q.id]?'★ Bookmarked':'☆ Bookmark'}</button><button id="calcBtn" class="small">Calculator</button><button id="refBtn" class="small">Reference</button></div></div><div class="question-body"><div><div class="prompt">${rich(q.prompt)}</div>${visual(q.visual)}${q.source==='Gemini'?'<span class="pill">AI-generated · review if uncertain</span>':''}</div><div class="answer-col"><label>${q.choices?'Choose one answer':'Enter your answer'}</label>${choices.map((c,j)=>`<div class="choice ${choiceClass(j)}"><button data-answer="${j}" aria-pressed="${s.answers[q.id]===String(j)}"><span class="letter">${'ABCD'[j]}</span><span>${rich(c)}</span></button><button class="eliminate" data-eliminate="${j}" aria-label="${elim.includes(j)?'Restore':'Eliminate'} choice ${'ABCD'[j]}">⊘</button></div>`).join('')}${!q.choices?`<input class="num-input ${reveal&&has?(ok?'ok':'bad'):''}" id="response" autocomplete="off" placeholder="e.g. 3/4 or 0.75" aria-label="Numeric answer" value="${esc(s.answers[q.id]||'')}"><p class="mini muted">Use a number, decimal, or fraction.</p><p class="mini error" id="inputError"></p>`:''}<p class="mini instant-fb ${reveal&&has?(ok?'good':'bad'):'hide'}" id="instantFb" aria-live="polite">${reveal&&has?(ok?'✓ Correct':'✗ Not yet — try again or open the solution'):''}</p><div class="row" style="margin-top:8px">${has?'<button class="quiet small" id="clearAnswer">Clear answer</button>':''}${!limited&&q.steps?.length>1?'<button class="quiet small" id="hintBtn">'+(showHint?'Hide hint':'💡 Hint')+'</button>':''}</div>${showHint&&!limited?'<div class="hint"><strong>Hint</strong> '+rich(q.steps[0])+'</div>':''}${!limited?'<div style="margin-top:20px"><button class="dark" id="checkBtn">'+(showSolution?'Hide solution':'Check & see solution')+'</button></div>':''}</div></div>${showSolution&&!limited?solutionHTML(q,s.answers[q.id]):''}<div class="question-bottom"><button id="prevBtn" ${s.index===lo?'disabled':''}>← Previous</button><span class="mini muted">${limited?s.index-lo+1:s.index+1} of ${limited?hi-lo:s.questions.length}</span><button id="nextBtn" class="primary">${s.index===hi-1?(limited&&s.module===0?'Submit module':'Finish & report'):'Next question →'}</button></div></article>${!limited?'<div class="practice-banner"><div><strong>Generate similar questions</strong><p>New '+esc(q.skill)+' problems with AI · opens in a practice window</p></div>'+aiControls('similar','Generate')+'</div>':''}</section></div><p class="footer-note">Original practice content. Not affiliated with or endorsed by College Board. SAT is a registered trademark of College Board.</p>`;
+    $('app').innerHTML = `<div class="intro row between"><div><div class="eyebrow">${esc(testName(s.parentTestId))} / Workspace</div><h1>${esc(s.name)}</h1><span class="muted mini">${limited?'Timed simulation · Module '+(s.module+1)+' of 2 · Fixed difficulty':'Work at your pace. Review, then build on what you learn.'}</span></div><div class="row">${limited?'<span class="pill timer" id="timer"></span>':'<span class="pill green">STUDY MODE</span>'}<button id="finishBtn" class="small">${limited&&s.module===0?'Submit module':'Finish & report'}</button></div></div><div class="layout"><aside class="card rail"><div class="row between"><h3 style="margin:0">Questions</h3><span class="mini muted">${answered}/${s.questions.length}</span></div><div class="meter" style="margin-top:14px"><i style="width:${100*answered/s.questions.length}%"></i></div><div class="chips" role="group" aria-label="Filter question map">${[['all','All'],['unanswered','Blank'],['flagged','★']].map(([k,l])=>`<button data-gf="${k}" class="${gridFilter===k?'on':''}" aria-pressed="${gridFilter===k}">${l}</button>`).join('')}</div><div class="question-grid">${s.questions.slice(lo,hi).map((x,j)=>`<button data-q="${lo+j}" class="${gridClass(x,lo+j)}" aria-label="Question ${lo+j+1}${s.flags[x.id]?', bookmarked':''}" ${s.index===lo+j?'aria-current="step"':''}>${limited?j+1:lo+j+1}</button>`).join('')}</div><button id="nextBlank" class="small" style="width:100%;margin-top:10px" ${answered>=hi-lo?'disabled':''}>Jump to next blank</button><hr><div class="eyebrow">${limited?'Test tools':'Practice tools'}</div>${!limited?`<label class="switch"><input type="checkbox" id="instantToggle" ${instant?'checked':''}><span>Instant feedback</span></label>`:''}<button id="scratchBtn" class="quiet small" style="padding-left:0">✎ Scratch notes${s.notes[q.id]?' ·':''}</button><p class="rail-note">${limited?'Each module locks when you submit it.':'Press ? for keyboard shortcuts.'}</p><button id="newTest" class="small" style="width:100%">Choose another set</button></aside><section><article class="card"><div class="question-top"><div class="row"><span class="pill">${limited?s.index-lo+1:s.index+1}</span><span class="mini">${limited?'Math':esc(q.skill)}</span>${!limited&&q.referenceModule?'<span class="mini muted">Module '+q.referenceModule+' · Q'+q.referenceQuestion+'</span>':''}${!limited?'<span class="pill '+(q.level==='Easy'?'green':'gold')+'">'+esc(q.level)+'</span>':''}<span class="mini muted qtime" title="Time on this question">⏱ <span id="qTime">${fmtTime(s.times[q.id])}</span></span></div><div class="tools"><button id="flagBtn" class="small" aria-pressed="${!!s.flags[q.id]}">${s.flags[q.id]?'★ Bookmarked':'☆ Bookmark'}</button><button id="calcBtn" class="small">Calculator</button><button id="refBtn" class="small">Reference</button></div></div><div class="question-body"><div><div class="prompt">${rich(q.prompt)}</div>${visual(q.visual)}${q.source==='Gemini'?'<span class="pill">AI-generated · review if uncertain</span>':''}</div><div class="answer-col"><label>${q.choices?'Choose one answer':'Enter your answer'}</label>${choices.map((c,j)=>`<div class="choice ${choiceClass(j)}"><button data-answer="${j}" aria-pressed="${s.answers[q.id]===String(j)}"><span class="letter">${'ABCD'[j]}</span><span>${rich(c)}</span></button><button class="eliminate" data-eliminate="${j}" aria-label="${elim.includes(j)?'Restore':'Eliminate'} choice ${'ABCD'[j]}">⊘</button></div>`).join('')}${!q.choices?`<input class="num-input ${reveal&&has?(ok?'ok':'bad'):''}" id="response" autocomplete="off" placeholder="e.g. 3/4 or 0.75" aria-label="Numeric answer" value="${esc(s.answers[q.id]||'')}"><p class="mini muted">Use a number, decimal, or fraction.</p><p class="mini error" id="inputError"></p>`:''}<p class="mini instant-fb ${reveal&&has?(ok?'good':'bad'):'hide'}" id="instantFb" aria-live="polite">${reveal&&has?(ok?'✓ Correct':'✗ Not yet — try again or open the solution'):''}</p><div class="row" style="margin-top:8px">${has?'<button class="quiet small" id="clearAnswer">Clear answer</button>':''}${!limited&&q.steps?.length>1?'<button class="quiet small" id="hintBtn">'+(showHint?'Hide hint':'💡 Hint')+'</button>':''}</div>${showHint&&!limited?'<div class="hint"><strong>Hint</strong> '+rich(q.steps[0])+'</div>':''}${!limited?'<div style="margin-top:20px"><button class="dark" id="checkBtn">'+(showSolution?'Hide solution':'Check & see solution')+'</button></div>':''}</div></div>${showSolution&&!limited?solutionHTML(q,s.answers[q.id]):''}<div class="question-bottom"><button id="prevBtn" ${s.index===lo?'disabled':''}>← Previous</button><span class="mini muted">${limited?s.index-lo+1:s.index+1} of ${limited?hi-lo:s.questions.length}</span><button id="nextBtn" class="primary">${s.index===hi-1?(limited&&s.module===0?'Submit module':'Finish & report'):'Next question →'}</button></div></article>${!limited?'<div class="practice-banner"><div><strong>Generate similar questions</strong><p>New '+esc(q.skill)+' problems with AI · opens in a practice window</p></div>'+aiControls('similar','Generate')+'</div>':''}</section></div><p class="footer-note">Original practice content. Not affiliated with or endorsed by College Board. SAT is a registered trademark of College Board.</p>`;
     $('app').querySelectorAll('[data-q]').forEach(b => b.onclick = () => go(Number(b.dataset.q)));
     $('app').querySelectorAll('[data-gf]').forEach(b => b.onclick = () => {
         gridFilter = b.dataset.gf;
@@ -1209,7 +2494,7 @@ function renderLibrary() {
     const test = db.tests.find(t => t.id === db.selectedTestId) || db.tests[0],
         questions = testQuestions(test),
         sets = testSets(test.id);
-    $('app').innerHTML = '<div class="intro row between"><div><div class="eyebrow">Your collection</div><h1>Test library</h1></div><button id="addTestFolder" class="small">+ Add test folder</button></div><div class="test-library"><aside class="card test-folders"><h3>Tests</h3>' + db.tests.map(t => '<button data-test-folder="' + esc(t.id) + '" class="test-folder ' + (t.id === test.id ? 'selected' : '') + '" ' + (t.id === test.id ? 'aria-current="page"' : '') + '><strong>' + esc(t.name) + '</strong><span class="mini">' + testSets(t.id).length + ' AI sets' + (!testQuestions(t).length ? ' · Empty test' : '') + '</span></button>').join('') + '</aside><section><div class="row between" style="margin-bottom:20px"><div><div class="eyebrow">' + esc(test.name) + '</div><h2 style="margin:4px 0">Original test & AI practice</h2><span class="mini muted">' + questions.length + ' original questions · ' + sets.length + ' AI sets</span></div></div>' + (questions.length ? '<div class="card test-actions"><div><h3>' + esc(test.name) + ' · Original questions</h3><p class="mini muted">Study with worked solutions or rehearse under timed conditions.</p></div><div class="row"><button id="studyStart" class="primary">Study</button><button id="timedStart" ' + (questions.length < 44 ? 'disabled' : '') + '>Timed test</button><button id="drillStart2">🎯 Custom drill</button></div><p class="mini muted" style="margin:12px 0 0">Timed mode: 44 questions · Two 35-minute modules · Scored 200–800</p><hr><div class="row between"><strong>✧ AI practice</strong><span class="mini muted">Mixed skills from this test</span></div>' + aiControls('library', 'Generate') + '</div>' : '<div class="card pad"><h3>This test folder is ready.</h3><p class="muted">Original questions have not been added yet. This folder will keep this test’s original questions and generated practice together.</p></div>') + '' + (questions.length ? '<details class="card browser" style="margin-top:18px"><summary>Browse ' + questions.length + ' questions by skill</summary><div class="pad" style="padding-top:8px"><input id="qSearch" class="full" placeholder="Search skill or wording… e.g. exponential, triangle" aria-label="Search questions"><div id="qBrowse" class="browse-list"></div></div></details>' : '') + '<div class="row between" style="margin:28px 0 16px"><h2 style="margin:0">AI practice · ' + esc(test.name) + '</h2><select id="setLevelFilter" aria-label="Filter AI sets by level"><option value="all">All levels</option><option>Easy</option><option>Hard</option><option>Harder</option></select></div><div id="testSetList"></div></section></div>';
+    $('app').innerHTML = '<div class="intro row between"><div><div class="eyebrow">Your collection</div><h1>Test library</h1></div><button id="addTestFolder" class="small">+ Add test folder</button></div><div class="test-library"><aside class="card test-folders"><h3>Tests</h3>' + db.tests.map(t => '<button data-test-folder="' + esc(t.id) + '" class="test-folder ' + (t.id === test.id ? 'selected' : '') + '" ' + (t.id === test.id ? 'aria-current="page"' : '') + '><strong>' + esc(t.name) + '</strong><span class="mini">' + testSets(t.id).length + ' AI sets' + (!testQuestions(t).length ? ' · Empty test' : '') + '</span></button>').join('') + '</aside><section><div class="row between" style="margin-bottom:20px"><div><div class="eyebrow">' + esc(test.name) + '</div><h2 style="margin:4px 0">Original test & AI practice</h2><span class="mini muted">' + questions.length + ' original questions · ' + sets.length + ' AI sets</span></div></div>' + (questions.length ? '<div class="card test-actions"><div><h3>' + esc(test.name) + ' · Original questions</h3><p class="mini muted">Updated reference sequence: Module 1 (27 questions) and Module 2 (27 questions). Start Study to use the revised bank; existing attempts are retained.</p></div><div class="row"><button id="studyStart" class="primary">Study</button><button id="timedStart" ' + (questions.length < 44 ? 'disabled' : '') + '>Timed test</button><button id="drillStart2">🎯 Custom drill</button></div><p class="mini muted" style="margin:12px 0 0">Timed mode: 44 questions · Two 35-minute modules · Scored 200–800</p><hr><div class="row between"><strong>✧ AI practice</strong><span class="mini muted">Mixed skills from this test</span></div>' + aiControls('library', 'Generate') + '</div>' : '<div class="card pad"><h3>This test folder is ready.</h3><p class="muted">Original questions have not been added yet. This folder will keep this test’s original questions and generated practice together.</p></div>') + '' + (questions.length ? '<details class="card browser" style="margin-top:18px"><summary>Browse ' + questions.length + ' questions by skill</summary><div class="pad" style="padding-top:8px"><input id="qSearch" class="full" placeholder="Search skill or wording… e.g. exponential, triangle" aria-label="Search questions"><div id="qBrowse" class="browse-list"></div></div></details>' : '') + '<div class="row between" style="margin:28px 0 16px"><h2 style="margin:0">AI practice · ' + esc(test.name) + '</h2><select id="setLevelFilter" aria-label="Filter AI sets by level"><option value="all">All levels</option><option>Easy</option><option>Hard</option><option>Harder</option></select></div><div id="testSetList"></div></section></div>';
 
     function drawSets(level = 'all') {
         const filtered = sets.filter(x => level === 'all' || x.level === level);
