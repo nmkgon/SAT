@@ -1,0 +1,1512 @@
+[
+  {
+    "skill": "Equivalent expressions",
+    "domain": "Advanced",
+    "referenceModule": 3,
+    "referenceQuestion": 1,
+    "id": "t5-native-1",
+    "parentTestId": "test-5",
+    "prompt": "Which expression is NOT equivalent to $ab(c+d)$?",
+    "steps": [
+      "Distribute $ab$: $ab(c+d)=abc+abd$.",
+      "Choice D is missing the factor $a$ from its second term."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "$abd+abc$",
+      "$ab(d+c)$",
+      "$ba(c+d)$",
+      "$abc+bd$"
+    ]
+  },
+  {
+    "skill": "Rates and units",
+    "domain": "Data",
+    "referenceModule": 3,
+    "referenceQuestion": 2,
+    "id": "t5-native-2",
+    "parentTestId": "test-5",
+    "prompt": "An adult movie ticket costs 10 dollars and a bag of popcorn costs 6 dollars. A group of $x$ adults buys one ticket each and 4 bags of popcorn. What is the total cost in dollars?",
+    "steps": [
+      "Tickets cost $10x$ dollars; popcorn costs $4(6)=24$.",
+      "The total is $10x+24$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "$10x+6$",
+      "$10x+24$",
+      "$16x$",
+      "$6x+10$"
+    ]
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 3,
+    "id": "t5-native-3",
+    "parentTestId": "test-5",
+    "prompt": "If $xy=5$, which value is impossible for $x$?",
+    "steps": [
+      "If $x=0$, the product $xy$ is zero for every real $y$.",
+      "The product must be 5, so zero is impossible."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "$-6$",
+      "$-5$",
+      "$0$",
+      "$1$"
+    ]
+  },
+  {
+    "skill": "Triangles",
+    "domain": "Geometry",
+    "referenceModule": 3,
+    "referenceQuestion": 4,
+    "id": "t5-native-4",
+    "parentTestId": "test-5",
+    "prompt": "In triangle $ABC$, $AB=AC$ and $\\angle C=50^\\circ$. What is angle $a$ in degrees?",
+    "steps": [
+      "Equal sides have equal opposite angles, so $\\angle B=\\angle C=50^\\circ$.",
+      "$a=180-50-50=80$."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-triangle",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"triangle\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><polyline points=\"85,270 185,70 450,270 85,270\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"70\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">A</text><text x=\"185\" y=\"48\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">B</text><text x=\"465\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">C</text><text x=\"125\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">a°</text><text x=\"193\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">b°</text><text x=\"402\" y=\"254\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">c°</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "65",
+      "70",
+      "75",
+      "80"
+    ]
+  },
+  {
+    "skill": "Word problem equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 5,
+    "id": "t5-native-5",
+    "parentTestId": "test-5",
+    "prompt": "Barbara has $x$ dolls, half as many as Tanya, who has $y$ dolls. Which equation must be true?",
+    "steps": [
+      "Barbara has half of Tanya’s collection: $x=y/2$.",
+      "Multiply by 2: $y=2x$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "$y=x+2$",
+      "$y=\\frac12x$",
+      "$y=2x$",
+      "$xy=2$"
+    ]
+  },
+  {
+    "skill": "Quadratics",
+    "domain": "Advanced",
+    "referenceModule": 3,
+    "referenceQuestion": 6,
+    "id": "t5-native-6",
+    "parentTestId": "test-5",
+    "prompt": "What is the sum of the solutions of $2x^2-6x+2=0$?",
+    "steps": [
+      "For $ax^2+bx+c=0$, the sum of roots is $-b/a$.",
+      "Here the sum is $-(-6)/2=3$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "−3",
+      "−1",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "skill": "Functions",
+    "domain": "Advanced",
+    "referenceModule": 3,
+    "referenceQuestion": 7,
+    "id": "t5-native-7",
+    "parentTestId": "test-5",
+    "prompt": "Let $f(x)=2x^3-1$ and $g(x)=x^2+3$. Find $f(g(1))$.",
+    "steps": [
+      "$g(1)=1^2+3=4$.",
+      "$f(4)=2(4^3)-1=127$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "4",
+      "23",
+      "56",
+      "127"
+    ]
+  },
+  {
+    "skill": "Systems of equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 8,
+    "id": "t5-native-8",
+    "parentTestId": "test-5",
+    "prompt": "The system $ax+4y=14$ and $5x+7y=8$ has no solution. What is $a$?",
+    "steps": [
+      "For parallel lines, the coefficient ratios agree: $a/5=4/7$.",
+      "Thus $a=20/7$. The constants are not in this ratio, so the lines are distinct."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "0",
+    "choices": [
+      "$\\frac{20}7$",
+      "$\\frac{35}4$",
+      "$-\\frac{35}4$",
+      "$-\\frac{20}7$"
+    ]
+  },
+  {
+    "skill": "Lines and slopes",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 9,
+    "id": "t5-native-9",
+    "parentTestId": "test-5",
+    "prompt": "Line $l$ is shown. A perpendicular line $n$ has equation $y=mx+b$. Which must be true?",
+    "steps": [
+      "Line $l$ has negative slope.",
+      "A perpendicular line has the negative reciprocal slope, which is positive."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-negativeLine",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"negativeLine\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><polyline points=\"65,195 480,195\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"230,305 230,45\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"95,65 430,275\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"493\" y=\"200\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">x</text><text x=\"230\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">y</text><text x=\"442\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">l</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "$m<0$",
+      "$m>0$",
+      "$b>0$",
+      "$b<0$"
+    ]
+  },
+  {
+    "skill": "Rates and units",
+    "domain": "Data",
+    "referenceModule": 3,
+    "referenceQuestion": 10,
+    "id": "t5-native-10",
+    "parentTestId": "test-5",
+    "prompt": "Janice reads $x$ pages every 30 minutes for 4 hours. Kim reads $y$ pages every 15 minutes for 5 hours. How many pages do they read in total?",
+    "steps": [
+      "Janice has $240/30=8$ reading intervals. Kim has $300/15=20$.",
+      "The total is $8x+20y$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "$4x+5y$",
+      "$8x+20y$",
+      "$20x+8y$",
+      "$120x+75y$"
+    ]
+  },
+  {
+    "skill": "Word problem equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 11,
+    "id": "t5-native-11",
+    "parentTestId": "test-5",
+    "prompt": "Three watches have the same list price. They sell at discounts of 30%, 20%, and 10%, for a total of 240 dollars. How much revenue was lost to the discounts?",
+    "steps": [
+      "If each list price is $p$, then $(0.7+0.8+0.9)p=240$, so $p=100$.",
+      "The full total was 300 dollars; the discounts reduced it by $300-240=60$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "45 dollars",
+      "60 dollars",
+      "75 dollars",
+      "90 dollars"
+    ]
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 12,
+    "id": "t5-native-12",
+    "parentTestId": "test-5",
+    "prompt": "The identity $x^2+kx+9=(x+a)^2$ holds for all $x$, with positive constants $a$ and $k$. Find $k$.",
+    "steps": [
+      "Expand the right side: $x^2+2ax+a^2$.",
+      "$a^2=9$ and $a>0$ give $a=3$, so $k=2a=6$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "0",
+      "3",
+      "6",
+      "9"
+    ]
+  },
+  {
+    "skill": "Triangles",
+    "domain": "Geometry",
+    "referenceModule": 3,
+    "referenceQuestion": 13,
+    "id": "t5-native-13",
+    "parentTestId": "test-5",
+    "prompt": "The three sides of a triangle are different prime numbers. Two sides are 3 and 11. Which proposed third sides are possible? I: 7; II: 13; III: 17.",
+    "steps": [
+      "The triangle inequality requires $11-3<s<11+3$, or $8<s<14$.",
+      "Only 13 is in this interval."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "I only",
+      "II only",
+      "I and II only",
+      "I, II, and III"
+    ]
+  },
+  {
+    "skill": "Systems of equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 14,
+    "id": "t5-native-14",
+    "parentTestId": "test-5",
+    "prompt": "The system $ax+\\frac12y=16$ and $4x+3y=8$ has no solution. Find $a$.",
+    "steps": [
+      "Parallel lines require $a/4=(1/2)/3=1/6$.",
+      "Thus $a=2/3$. The constant ratios differ, so the system is inconsistent."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "0",
+    "choices": [
+      "$\\frac23$",
+      "$2$",
+      "$8$",
+      "$24$"
+    ]
+  },
+  {
+    "skill": "Exponents and radicals",
+    "domain": "Advanced",
+    "referenceModule": 3,
+    "referenceQuestion": 15,
+    "id": "t5-native-15",
+    "parentTestId": "test-5",
+    "prompt": "If $27^{81}=3^x$, find $x$.",
+    "steps": [
+      "$27=3^3$.",
+      "$27^{81}=(3^3)^{81}=3^{243}$, so $x=243$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "27",
+      "84",
+      "100",
+      "243"
+    ]
+  },
+  {
+    "skill": "Angle relationships",
+    "domain": "Geometry",
+    "referenceModule": 3,
+    "referenceQuestion": 16,
+    "id": "t5-native-16",
+    "parentTestId": "test-5",
+    "prompt": "Lines $m$ and $n$ are parallel, and $r$ is perpendicular to them. In the diagram, $y=2x$. Find $y$ in degrees.",
+    "steps": [
+      "The marked acute angles are complementary: $x+y=90$.",
+      "With $y=2x$, $3x=90$, so $x=30$ and $y=60$."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-parallel",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"parallel\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><polyline points=\"55,110 490,110\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"55,255 490,255\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"200,45 200,175\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"120,45 440,305\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"200,130 220,130 220,110\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"507\" y=\"115\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">m</text><text x=\"507\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">n</text><text x=\"205\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">r</text><text x=\"178\" y=\"75\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">x°</text><text x=\"344\" y=\"240\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">y°</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "60"
+  },
+  {
+    "skill": "Rates and units",
+    "domain": "Data",
+    "referenceModule": 3,
+    "referenceQuestion": 17,
+    "id": "t5-native-17",
+    "parentTestId": "test-5",
+    "prompt": "Each container holds 7.5 ounces of dressing. How many containers hold 150 ounces?",
+    "steps": [
+      "Divide the total amount by the amount per container.",
+      "$150/7.5=20$ containers."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "20"
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 3,
+    "referenceQuestion": 18,
+    "id": "t5-native-18",
+    "parentTestId": "test-5",
+    "prompt": "If $\\frac12x-\\frac13x=1+\\frac12$, find $x$.",
+    "steps": [
+      "The equation simplifies to $x/6=3/2$.",
+      "Multiply by 6 to obtain $x=9$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "9"
+  },
+  {
+    "skill": "Functions",
+    "domain": "Advanced",
+    "referenceModule": 3,
+    "referenceQuestion": 19,
+    "id": "t5-native-19",
+    "parentTestId": "test-5",
+    "prompt": "The table gives values of $f$ and $g$. If $g(m)=6$, find $f(m)$.",
+    "steps": [
+      "The row with $g(m)=6$ has $m=3$.",
+      "In that row, $f(3)=5$."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "x",
+        "f(x)",
+        "g(x)"
+      ],
+      "rows": [
+        [
+          "1",
+          "4",
+          "0"
+        ],
+        [
+          "2",
+          "6",
+          "2"
+        ],
+        [
+          "3",
+          "5",
+          "6"
+        ],
+        [
+          "4",
+          "2",
+          "4"
+        ]
+      ]
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "5"
+  },
+  {
+    "skill": "Quadratics",
+    "domain": "Advanced",
+    "referenceModule": 3,
+    "referenceQuestion": 20,
+    "id": "t5-native-20",
+    "parentTestId": "test-5",
+    "prompt": "One solution of $x^2-5x+c=0$ is −3. What is the other solution?",
+    "steps": [
+      "The two roots sum to 5.",
+      "If the other root is $r$, then $-3+r=5$, so $r=8$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "8"
+  },
+  {
+    "skill": "Rates and units",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 1,
+    "id": "t5-native-21",
+    "parentTestId": "test-5",
+    "prompt": "A shop makes 4 windows in 5 hours. At the same rate, how long does it take to make 7 windows?",
+    "steps": [
+      "Each window takes $5/4$ hours.",
+      "Seven take $7(5/4)=8.75$ hours, or 8 hours 45 minutes."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "8 h",
+      "8 h 15 min",
+      "8 h 30 min",
+      "8 h 45 min"
+    ]
+  },
+  {
+    "skill": "Circles",
+    "domain": "Geometry",
+    "referenceModule": 4,
+    "referenceQuestion": 2,
+    "id": "t5-native-22",
+    "parentTestId": "test-5",
+    "prompt": "A circle has area $\\pi/4$. What is its diameter?",
+    "steps": [
+      "$\\pi r^2=\\pi/4$ gives $r=1/2$.",
+      "The diameter is $2r=1$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "$\\frac14$",
+      "$\\frac12$",
+      "$1$",
+      "$\\frac32$"
+    ]
+  },
+  {
+    "skill": "Reading graphs and tables",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 3,
+    "id": "t5-native-23",
+    "parentTestId": "test-5",
+    "prompt": "Ten students’ quiz scores are plotted. Which labeled point has the greatest absolute difference between its two scores?",
+    "steps": [
+      "Compare $|y-x|$ for the labeled points.",
+      "The differences for A, B, C, D are 2, 5, 4, and 4. Point B is greatest."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-quizzes",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"quizzes\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\">Quiz scores</text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"76\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">0</text><polyline points=\"117.4,48 117.4,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"117.4\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1</text><polyline points=\"158.8,48 158.8,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"158.8\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">2</text><polyline points=\"200.2,48 200.2,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"200.2\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">3</text><polyline points=\"241.6,48 241.6,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"241.6\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">4</text><polyline points=\"283,48 283,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">5</text><polyline points=\"324.4,48 324.4,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"324.4\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">6</text><polyline points=\"365.8,48 365.8,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"365.8\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">7</text><polyline points=\"407.2,48 407.2,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"407.2\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">8</text><polyline points=\"448.6,48 448.6,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"448.6\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">9</text><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">10</text><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">0</text><polyline points=\"76,255 490,255\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"259\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">1</text><polyline points=\"76,232 490,232\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">2</text><polyline points=\"76,209 490,209\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"213\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">3</text><polyline points=\"76,186 490,186\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"190\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">4</text><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">5</text><polyline points=\"76,140 490,140\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"144\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">6</text><polyline points=\"76,117 490,117\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"121\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">7</text><polyline points=\"76,94 490,94\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"98\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">8</text><polyline points=\"76,71 490,71\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">9</text><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">10</text><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">Quiz 1 score</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">Quiz 2 score</text><circle cx=\"117.4\" cy=\"209\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"158.8\" cy=\"117\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"71\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"407.2\" cy=\"186\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"158.8\" cy=\"163\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"200.2\" cy=\"117\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"324.4\" cy=\"94\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"365.8\" cy=\"117\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"365.8\" cy=\"163\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"448.6\" cy=\"117\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"125.4\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"start\">A</text><text x=\"166.8\" y=\"107\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"start\">B</text><text x=\"291\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"start\">C</text><text x=\"415.2\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"start\">D</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "skill": "Functions",
+    "domain": "Advanced",
+    "referenceModule": 4,
+    "referenceQuestion": 4,
+    "id": "t5-native-24",
+    "parentTestId": "test-5",
+    "prompt": "An order costs $C=3600-400q+20q^2$, for $q\\ge0$. Which quantity minimizes cost?",
+    "steps": [
+      "The quadratic opens upward. Its vertex is at $q=-(-400)/(2\\cdot20)$.",
+      "The minimizing quantity is $q=10$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ]
+  },
+  {
+    "skill": "Probability",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 5,
+    "id": "t5-native-25",
+    "parentTestId": "test-5",
+    "prompt": "The table lists oil production in thousands of barrels. Given that a barrel was produced in 2012, what is the probability it was produced in Arkansas, to the nearest tenth?",
+    "steps": [
+      "Use the 2012 column. Arkansas produced 12,468 out of 118,730.",
+      "$12468/118730\\approx0.105$, closest to 0.10."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "State",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014"
+      ],
+      "rows": [
+        [
+          "Arkansas",
+          "12391",
+          "11802",
+          "12468",
+          "12859",
+          "13172"
+        ],
+        [
+          "Louisiana",
+          "19429",
+          "21024",
+          "23371",
+          "24647",
+          "25409"
+        ],
+        [
+          "Oklahoma",
+          "27673",
+          "29263",
+          "29826",
+          "32584",
+          "34673"
+        ],
+        [
+          "Texas",
+          "48297",
+          "52702",
+          "53065",
+          "54911",
+          "55616"
+        ],
+        [
+          "Total",
+          "107790",
+          "114791",
+          "118730",
+          "125001",
+          "128870"
+        ]
+      ]
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "0",
+    "choices": [
+      "0.10",
+      "0.20",
+      "0.30",
+      "0.50"
+    ]
+  },
+  {
+    "skill": "Percentages",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 6,
+    "id": "t5-native-26",
+    "parentTestId": "test-5",
+    "prompt": "$X$ is 20% of $Y$, and $Y$ is 30% of $Z$. What percent of $Z$ is $X$?",
+    "steps": [
+      "$X=0.20Y=0.20(0.30Z)$.",
+      "Therefore $X=0.06Z$, or 6%."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "5%",
+      "6%",
+      "8%",
+      "12%"
+    ]
+  },
+  {
+    "skill": "Word problem equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 7,
+    "id": "t5-native-27",
+    "parentTestId": "test-5",
+    "prompt": "Five times $y$, divided by 8, equals 15. Find $y$.",
+    "steps": [
+      "$5y/8=15$ implies $5y=120$.",
+      "Divide by 5: $y=24$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ]
+  },
+  {
+    "skill": "Statistical inference",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 8,
+    "id": "t5-native-28",
+    "parentTestId": "test-5",
+    "prompt": "Using the fitted line, estimate the apartment size corresponding to a price of 180 thousand dollars.",
+    "steps": [
+      "Locate 180 on the price axis and move horizontally to the fitted line.",
+      "The corresponding size is about 1,200 square feet."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-apartments",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"apartments\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\">Apartment prices</text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"76\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">200</text><polyline points=\"145,48 145,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"145\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">400</text><polyline points=\"214,48 214,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"214\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">600</text><polyline points=\"283,48 283,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">800</text><polyline points=\"352,48 352,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"352\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1000</text><polyline points=\"421,48 421,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"421\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1200</text><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1400</text><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">60</text><polyline points=\"76,249.25 490,249.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"253.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">80</text><polyline points=\"76,220.5 490,220.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"224.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">100</text><polyline points=\"76,191.75 490,191.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">120</text><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">140</text><polyline points=\"76,134.25 490,134.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"138.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">160</text><polyline points=\"76,105.5 490,105.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"109.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">180</text><polyline points=\"76,76.75 490,76.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"80.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">200</text><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">220</text><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">Area (square feet)</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">Price (thousands of dollars)</text><polyline points=\"76,249.25 490,76.75\" fill=\"none\" stroke=\"#315cce\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"256.438\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"110.5\" cy=\"220.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"145\" cy=\"220.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"179.5\" cy=\"227.688\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"214\" cy=\"134.25\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"248.5\" cy=\"234.875\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"191.75\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"148.625\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"317.5\" cy=\"91.125\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"352\" cy=\"76.75\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"386.5\" cy=\"141.438\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"421\" cy=\"155.812\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"490\" cy=\"91.125\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "600 ft²",
+      "800 ft²",
+      "1,000 ft²",
+      "1,200 ft²"
+    ]
+  },
+  {
+    "skill": "Statistical inference",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 9,
+    "id": "t5-native-29",
+    "parentTestId": "test-5",
+    "prompt": "For the 600-square-foot apartment, how many dollars higher is the actual price than the fitted prediction?",
+    "steps": [
+      "The plotted price at 600 square feet is 160 thousand dollars; the line predicts 120 thousand.",
+      "The residual is $160000-120000=40000$ dollars."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-apartments",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"apartments\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\">Apartment prices</text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"76\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">200</text><polyline points=\"145,48 145,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"145\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">400</text><polyline points=\"214,48 214,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"214\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">600</text><polyline points=\"283,48 283,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">800</text><polyline points=\"352,48 352,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"352\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1000</text><polyline points=\"421,48 421,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"421\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1200</text><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1400</text><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">60</text><polyline points=\"76,249.25 490,249.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"253.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">80</text><polyline points=\"76,220.5 490,220.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"224.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">100</text><polyline points=\"76,191.75 490,191.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">120</text><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">140</text><polyline points=\"76,134.25 490,134.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"138.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">160</text><polyline points=\"76,105.5 490,105.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"109.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">180</text><polyline points=\"76,76.75 490,76.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"80.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">200</text><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">220</text><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">Area (square feet)</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">Price (thousands of dollars)</text><polyline points=\"76,249.25 490,76.75\" fill=\"none\" stroke=\"#315cce\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"256.438\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"110.5\" cy=\"220.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"145\" cy=\"220.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"179.5\" cy=\"227.688\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"214\" cy=\"134.25\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"248.5\" cy=\"234.875\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"191.75\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"283\" cy=\"148.625\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"317.5\" cy=\"91.125\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"352\" cy=\"76.75\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"386.5\" cy=\"141.438\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"421\" cy=\"155.812\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"490\" cy=\"91.125\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "20,000",
+      "30,000",
+      "40,000",
+      "50,000"
+    ]
+  },
+  {
+    "skill": "Interpreting linear models",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 10,
+    "id": "t5-native-30",
+    "parentTestId": "test-5",
+    "prompt": "The graph relates flowers $f$ to bees $b$. What does the $f$-intercept represent?",
+    "steps": [
+      "The vertical intercept occurs when $b=0$.",
+      "It predicts the flowers in a garden without bees."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-bees",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"bees\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\">Bees and flowers</text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"76\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">0</text><polyline points=\"158.8,48 158.8,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"158.8\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">2</text><polyline points=\"241.6,48 241.6,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"241.6\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">4</text><polyline points=\"324.4,48 324.4,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"324.4\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">6</text><polyline points=\"407.2,48 407.2,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"407.2\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">8</text><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">10</text><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">20</text><polyline points=\"76,249.25 490,249.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"253.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">24</text><polyline points=\"76,220.5 490,220.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"224.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">28</text><polyline points=\"76,191.75 490,191.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">32</text><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">36</text><polyline points=\"76,134.25 490,134.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"138.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">40</text><polyline points=\"76,105.5 490,105.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"109.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">44</text><polyline points=\"76,76.75 490,76.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"80.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">48</text><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">52</text><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">Bees, b</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">Flowers, f</text><polyline points=\"76,220.5 490,76.75\" fill=\"none\" stroke=\"#315cce\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"158.8\" cy=\"191.75\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"241.6\" cy=\"163\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"324.4\" cy=\"134.25\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"407.2\" cy=\"105.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "Average flower count",
+      "Maximum flower count",
+      "Flowers per bee",
+      "Flowers in a garden with no bees"
+    ]
+  },
+  {
+    "skill": "Interpreting linear models",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 11,
+    "id": "t5-native-31",
+    "parentTestId": "test-5",
+    "prompt": "Which equation describes the relationship between $f$ and $b$?",
+    "steps": [
+      "The intercept is 28. From (2,32) to (4,36), the slope is $(36-32)/(4-2)=2$.",
+      "Thus $f=28+2b$."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-bees",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"bees\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\">Bees and flowers</text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"76\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">0</text><polyline points=\"158.8,48 158.8,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"158.8\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">2</text><polyline points=\"241.6,48 241.6,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"241.6\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">4</text><polyline points=\"324.4,48 324.4,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"324.4\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">6</text><polyline points=\"407.2,48 407.2,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"407.2\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">8</text><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">10</text><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">20</text><polyline points=\"76,249.25 490,249.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"253.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">24</text><polyline points=\"76,220.5 490,220.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"224.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">28</text><polyline points=\"76,191.75 490,191.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">32</text><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">36</text><polyline points=\"76,134.25 490,134.25\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"138.25\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">40</text><polyline points=\"76,105.5 490,105.5\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"109.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">44</text><polyline points=\"76,76.75 490,76.75\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"80.75\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">48</text><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">52</text><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">Bees, b</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">Flowers, f</text><polyline points=\"76,220.5 490,76.75\" fill=\"none\" stroke=\"#315cce\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"158.8\" cy=\"191.75\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"241.6\" cy=\"163\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"324.4\" cy=\"134.25\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"407.2\" cy=\"105.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "$f=28+0.5b$",
+      "$f=28+2b$",
+      "$b=28+0.5f$",
+      "$b=28+2f$"
+    ]
+  },
+  {
+    "skill": "Functions",
+    "domain": "Advanced",
+    "referenceModule": 4,
+    "referenceQuestion": 12,
+    "id": "t5-native-32",
+    "parentTestId": "test-5",
+    "prompt": "Function $g$ contains the point $(1,3)$ shown. Another function has $f(1)=1$. Which could be $g$?",
+    "steps": [
+      "At $x=1$, $g(1)-f(1)=3-1=2$.",
+      "Only the proposed vertical shift $g=f+2$ has this value."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-parabola",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"parabola\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\"></text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"122,48 122,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"168,48 168,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"214,48 214,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"260,48 260,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"306,48 306,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"352,48 352,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"398,48 398,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"444,48 444,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,255 490,255\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,232 490,232\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,209 490,209\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,186 490,186\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,140 490,140\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,117 490,117\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,94 490,94\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,71 490,71\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"260,48 260,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">x</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">y</text><circle cx=\"306\" cy=\"94\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><polyline points=\"154.2,268.57 155.273,265.577 156.347,262.609 157.42,259.667 158.493,256.749 159.567,253.856 160.64,250.989 161.713,248.146 162.787,245.329 163.86,242.536 164.933,239.769 166.007,237.027 167.08,234.309 168.153,231.617 169.227,228.95 170.3,226.307 171.373,223.69 172.447,221.098 173.52,218.531 174.593,215.989 175.667,213.472 176.74,210.98 177.813,208.513 178.887,206.072 179.96,203.655 181.033,201.263 182.107,198.896 183.18,196.555 184.253,194.238 185.327,191.947 186.4,189.68 187.473,187.439 188.547,185.222 189.62,183.031 190.693,180.864 191.767,178.723 192.84,176.607 193.913,174.516 194.987,172.449 196.06,170.408 197.133,168.392 198.207,166.401 199.28,164.435 200.353,162.494 201.427,160.578 202.5,158.688 203.573,156.822 204.647,154.981 205.72,153.165 206.793,151.375 207.867,149.609 208.94,147.868 210.013,146.153 211.087,144.462 212.16,142.797 213.233,141.156 214.307,139.541 215.38,137.951 216.453,136.385 217.527,134.845 218.6,133.33 219.673,131.84 220.747,130.375 221.82,128.935 222.893,127.52 223.967,126.13 225.04,124.765 226.113,123.425 227.187,122.11 228.26,120.82 229.333,119.556 230.407,118.316 231.48,117.101 232.553,115.912 233.627,114.747 234.7,113.607 235.773,112.493 236.847,111.404 237.92,110.339 238.993,109.3 240.067,108.286 241.14,107.296 242.213,106.332 243.287,105.393 244.36,104.479 245.433,103.59 246.507,102.726 247.58,101.887 248.653,101.073 249.727,100.284 250.8,99.52 251.873,98.7812 252.947,98.0674 254.02,97.3787 255.093,96.715 256.167,96.0764 257.24,95.4628 258.313,94.8743 259.387,94.3108 260.46,93.7723 261.533,93.2589 262.607,92.7705 263.68,92.3072 264.753,91.8689 265.827,91.4557 266.9,91.0675 267.973,90.7044 269.047,90.3663 270.12,90.0532 271.193,89.7652 272.267,89.5022 273.34,89.2643 274.413,89.0514 275.487,88.8636 276.56,88.7008 277.633,88.5631 278.707,88.4504 279.78,88.3627 280.853,88.3001 281.927,88.2625 283,88.25 284.073,88.2625 285.147,88.3001 286.22,88.3627 287.293,88.4504 288.367,88.5631 289.44,88.7008 290.513,88.8636 291.587,89.0514 292.66,89.2643 293.733,89.5022 294.807,89.7652 295.88,90.0532 296.953,90.3663 298.027,90.7044 299.1,91.0675 300.173,91.4557 301.247,91.8689 302.32,92.3072 303.393,92.7705 304.467,93.2589 305.54,93.7723 306.613,94.3108 307.687,94.8743 308.76,95.4628 309.833,96.0764 310.907,96.715 311.98,97.3787 313.053,98.0674 314.127,98.7812 315.2,99.52 316.273,100.284 317.347,101.073 318.42,101.887 319.493,102.726 320.567,103.59 321.64,104.479 322.713,105.393 323.787,106.332 324.86,107.296 325.933,108.286 327.007,109.3 328.08,110.339 329.153,111.404 330.227,112.493 331.3,113.607 332.373,114.747 333.447,115.912 334.52,117.101 335.593,118.316 336.667,119.556 337.74,120.82 338.813,122.11 339.887,123.425 340.96,124.765 342.033,126.13 343.107,127.52 344.18,128.935 345.253,130.375 346.327,131.84 347.4,133.33 348.473,134.845 349.547,136.385 350.62,137.951 351.693,139.541 352.767,141.156 353.84,142.797 354.913,144.462 355.987,146.153 357.06,147.868 358.133,149.609 359.207,151.375 360.28,153.165 361.353,154.981 362.427,156.822 363.5,158.688 364.573,160.578 365.647,162.494 366.72,164.435 367.793,166.401 368.867,168.392 369.94,170.408 371.013,172.449 372.087,174.516 373.16,176.607 374.233,178.723 375.307,180.864 376.38,183.031 377.453,185.222 378.527,187.439 379.6,189.68 380.673,191.947 381.747,194.238 382.82,196.555 383.893,198.896 384.967,201.263 386.04,203.655 387.113,206.072 388.187,208.513 389.26,210.98 390.333,213.472 391.407,215.989 392.48,218.531 393.553,221.098 394.627,223.69 395.7,226.308 396.773,228.95 397.847,231.617 398.92,234.309 399.993,237.027 401.067,239.769 402.14,242.536 403.213,245.329 404.287,248.146 405.36,250.989 406.433,253.856 407.507,256.749 408.58,259.667 409.653,262.609 410.727,265.577 411.8,268.57\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"314\" y=\"84\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"start\">(1, 3)</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "$f-1$",
+      "$f-2$",
+      "$f+1$",
+      "$f+2$"
+    ]
+  },
+  {
+    "skill": "Percentages",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 13,
+    "id": "t5-native-33",
+    "parentTestId": "test-5",
+    "prompt": "Roger wins 25% of his matches against Rafael. Rafael wins the other 18 matches. How many matches does Roger win?",
+    "steps": [
+      "Rafael’s 18 wins represent 75% of all matches, so there are $18/0.75=24$.",
+      "Roger wins $0.25(24)=6$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "skill": "Rates and units",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 14,
+    "id": "t5-native-34",
+    "parentTestId": "test-5",
+    "prompt": "One calorie is 4.184 joules and raises 1 gram of water by 1°C. How many joules raise 1 gram of water by a temperature difference of 120°F? Use Δ°C = (5/9)Δ°F and round to the nearest hundredth.",
+    "steps": [
+      "A 120°F temperature rise is $120(5/9)=200/3$ degrees Celsius.",
+      "Energy is $4.184(200/3)=278.9333\\ldots$, or 278.93 joules."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "66.67",
+      "120.00",
+      "223.15",
+      "278.93"
+    ],
+    "revisionNote": "Corrected the source’s Fahrenheit temperature-difference conversion and answer choices."
+  },
+  {
+    "skill": "Absolute value",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 15,
+    "id": "t5-native-35",
+    "parentTestId": "test-5",
+    "prompt": "How many integers $n$ satisfy $|n-2|<5$?",
+    "steps": [
+      "The inequality gives $-3<n<7$.",
+      "The integers −2 through 6 give nine values."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "Six",
+      "Seven",
+      "Eight",
+      "Nine"
+    ]
+  },
+  {
+    "skill": "Reading graphs and tables",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 16,
+    "id": "t5-native-36",
+    "parentTestId": "test-5",
+    "prompt": "Alicia stopped for a nap during the road trip shown. After how many hours of driving did she stop?",
+    "steps": [
+      "Her speed first returns to zero at 3 hours.",
+      "The zero-speed interval from 3 to 4 hours is the stop."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-road",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"road\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><text x=\"280\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17384d\" text-anchor=\"middle\">Alicia’s road trip</text><polyline points=\"76,48 76,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"76\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">0</text><polyline points=\"158.8,48 158.8,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"158.8\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">1</text><polyline points=\"241.6,48 241.6,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"241.6\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">2</text><polyline points=\"324.4,48 324.4,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"324.4\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">3</text><polyline points=\"407.2,48 407.2,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"407.2\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">4</text><polyline points=\"490,48 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"middle\">5</text><polyline points=\"76,278 490,278\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">0</text><polyline points=\"76,239.667 490,239.667\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"243.667\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">10</text><polyline points=\"76,201.333 490,201.333\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"205.333\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">20</text><polyline points=\"76,163 490,163\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">30</text><polyline points=\"76,124.667 490,124.667\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"128.667\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">40</text><polyline points=\"76,86.3333 490,86.3333\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"90.3333\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">50</text><polyline points=\"76,48 490,48\" fill=\"none\" stroke=\"#dce5ea\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"65\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#17384d\" text-anchor=\"end\">60</text><polyline points=\"76,48 76,278 490,278\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"334\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#17384d\" text-anchor=\"middle\">Time (hours)</text><text transform=\"translate(20,163) rotate(-90)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" fill=\"#17384d\">Speed (mph)</text><polyline points=\"76,278 158.8,143.833 241.6,143.833 324.4,278 407.2,278 490,105.5\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"76\" cy=\"278\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"158.8\" cy=\"143.833\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"241.6\" cy=\"143.833\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"324.4\" cy=\"278\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"407.2\" cy=\"278\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"490\" cy=\"105.5\" r=\"3.8\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "skill": "Triangles",
+    "domain": "Geometry",
+    "referenceModule": 4,
+    "referenceQuestion": 17,
+    "id": "t5-native-37",
+    "parentTestId": "test-5",
+    "prompt": "In triangle $ABC$, $DE$ is parallel to $AB$. Given $AD=6$, $DC=3$, and $AB=18$, find $DE$.",
+    "steps": [
+      "Triangles $CDE$ and $CBA$ are similar, with scale factor $CD/CA=3/9=1/3$.",
+      "$DE=18(1/3)=6$."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-similar",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"similar\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><polyline points=\"65,280 225,50 455,280 65,280\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"325,280 378.33,203.33\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"50\" y=\"303\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">A</text><text x=\"225\" y=\"31\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">B</text><text x=\"470\" y=\"303\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">C</text><text x=\"325\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">D</text><text x=\"394\" y=\"202\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">E</text><text x=\"194\" y=\"305\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">6</text><text x=\"390\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">3</text><text x=\"126\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">18</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ]
+  },
+  {
+    "skill": "Inequalities",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 18,
+    "id": "t5-native-38",
+    "parentTestId": "test-5",
+    "prompt": "A district has 200 computers and adds 8 per month. For which integer numbers of months $t$ will it have at least 600 but no more than 700 computers?",
+    "steps": [
+      "$600\\le200+8t\\le700$ gives $50\\le t\\le62.5$.",
+      "With integer $t$, the upper bound is 62."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "0",
+    "choices": [
+      "$50\\le t\\le62$",
+      "$50\\le t\\le63$",
+      "$75\\le t\\le87$",
+      "$75\\le t\\le88$"
+    ]
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 19,
+    "id": "t5-native-39",
+    "parentTestId": "test-5",
+    "prompt": "Given $E=\\frac{P-N}{P+N}$, which formula expresses $N$ in terms of $P$ and $E$?",
+    "steps": [
+      "Multiply: $EP+EN=P-N$.",
+      "Collect terms in $N$: $N(E+1)=P-EP$, so $N=(P-EP)/(E+1)$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "$N=\\frac{EP}{E-1}$",
+      "$N=\\frac{EP}{E+1}$",
+      "$N=\\frac{P+EP}{E-1}$",
+      "$N=\\frac{P-EP}{E+1}$"
+    ]
+  },
+  {
+    "skill": "Equivalent expressions",
+    "domain": "Advanced",
+    "referenceModule": 4,
+    "referenceQuestion": 20,
+    "id": "t5-native-40",
+    "parentTestId": "test-5",
+    "prompt": "If $a=x^2-5x+2$ and $b=3x^3+4x^2-6$, simplify $3a-b$.",
+    "steps": [
+      "$3a=3x^2-15x+6$.",
+      "Subtract $b$ and combine like terms to obtain $-3x^3-x^2-15x+12$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "$4x^2-15x+12$",
+      "$-3x^3-x^2-15x+12$",
+      "$-3x^3-x^2-15x$",
+      "$-3x^3+7x^2-15x+12$"
+    ]
+  },
+  {
+    "skill": "Lines and slopes",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 21,
+    "id": "t5-native-41",
+    "parentTestId": "test-5",
+    "prompt": "Line $l$ has slope $-5/4$ and crosses the $x$-axis at $(4,0)$. What is the area of the triangle it forms with the coordinate axes?",
+    "steps": [
+      "Its equation is $y=-5x/4+5$, so the intercept lengths are 4 and 5.",
+      "The triangle has area $\\frac12(4)(5)=10$."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-intercepts",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"intercepts\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><polyline points=\"70,270 470,270\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"165,320 165,40\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"165,85 405,270\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"490\" y=\"274\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">x</text><text x=\"165\" y=\"27\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">y</text><text x=\"425\" y=\"293\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">(4, 0)</text><text x=\"140\" y=\"295\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">O</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "5",
+      "8",
+      "10",
+      "16"
+    ]
+  },
+  {
+    "skill": "Percentages",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 22,
+    "id": "t5-native-42",
+    "parentTestId": "test-5",
+    "prompt": "A textbook costs 20% more this year than last year. If this year’s price is $p$, what was last year’s price?",
+    "steps": [
+      "If last year’s price is $L$, then $p=1.2L$.",
+      "$L=p/1.2=5p/6$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "$\\frac15p$",
+      "$\\frac45p$",
+      "$\\frac56p$",
+      "$\\frac65p$"
+    ]
+  },
+  {
+    "skill": "Quadratics",
+    "domain": "Advanced",
+    "referenceModule": 4,
+    "referenceQuestion": 23,
+    "id": "t5-native-43",
+    "parentTestId": "test-5",
+    "prompt": "Which form of $y=x^2-2x-3$ displays the vertex coordinates as constants?",
+    "steps": [
+      "Complete the square: $x^2-2x-3=(x-1)^2-4$.",
+      "The vertex is $(1,-4)$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "0",
+    "choices": [
+      "$y=(x-1)^2-4$",
+      "$y=(x-1)^2-2$",
+      "$y=(x-3)(x+1)$",
+      "$y+3=x(x+2)$"
+    ]
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 24,
+    "id": "t5-native-44",
+    "parentTestId": "test-5",
+    "prompt": "A pendulum has period $T=2\\pi\\sqrt{L/9.8}$ seconds, where $L$ is in meters. What is closest to $L$ when $T=8$?",
+    "steps": [
+      "$L=9.8(T/(2\\pi))^2$.",
+      "With $T=8$, $L\\approx15.89$ meters, closest to 15.9."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "14.4",
+      "15.9",
+      "16.3",
+      "17.1"
+    ]
+  },
+  {
+    "skill": "Exponential and linear growth",
+    "domain": "Advanced",
+    "referenceModule": 4,
+    "referenceQuestion": 25,
+    "id": "t5-native-45",
+    "parentTestId": "test-5",
+    "prompt": "Which relationship describes the dandelion count over these five months?",
+    "steps": [
+      "Each month’s count is one fifth of the previous count.",
+      "Repeated multiplication by 0.2 is exponential decay."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "Month",
+        "Dandelions"
+      ],
+      "rows": [
+        [
+          "1",
+          "12500"
+        ],
+        [
+          "2",
+          "2500"
+        ],
+        [
+          "3",
+          "500"
+        ],
+        [
+          "4",
+          "100"
+        ],
+        [
+          "5",
+          "20"
+        ]
+      ]
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "Increasing linear",
+      "Decreasing linear",
+      "Exponential growth",
+      "Exponential decay"
+    ]
+  },
+  {
+    "skill": "Statistical inference",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 26,
+    "id": "t5-native-46",
+    "parentTestId": "test-5",
+    "prompt": "The table gives the weights of 50 lobsters from each state. What is the mean weight of all 100 lobsters?",
+    "steps": [
+      "Combined frequencies are 50, 35, 13, and 2.",
+      "The weighted mean is $(50+2(35)+3(13)+4(2))/100=1.67$ pounds."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "Weight (lb)",
+        "Maine",
+        "Massachusetts"
+      ],
+      "rows": [
+        [
+          "1",
+          "20",
+          "30"
+        ],
+        [
+          "2",
+          "20",
+          "15"
+        ],
+        [
+          "3",
+          "8",
+          "5"
+        ],
+        [
+          "4",
+          "2",
+          "0"
+        ]
+      ]
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "2",
+    "choices": [
+      "1.34",
+      "1.45",
+      "1.67",
+      "1.78"
+    ]
+  },
+  {
+    "skill": "Statistical inference",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 27,
+    "id": "t5-native-47",
+    "parentTestId": "test-5",
+    "prompt": "How does the median lobster weight in Maine compare with that in Massachusetts?",
+    "steps": [
+      "In Maine, the 25th and 26th observations both weigh 2 pounds.",
+      "In Massachusetts, both weigh 1 pound. Maine’s median is 1 pound higher."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "Weight (lb)",
+        "Maine",
+        "Massachusetts"
+      ],
+      "rows": [
+        [
+          "1",
+          "20",
+          "30"
+        ],
+        [
+          "2",
+          "20",
+          "15"
+        ],
+        [
+          "3",
+          "8",
+          "5"
+        ],
+        [
+          "4",
+          "2",
+          "0"
+        ]
+      ]
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "1",
+    "choices": [
+      "One pound lower",
+      "One pound higher",
+      "Half a pound higher",
+      "The same"
+    ]
+  },
+  {
+    "skill": "Word problem equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 28,
+    "id": "t5-native-48",
+    "parentTestId": "test-5",
+    "prompt": "A class has three more girls than four times the number of boys. There are 33 students. How many are boys?",
+    "steps": [
+      "If there are $b$ boys, $b+(4b+3)=33$.",
+      "$5b=30$, so $b=6$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "0",
+    "choices": [
+      "6",
+      "8",
+      "10",
+      "27"
+    ]
+  },
+  {
+    "skill": "Percentages",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 29,
+    "id": "t5-native-49",
+    "parentTestId": "test-5",
+    "prompt": "Taylor deposits 1,000 dollars at 5% interest compounded annually. She withdraws 200 dollars after 3 years. Which expression gives the balance after 7 years?",
+    "steps": [
+      "After the withdrawal, the balance is $1000(1.05)^3-200$.",
+      "Grow that for 4 more years: $[1000(1.05)^3-200](1.05)^4$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "$1000(1.05)^7-200$",
+      "$1000(1.05)^3+800(1.05)^4$",
+      "$1000(1.05)^3-200(1.05)^4$",
+      "$1000(1.05)^7-200(1.05)^4$"
+    ]
+  },
+  {
+    "skill": "Systems of equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 30,
+    "id": "t5-native-50",
+    "parentTestId": "test-5",
+    "prompt": "Alex and Brian weigh 300 pounds together; Alex and James weigh 280; James and Brian weigh 350. What is their combined weight?",
+    "steps": [
+      "Adding the three pair totals counts each person twice.",
+      "Their combined weight is $(300+280+350)/2=465$ pounds."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "3",
+    "choices": [
+      "425",
+      "445",
+      "450",
+      "465"
+    ]
+  },
+  {
+    "skill": "Word problem equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 31,
+    "id": "t5-native-51",
+    "parentTestId": "test-5",
+    "prompt": "A triangle’s angles measure $2y$, $3y$, and $60^\\circ$. Find $y$.",
+    "steps": [
+      "$2y+3y+60=180$.",
+      "$5y=120$, so $y=24$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "24"
+  },
+  {
+    "skill": "Volume",
+    "domain": "Geometry",
+    "referenceModule": 4,
+    "referenceQuestion": 32,
+    "id": "t5-native-52",
+    "parentTestId": "test-5",
+    "prompt": "Squares of side length 2 are cut from each corner of an 8-by-11 sheet. The sides fold up to form an open box. How many unit cubes fill the box?",
+    "steps": [
+      "The box base is $(8-4)$ by $(11-4)$, or 4 by 7. Its height is 2.",
+      "Its volume is $4(7)(2)=56$ unit cubes."
+    ],
+    "visual": {
+      "type": "nativeSVG",
+      "name": "t5-box",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"box\" viewBox=\"0 0 540 350\" style=\"width:100%;max-width:540px;height:auto;background:#fff;border-radius:12px\"><polygon points=\"155,65 385,65 385,285 155,285 155,65\" fill=\"white\" stroke=\"#17384d\" stroke-width=\"2\"/><polyline points=\"155,105 205,105 205,65\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><polyline points=\"335,65 335,105 385,105\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><polyline points=\"155,245 205,245 205,285\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><polyline points=\"335,285 335,245 385,245\" fill=\"none\" stroke=\"#17384d\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><text x=\"270\" y=\"318\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">8</text><text x=\"410\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">11</text><text x=\"182\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#17384d\" text-anchor=\"middle\">2</text></svg>"
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "56"
+  },
+  {
+    "skill": "Interpreting linear models",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 33,
+    "id": "t5-native-53",
+    "parentTestId": "test-5",
+    "prompt": "Pepper amount $p$ and salt amount $s$, in milligrams, follow $p=(10+3s)/4$. How many additional milligrams of pepper correspond to a 1-milligram increase in salt?",
+    "steps": [
+      "Rewrite as $p=2.5+0.75s$.",
+      "The coefficient of $s$ is 0.75, the pepper increase per milligram of salt."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": ".75"
+  },
+  {
+    "skill": "Probability",
+    "domain": "Data",
+    "referenceModule": 4,
+    "referenceQuestion": 34,
+    "id": "t5-native-54",
+    "parentTestId": "test-5",
+    "prompt": "In the table, a randomly chosen doctor has probability $4/5$ of taking at least one vacation yearly. How many surveyed people take at least two vacations yearly?",
+    "steps": [
+      "Of 100 doctors, 80 take at least one vacation; 45 take exactly one, so 35 take at least two.",
+      "Add 20 lawyers: $35+20=55$."
+    ],
+    "visual": {
+      "type": "table",
+      "headers": [
+        "Occupation",
+        "0",
+        "1",
+        "2+",
+        "Total"
+      ],
+      "rows": [
+        [
+          "Doctor",
+          "—",
+          "45",
+          "—",
+          "100"
+        ],
+        [
+          "Lawyer",
+          "35",
+          "40",
+          "20",
+          "95"
+        ],
+        [
+          "Total",
+          "—",
+          "85",
+          "—",
+          "195"
+        ]
+      ]
+    },
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "55",
+    "revisionNote": "Corrected the transcribed answer key from .55 to 55 people, as required by the question."
+  },
+  {
+    "skill": "Inequalities",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 35,
+    "id": "t5-native-55",
+    "parentTestId": "test-5",
+    "prompt": "A point $(h,k)$ satisfies $y\\le x/2-5$ and $y\\ge3x-20$. What is the greatest possible value of $h$?",
+    "steps": [
+      "For the two bounds to overlap, $3x-20\\le x/2-5$.",
+      "$2.5x\\le15$, giving $x\\le6$. Equality is possible, so the maximum is 6."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "6",
+    "revisionNote": "The source has a strict lower inequality, for which 6 is only a supremum. The native item includes the boundary so its requested maximum exists."
+  },
+  {
+    "skill": "Polynomial division",
+    "domain": "Advanced",
+    "referenceModule": 4,
+    "referenceQuestion": 36,
+    "id": "t5-native-56",
+    "parentTestId": "test-5",
+    "prompt": "What is the remainder when $x^2+2x+1$ is divided by $x+3$?",
+    "steps": [
+      "The remainder theorem gives the remainder as $f(-3)$.",
+      "$(-3)^2+2(-3)+1=4$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "4"
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 37,
+    "id": "t5-native-57",
+    "parentTestId": "test-5",
+    "prompt": "The cost per necklace is $C=100+36/n$ dollars when $n$ necklaces are made. What is the total cost of making 6 necklaces?",
+    "steps": [
+      "For 6 necklaces, the unit cost is $100+36/6=106$.",
+      "The total is $6(106)=636$ dollars."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "636"
+  },
+  {
+    "skill": "Solving equations",
+    "domain": "Algebra",
+    "referenceModule": 4,
+    "referenceQuestion": 38,
+    "id": "t5-native-58",
+    "parentTestId": "test-5",
+    "prompt": "The cost per necklace is $C=100+36/n$ dollars. Each necklace sells for 150 dollars. How many must be made and sold for a total profit of 564 dollars?",
+    "steps": [
+      "Total cost is $nC=100n+36$, and revenue is $150n$.",
+      "$150n-(100n+36)=564$ gives $50n=600$, so $n=12$."
+    ],
+    "visual": null,
+    "source": "Panda Test 2 · Native conversion",
+    "level": "Medium",
+    "answer": "12"
+  }
+]

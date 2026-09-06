@@ -1,0 +1,1378 @@
+[
+  {
+    "id": "t19-m1-q1",
+    "prompt": "@@t19-m1-q1p@@",
+    "searchText": "The lengths of two sides of a triangle are\n4 centimeters and 6 centimeters. If the perimeter of\nthe triangle is 18 centimeters, what is the length, in\ncentimeters, of the third side of this triangle?\nA) 2\nB) 8\nC) 10\nD) 24\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A triangle's perimeter is the sum of its three sides.",
+      "The missing side is $18-4-6=8$ centimeters."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m1-q1A@@",
+      "@@t19-m1-q1B@@",
+      "@@t19-m1-q1C@@",
+      "@@t19-m1-q1D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q2",
+    "prompt": "@@t19-m1-q2p@@",
+    "searchText": "x\n16 + 30 = 190\nWhich equation has the same solution as the given\nequation?\nA)\nx\n16\n= 30\nB)\nx\n16\n= 130\nC)\nx\n16\n= 160\nD)\nx\n16\n= 190\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract 30 from both sides of $16x+30=190$.",
+      "The equivalent equation is $16x=160$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q2A@@",
+      "@@t19-m1-q2B@@",
+      "@@t19-m1-q2C@@",
+      "@@t19-m1-q2D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q3",
+    "prompt": "@@t19-m1-q3p@@",
+    "searchText": "Ty set a goal to walk at least 24 kilometers every day\nto prepare for a multiday hike. On a certain day, Ty\nplans to walk at an average speed of 4 kilometers per\nhour. What is the minimum number of hours Ty\nmust walk on that day to fulfill the daily goal?\nA) 4\nB) 6\nC) 20\nD) 24\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Time equals distance divided by speed.",
+      "To walk at least 24 kilometers at 4 kilometers per hour requires at least $24/4=6$ hours."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q3A@@",
+      "@@t19-m1-q3B@@",
+      "@@t19-m1-q3C@@",
+      "@@t19-m1-q3D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q4",
+    "prompt": "The function $g$ is defined by $g(x)=x^2+9$. For which value of $x$ is $g(x)=25$?",
+    "searchText": "The function g is defined by g x\nx\n=\n+ 9\n2\n( )\n. For\nwhich value of x is g x = 25\n( )\n?\nA) 4\nB) 5\nC) 9\nD) 13\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Set $x^2+9=25$, giving $x^2=16$.",
+      "The solutions are $x=\\pm4$; among the choices, 4 is present."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q4A@@",
+      "@@t19-m1-q4B@@",
+      "@@t19-m1-q4C@@",
+      "@@t19-m1-q4D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q5",
+    "prompt": "Which expression is equivalent to $9x^2+5x$?",
+    "searchText": "Which expression is equivalent to x\nx\n9\n+ 5\n2\n?\nA) x\nx\n(9 + 5)\nB)\nx\nx\n5 (9 + 1)\nC)\nx x\n9 ( + 5)\nD) x\nx\n(9 + 5)\n2\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Both terms have a factor of x.",
+      "Factoring gives $9x^2+5x=x(9x+5)$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m1-q5A@@",
+      "@@t19-m1-q5B@@",
+      "@@t19-m1-q5C@@",
+      "@@t19-m1-q5D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q6",
+    "prompt": "@@t19-m1-q6p@@",
+    "searchText": "Each value in the data set shown represents the\nheight, in centimeters, of a plant. \n6, 10, 13, 2, 15, 22, 10, 4, 4, 4\nWhat is the mean height, in centimeters, of these\nplants?\n",
+    "answer": "9",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Add the ten heights to obtain 90 centimeters.",
+      "Divide by 10 plants: the mean is 9 centimeters."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis"
+  },
+  {
+    "id": "t19-m1-q7",
+    "prompt": "@@t19-m1-q7p@@",
+    "searchText": "A student council group is selling school posters for a\nfundraiser. They use the function p x\nx\n= 5 −220\n( )\nto\ndetermine their profit p x\n( ), in dollars, for selling\nx school posters. In order to earn a profit of $900,\nhow many school posters must they sell?\n",
+    "answer": "224",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Set the profit equal to 900: $5x-220=900$.",
+      "Then $5x=1120$, so $x=224$ posters."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m1-q8",
+    "prompt": "@@t19-m1-q8p@@",
+    "searchText": "Jay walks at a speed of 3 miles per hour and runs at a\nspeed of 5 miles per hour. He walks for w hours and\nruns for r hours for a combined total of 14 miles.\nWhich equation represents this situation?\nA)\nw\nr\n3\n+ 5 = 14\nB)\nw\nr\n1\n3\n+ 1\n5\n= 14\nC)\nw\nr\n1\n3\n+ 1\n5\n= 112\nD)\nw\nr\n3\n+ 5 = 112\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Walking contributes $3w$ miles and running contributes $5r$ miles.",
+      "Their combined distance is represented by $3w+5r=14$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q8A@@",
+      "@@t19-m1-q8B@@",
+      "@@t19-m1-q8C@@",
+      "@@t19-m1-q8D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q9",
+    "prompt": "@@t19-m1-q9p@@",
+    "searchText": "John paid a total of $165 for a microscope by making\na down payment of $37 plus p monthly payments of\n$16 each. Which of the following equations\nrepresents this situation?\nA)\np\n16 −37 = 165\nB)\np\n37 −16 = 165\nC)\np\n16 + 37 = 165\nD)\np\n37 + 16 = 165\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The p monthly payments total $16p$ dollars, in addition to the 37-dollar down payment.",
+      "Thus $16p+37=165$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q9A@@",
+      "@@t19-m1-q9B@@",
+      "@@t19-m1-q9C@@",
+      "@@t19-m1-q9D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q10",
+    "prompt": "@@t19-m1-q10p@@",
+    "searchText": "y\npx\n−57 =\nThe given equation relates the positive numbers p, x,\nand y. Which equation correctly expresses y in terms\nof p and x ?\nA) y\nx\np\n= 57 +\nB)\ny\npx\n=\n+ 57\nC) y\npx\n= 57\nD) y\npx\n= 57\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Start with $y-57=px$.",
+      "Add 57 to both sides: $y=px+57$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q10A@@",
+      "@@t19-m1-q10B@@",
+      "@@t19-m1-q10C@@",
+      "@@t19-m1-q10D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q11",
+    "prompt": "@@t19-m1-q11p@@",
+    "searchText": "A company opens an account with an initial balance\nof $36,100.00. The account earns interest, and no\nadditional deposits or withdrawals are made. The\naccount balance is given by an exponential\nfunction A, where A t( ) is the account balance, in\ndollars, t years after the account is opened. The\naccount balance after 13 years is $68,071.93. Which\nequation could define A ?\nA) A t = 36,100.00 1.05 t\n( )\n(\n)\nB) A t = 31,971.93 1.05 t\n( )\n(\n)\nC) A t = 31,971.93 0.05 t\n( )\n(\n)\nD) A t = 36,100.00 0.05 t\n( )\n(\n)\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "An exponential balance model has its initial balance as the leading coefficient, so it must start with 36,100.",
+      "The balance grows, and $36100(1.05)^{13}\\approx68071.93$, matching choice A."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m1-q11A@@",
+      "@@t19-m1-q11B@@",
+      "@@t19-m1-q11C@@",
+      "@@t19-m1-q11D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q12",
+    "prompt": "@@t19-m1-q12p@@",
+    "searchText": "The circle shown has center O, circumference\nπ\n144 ,\nand diameters PR and QS. The length of arc PS is\ntwice the length of arc PQ. What is the length of\narc QR ?\nA)\nπ\n24\nB)\nπ\n48\nC)\nπ\n72\nD)\nπ\n96\nNote: Figure not drawn to scale. \n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The arcs PS and PQ form a semicircle, so their total length is $72\\pi$. With PS twice PQ, PQ is $24\\pi$.",
+      "PR is also a diameter, so PQ and QR total $72\\pi$. Therefore QR is $48\\pi$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m1-q12A@@",
+      "@@t19-m1-q12B@@",
+      "@@t19-m1-q12C@@",
+      "@@t19-m1-q12D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q13",
+    "prompt": "@@t19-m1-q13p@@",
+    "searchText": "y\nx\nx\ny\n= −2\n3 +\n= 40\nThe solution to the given system of equations is\nx y\n,\n(\n). What is the value of x ?\n",
+    "answer": "40",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $y=-2x$ into $3x+y=40$.",
+      "This gives $x=40$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m1-q14",
+    "prompt": "@@t19-m1-q14p@@",
+    "searchText": "Data value Frequency\n6\n3\n7\n3\n8\n8\n9\n8\n10\n9\n11\n11\n12\n9\n13\n0\n14\n6\nThe frequency table summarizes the 57 data values in\na data set. What is the maximum data value in the\ndata set?\n",
+    "answer": "14",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Find the largest data value with a nonzero frequency.",
+      "The table contains six occurrences of 14 and no larger value, so the maximum is 14."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m1-q15",
+    "prompt": "@@t19-m1-q15p@@",
+    "searchText": "One leg of a right triangle has a length of\n43.2 millimeters. The hypotenuse of the triangle has a\nlength of 196.8 millimeters. What is the length of the\nother leg of the triangle, in millimeters?\nA) 43.2\nB) 120\nC) 192\nD) 201.5\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Apply the Pythagorean theorem to the missing leg: $b^2=196.8^2-43.2^2$.",
+      "Use the difference of squares: $b^2=(196.8-43.2)(196.8+43.2)=36864$, so $b=192$ millimeters."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m1-q15A@@",
+      "@@t19-m1-q15B@@",
+      "@@t19-m1-q15C@@",
+      "@@t19-m1-q15D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q16",
+    "prompt": "@@t19-m1-q16p@@",
+    "searchText": "A wire with a length of 106 inches is cut into\ntwo parts. One part has a length of x inches, and the\nother part has a length of y inches. The value of x is\n6 more than 4 times the value of y. What is the value\nof x ?\nA) 25\nB) 28\nC) 56\nD) 86\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use $x+y=106$ and $x=4y+6$.",
+      "Then $5y+6=106$, giving $y=20$ and $x=86$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q16A@@",
+      "@@t19-m1-q16B@@",
+      "@@t19-m1-q16C@@",
+      "@@t19-m1-q16D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q17",
+    "prompt": "@@t19-m1-q17p@@",
+    "searchText": "f x\nx\nx\nx\n=\n+ 6\n+ 5\n−4\n( )\n(\n)(\n)(\n)\nThe function f is given. Which table of values\nrepresents y\nf x\n=\n−3\n( )\n?\nA)\nx\ny\nnegative 6\nnegative 9\nnegative 5\nnegative 8\n4\n1\nB)\nx\ny\nnegative 6\nnegative 3\nnegative 5\nnegative 3\n4\nnegative 3\nC)\nx\ny\nnegative 6\nnegative 3\nnegative 5\nnegative 2\n4\n7\nD)\nx\ny\nnegative 6\n3\nnegative 5\n3\n4\n3\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At $x=-6,-5,4$, one factor of f is zero, so $f(x)=0$.",
+      "For each of these x-values, $y=f(x)-3=-3$, matching table B."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q17A@@",
+      "@@t19-m1-q17B@@",
+      "@@t19-m1-q17C@@",
+      "@@t19-m1-q17D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q18",
+    "prompt": "@@t19-m1-q18p@@",
+    "searchText": "A landscaper uses a hose that puts\nx\n88\nounces of\nwater in a bucket in y\n5\nminutes. Which expression\nrepresents the number of ounces of water the hose\nputs in the bucket in y\n9\nminutes at this rate?\nA)\nx\n9\n440\nB)\nx\n440\n9\nC)\nx\n5\n792\nD)\nx\n792\n5\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The hose's rate is $88x/(5y)$ ounces per minute.",
+      "Multiply by $9y$ minutes to obtain $792x/5$ ounces."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q18A@@",
+      "@@t19-m1-q18B@@",
+      "@@t19-m1-q18C@@",
+      "@@t19-m1-q18D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q19",
+    "prompt": "@@t19-m1-q19p@@",
+    "searchText": "x\ny\ny\nhy\nx\n4 −9\n= 9 + 5\n= 2 + 4\nIn the given system of equations, h is a constant. If\nthe system has no solution, what is the value of h ?\nA) negative 9\nB) 0\nC) 9\nD) 18\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The first equation becomes $18y=4x-5$, with slope $4/18$.",
+      "The second has slope $4/h$. Equal slopes require $h=18$, and the intercepts then differ, giving no solution."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q19A@@",
+      "@@t19-m1-q19B@@",
+      "@@t19-m1-q19C@@",
+      "@@t19-m1-q19D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q20",
+    "prompt": "@@t19-m1-q20p@@",
+    "searchText": "13 is p% of 25. What is the value of p ?\n",
+    "answer": "52",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Translate “13 is p% of 25” into $13=(p/100)(25)$.",
+      "Thus $p=13(100)/25=52$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m1-q21",
+    "prompt": "@@t19-m1-q21p@@",
+    "searchText": "x\nx\n( −2)\n=\n3 + 34\n2\nWhat is the smallest solution to the given equation?\n",
+    "answer": "-3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Expand $(x-2)^2=3x+34$ to obtain $x^2-7x-30=0$.",
+      "Factor $(x-10)(x+3)=0$. The smaller solution is $-3$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m1-q22",
+    "prompt": "@@t19-m1-q22p@@",
+    "searchText": "Function f is defined by\nf x\nx\nx\nx\n=\n+ 6\n+ 5\n+ 1\n( )\n(\n)(\n)(\n). Function g is defined\nby g x\nf x\n=\n−1\n( )\n(\n). The graph of y\ng x\n=\n( ) in the\nxy-plane has x-intercepts at a, 0\n(\n), b, 0\n(\n), and c, 0\n(\n),\nwhere a, b, and c are distinct constants. What is the\nvalue of a\nb\nc\n+\n+\n?\nA) −15\nB) −9\nC) 11\nD) 15\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The zeros of f are $-6,-5,-1$. Replacing x by $x-1$ shifts each zero right by 1.",
+      "The zeros of g are $-5,-4,0$, whose sum is $-9$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q22A@@",
+      "@@t19-m1-q22B@@",
+      "@@t19-m1-q22C@@",
+      "@@t19-m1-q22D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q23",
+    "prompt": "@@t19-m1-q23p@@",
+    "searchText": "For x > 0, the function f is defined as follows:\nf x\n( ) equals 201% of x\nWhich of the following could describe this function?\nA) Decreasing exponential\nB) Decreasing linear\nC) Increasing exponential\nD) Increasing linear\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "201% of x is $2.01x$.",
+      "This is a linear function with positive slope, so it is increasing linear."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m1-q23A@@",
+      "@@t19-m1-q23B@@",
+      "@@t19-m1-q23C@@",
+      "@@t19-m1-q23D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q24",
+    "prompt": "$f(x)=4x^2+64x+262$. The function $g$ is defined by $g(x)=f(x+5)$. For what value of $x$ does $g(x)$ reach its minimum?",
+    "searchText": "f x\nx\nx\n= 4\n+ 64 + 262\n2\n( )\nThe function g is defined by g x\nf x\n=\n+ 5\n( )\n(\n). For\nwhat value of x does g x\n( ) reach its minimum?\nA) −13\nB) −8\nC) −5\nD) −3\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The minimum of f occurs at $x=-64/(2\\cdot4)=-8$.",
+      "Since $g(x)=f(x+5)$, its minimum occurs when $x+5=-8$, giving $x=-13$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q24A@@",
+      "@@t19-m1-q24B@@",
+      "@@t19-m1-q24C@@",
+      "@@t19-m1-q24D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q25",
+    "prompt": "@@t19-m1-q25p@@",
+    "searchText": "One gallon of stain will cover 170 square feet of a\nsurface. A yard has a total fence area of w square feet.\nWhich equation represents the total amount of\nstain S, in gallons, needed to stain the fence in this\nyard twice?\nA) S\nw\n= 170\nB) S\nw\n= 170\nC) S\nw\n= 340\nD) S\nw\n= 85\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Two coats require coverage of $2w$ square feet.",
+      "At 170 square feet per gallon, $S=2w/170=w/85$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q25A@@",
+      "@@t19-m1-q25B@@",
+      "@@t19-m1-q25C@@",
+      "@@t19-m1-q25D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q26",
+    "prompt": "@@t19-m1-q26p@@",
+    "searchText": "Poll Results\nAngel Cruz\n483\nTerry Smith 320\nThe table shows the results of a poll. A total of\n803 voters selected at random were asked which\ncandidate they would vote for in the upcoming\nelection. According to the poll, if 6,424 people vote in\nthe election, by how many votes would Angel Cruz\nbe expected to win?\nA) 163\nB) 1,304\nC) 3,864\nD) 5,621\nS\nI I \n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The poll's vote margin is $483-320=163$ out of 803.",
+      "The projected electorate is $6424/803=8$ times as large, giving a margin of $163(8)=1304$ votes."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m1-q26A@@",
+      "@@t19-m1-q26B@@",
+      "@@t19-m1-q26C@@",
+      "@@t19-m1-q26D@@"
+    ]
+  },
+  {
+    "id": "t19-m1-q27",
+    "prompt": "@@t19-m1-q27p@@",
+    "searchText": "Right rectangular prism X is similar to right\nrectangular prism Y. The surface area of right\nrectangular prism X is 58 square centimeters cm2\n(\n),\nand the surface area of right rectangular prism Y\nis 1,450 cm2. The volume of right rectangular\nprism Y is 1,250 cubic centimeters cm3\n(\n). What is the\nsum of the volumes, in cm3, of right rectangular\nprism X and right rectangular prism Y?\n",
+    "answer": "1260",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The surface-area ratio is $1450/58=25$, so the length scale factor is 5 and volume factor is $5^3=125$.",
+      "Prism X has volume $1250/125=10$. Their volumes sum to 1260 cubic centimeters."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 1,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t19-m2-q1",
+    "prompt": "@@t19-m2-q1p@@",
+    "searchText": "w + 7 = 357\nWhat value of w is the solution to the given\nequation?\nA) 51\nB) 350\nC) 364\nD) 3,577\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract 7 from both sides.",
+      "Then $w=357-7=350$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 42,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q1A@@",
+      "@@t19-m2-q1B@@",
+      "@@t19-m2-q1C@@",
+      "@@t19-m2-q1D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q2",
+    "prompt": "Which expression is equivalent to $16(x+15)$?",
+    "searchText": "Which expression is equivalent to\nx\n16( + 15) ?\nA)\nx\n16 + 31\nB)\nx\n16 + 240\nC)\nx\n16 + 1\nD)\nx\n16 + 15\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Distribute 16 to both terms.",
+      "The result is $16x+240$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 42,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m2-q2A@@",
+      "@@t19-m2-q2B@@",
+      "@@t19-m2-q2C@@",
+      "@@t19-m2-q2D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q3",
+    "prompt": "@@t19-m2-q3p@@",
+    "searchText": "Live east\nof the river\nLive west\nof the river Total\nLess than\n40 years old\n17\n11\n28\nAt least\n40 years old\n18\n89\n107\nTotal\n35\n100\n135\nThe table summarizes members of a local\norganization by age and whether they live east or\nwest of the river. If a member of the organization is\nselected at random, what is the probability that the\nselected member is at least 40 years old? \nA)\n28\n135\nB)\n35\n135\nC) 100\n135\nD) 107\n135\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "There are 107 members at least 40 years old among 135 members total.",
+      "The probability is $107/135$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 42,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t19-m2-q3A@@",
+      "@@t19-m2-q3B@@",
+      "@@t19-m2-q3C@@",
+      "@@t19-m2-q3D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q4",
+    "prompt": "@@t19-m2-q4p@@",
+    "searchText": "x\n3\n= 12\nx\ny\n−3 +\n= −6\nThe solution to the given system of equations\nis x y\n( , ). What is the value of y ?\nA) −3\nB) 6\nC) 18\nD) 30\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "From $3x=12$, $x=4$.",
+      "Substitute into $-3x+y=-6$: $-12+y=-6$, so $y=6$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 42,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q4A@@",
+      "@@t19-m2-q4B@@",
+      "@@t19-m2-q4C@@",
+      "@@t19-m2-q4D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q5",
+    "prompt": "@@t19-m2-q5p@@",
+    "searchText": "A line in the xy-plane has a slope of 1\n9 and passes\nthrough the point (0, 14). Which equation represents\nthis line?\nA) y\nx\n= −1\n9\n−14\nB)\ny\nx\n= −1\n9\n+ 14\nC) y\nx\n= 1\n9\n−14\nD) y\nx\n= 1\n9\n+ 14\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use slope-intercept form $y=mx+b$.",
+      "The slope is $1/9$ and the point $(0,14)$ gives $b=14$, so $y=x/9+14$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 43,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q5A@@",
+      "@@t19-m2-q5B@@",
+      "@@t19-m2-q5C@@",
+      "@@t19-m2-q5D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q6",
+    "prompt": "@@t19-m2-q6p@@",
+    "searchText": "In the figure shown, line c intersects parallel lines s\nand t. What is the value of x ?\nC \nNote: Figure not drawn to scale. \n",
+    "answer": "70",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The angle adjacent to the given $110^\\circ$ angle measures $180-110=70^\\circ$.",
+      "Corresponding angles on the parallel lines are equal, so $x=70$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 43,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m2-q7",
+    "prompt": "@@t19-m2-q7p@@",
+    "searchText": "f x\nx\n( ) =\n+ 8\n11\nThe function f is defined by the given equation.\nWhat is the value of f x\n( ) when x = 3\n11 ?\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $x=3/11$ into $f(x)=x+8/11$.",
+      "Then $f(3/11)=3/11+8/11=1$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 43,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m2-q8",
+    "prompt": "@@t19-m2-q8p@@",
+    "searchText": "x\ny\n0\n18\n1\n13\n2\n8\nThe table shows three values of x and their\ncorresponding values of y. There is a linear\nrelationship between x and y. Which of the\nfollowing equations represents this relationship?\nA) y\nx\n= 18 + 13\nB)\ny\nx\n= 18 + 18\nC) y\nx\n= −5 + 13\nD) y\nx\n= −5 + 18\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Each increase of 1 in x decreases y by 5, giving slope $-5$.",
+      "At $x=0$, $y=18$. Therefore $y=-5x+18$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 43,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q8A@@",
+      "@@t19-m2-q8B@@",
+      "@@t19-m2-q8C@@",
+      "@@t19-m2-q8D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q9",
+    "prompt": "@@t19-m2-q9p@@",
+    "searchText": "x + 7 = 10\nx\ny\n+ 7\n=\n2\n(\n)\nWhich ordered pair x y\n,\n(\n) is a solution to the given\nsystem of equations?\nA)\n3, 100\n(\n)\nB)\n3, 3\n(\n)\nC)\n3, 10\n(\n)\nD)\n3, 70\n(\n)\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The first equation gives $x+7=10$, hence $x=3$.",
+      "The second gives $y=(x+7)^2=10^2=100$, so $(3,100)$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q9A@@",
+      "@@t19-m2-q9B@@",
+      "@@t19-m2-q9C@@",
+      "@@t19-m2-q9D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q10",
+    "prompt": "The function $f$ is defined by $f(x)=7x-84$. What is the x-intercept of $y=f(x)$?",
+    "searchText": "The function f is defined by f x\nx\n= 7 −84\n( )\n. What is\nthe x-intercept of the graph of y\nf x\n= ( ) in the\nxy-plane?\nA) (−12, 0)\nB) (−7, 0)\nC) (7, 0)\nD) (12, 0)\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "An x-intercept has $y=0$.",
+      "Solve $7x-84=0$ to get $x=12$, giving $(12,0)$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q10A@@",
+      "@@t19-m2-q10B@@",
+      "@@t19-m2-q10C@@",
+      "@@t19-m2-q10D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q11",
+    "prompt": "@@t19-m2-q11p@@",
+    "searchText": "Time (years) Total amount (dollars)\n0\n604.00\n1\n606.42\n2\n608.84\nRosa opened a savings account at a bank. The table\nshows the exponential relationship between the\ntime t, in years, since Rosa opened the account and\nthe total amount n, in dollars, in the account. If Rosa\nmade no additional deposits or withdrawals, which\nof the following equations best represents the\nrelationship between t and n ?\nA) n = (1 + 604)t\nB) n = (1 + 0.004)t\nC) n = 604(1 + 0.004)t\nD) n = 0.004(1 + 604)t\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The initial amount is 604, so this is the exponential coefficient.",
+      "The annual ratio is approximately $606.42/604=1.004$, giving $n=604(1+0.004)^t$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m2-q11A@@",
+      "@@t19-m2-q11B@@",
+      "@@t19-m2-q11C@@",
+      "@@t19-m2-q11D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q12",
+    "prompt": "@@t19-m2-q12p@@",
+    "searchText": "w t\nt\n= 300 −4\n( )\nThe function w models the volume of liquid, in\nmilliliters, in a container t seconds after it begins\ndraining from a hole at the bottom. According to the\nmodel, what is the predicted volume, in milliliters,\ndraining from the container each second?\nA) 300\nB) 296\nC) 75\nD) 4\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "In $w(t)=300-4t$, the coefficient of t is the change per second.",
+      "The volume decreases by 4 milliliters per second, so the draining amount is 4."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m2-q12A@@",
+      "@@t19-m2-q12B@@",
+      "@@t19-m2-q12C@@",
+      "@@t19-m2-q12D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q13",
+    "prompt": "@@t19-m2-q13p@@",
+    "searchText": "h x\nx\nb\n=\n+\n( )\nFor the linear function h, b is a constant and\nh 0 = 45\n( )\n. What is the value of b ?\n",
+    "answer": "45",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $x=0$ into $h(x)=x+b$.",
+      "Then $h(0)=b=45$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m2-q14",
+    "prompt": "@@t19-m2-q14p@@",
+    "searchText": "z\nz\n+ 10 −24 = 0\n2\nWhat is one of the solutions to the given equation?\n",
+    "answer": "2",
+    "acceptedAnswers": [
+      "-12"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Factor $z^2+10z-24=(z+12)(z-2)$.",
+      "The roots are $-12$ and 2. Either is a valid answer."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m2-q15",
+    "prompt": "@@t19-m2-q15p@@",
+    "searchText": "Triangle FGH is similar to triangle JKL, where\nangle F corresponds to angle J and angles G and K\nare right angles. If\nF\nsin( ) = 308\n317, what is the value of\nJ\nsin( ) ?\nA)\n75\n317\nB)\n308\n317\nC) 317\n308\nD) 317\n75\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Corresponding angles F and J are equal in similar triangles.",
+      "Their sines are equal, so $\\sin J=308/317$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m2-q15A@@",
+      "@@t19-m2-q15B@@",
+      "@@t19-m2-q15C@@",
+      "@@t19-m2-q15D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q16",
+    "prompt": "@@t19-m2-q16p@@",
+    "searchText": "The population of Greenville increased by 7%\nfrom 2015 to 2016. If the 2016 population is k times\nthe 2015 population, what is the value of k ?\nA) 0.07\nB) 0.7\nC) 1.07\nD) 1.7\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A 7% increase multiplies the original value by $1+0.07$.",
+      "Thus $k=1.07$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q16A@@",
+      "@@t19-m2-q16B@@",
+      "@@t19-m2-q16C@@",
+      "@@t19-m2-q16D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q17",
+    "prompt": "@@t19-m2-q17p@@",
+    "searchText": "Each of the dot plots shown represents the number of\nglue sticks brought in by each student for two classes,\nclass A and class B. Which statement best compares\nthe standard deviations of the numbers of glue sticks\nbrought in by each student for these two classes?\nA) The standard deviation of the number of glue\nsticks brought in by each student for class A is\nless than the standard deviation of the number of\nglue sticks brought in by each student for class B.\nB) The standard deviation of the number of glue\nsticks brought in by each student for class A is\nequal to the standard deviation of the number of\nglue sticks brought in by each student for class B.\nC) The standard deviation of the number of glue\nsticks brought in by each student for class A is\ngreater than the standard deviation of the\nnumber of glue sticks brought in by each student\nfor class B.\nD) There is not enough information to compare\nthese standard deviations.\nClass A \nClass B \n• \n• \n• • \n• • \n• • • \n• • • \n• • • • \n• • • • \n• • • • • \n• • • • • \n• • • • • \n• • • • • \n• • • • • • • \n• • • • • • • \nI \nI \nI \nI \nI \nI \nI \n1 2 3 4 5 6 7 \n14 15 16 17 18 19 20 \n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The second dot plot is a horizontal translation of the first with the same frequencies.",
+      "Adding a constant to every value leaves standard deviation unchanged, so the standard deviations are equal."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t19-m2-q17A@@",
+      "@@t19-m2-q17B@@",
+      "@@t19-m2-q17C@@",
+      "@@t19-m2-q17D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q18",
+    "prompt": "@@t19-m2-q18p@@",
+    "searchText": "m t\nt\nt\n= –0.0274 7\n+ 7.3873 7\n+ 75.032\n2\n( )\n\n\n\n\n\n\n\n\nThe function m gives the predicted body mass m t( ),\nin kilograms (kg), of a certain animal t days after it\nwas born in a wildlife reserve, where t ≤390. Which\nof the following is the best interpretation of the\nstatement “m(330) is approximately equal to 362” in\nthis context?\nA) The predicted body mass of the animal was\napproximately 330 kg 362 days after it was born.\nB) The predicted body mass of the animal was\napproximately 362 kg 330 days after it was born.\nC) The predicted body mass of the animal was\napproximately 362 kg 330\n7\ndays after it was born.\nD) The predicted body mass of the animal was\napproximately 330\n7\nkg 362 days after it was born.\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The input t represents days since birth; the output m(t) represents kilograms.",
+      "Thus $m(330)\\approx362$ means a predicted mass of 362 kilograms at 330 days old."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q18A@@",
+      "@@t19-m2-q18B@@",
+      "@@t19-m2-q18C@@",
+      "@@t19-m2-q18D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q19",
+    "prompt": "@@t19-m2-q19p@@",
+    "searchText": "Triangle XYZ is similar to triangle RST such that X,\nY, and Z correspond to R, S, and T, respectively.\nThe measure of\nZ\n∠\nis 20° and XY\nRS\n2\n=\n. What is\nthe measure of\nT\n∠\n?\nA) 2°\nB) 10°\nC) 20°\nD) 40°\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Similarity preserves corresponding angles regardless of the side-length scale.",
+      "Z corresponds to T, so angle T is $20^\\circ$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m2-q19A@@",
+      "@@t19-m2-q19B@@",
+      "@@t19-m2-q19C@@",
+      "@@t19-m2-q19D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q20",
+    "prompt": "@@t19-m2-q20p@@",
+    "searchText": "The function f t( ) = 60,000(2)\nt\n410 gives the number\nof bacteria in a population t minutes after an initial\nobservation. How much time, in minutes, does it\ntake for the number of bacteria in the population to\ndouble?\n",
+    "answer": "410",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The factor of 2 doubles the population whenever its exponent increases by 1.",
+      "In $2^{t/410}$ this takes 410 minutes."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m2-q21",
+    "prompt": "@@t19-m2-q21p@@",
+    "searchText": "The function f is defined by f x\na\nb\n( ) =\n+\nx\n, where a\nand b are constants and a > 0. In the xy-plane, the\ngraph of y\nf x\n= ( ) has a y-intercept at (0, −25) and\npasses through the point (2, 23). What is the value of\na\nb\n+\n?\n",
+    "answer": "-19",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At $x=0$, $1+b=-25$, so $b=-26$.",
+      "Using $(2,23)$ gives $a^2-26=23$, so positive $a=7$. Therefore $a+b=-19$."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t19-m2-q22",
+    "prompt": "@@t19-m2-q22p@@",
+    "searchText": "y\nx\n> 13 −18\nFor which of the following tables are all the values of\nx and their corresponding values of y solutions to the\ngiven inequality?\nA)\nx\ny\n3\n21\n5\n47\n8\n86\nB)\nx\ny\n3\n26\n5\n42\n8\n86\nC)\nx\ny\n3\n16\n5\n42\n8\n81\nD)\nx\ny\n3\n26\n5\n52\n8\n91\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "For x-values 3, 5, and 8, the strict bounds $13x-18$ are 21, 47, and 86.",
+      "Choice D has 26, 52, and 91, each strictly greater than its bound."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q22A@@",
+      "@@t19-m2-q22B@@",
+      "@@t19-m2-q22C@@",
+      "@@t19-m2-q22D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q23",
+    "prompt": "@@t19-m2-q23p@@",
+    "searchText": "A certain town has an area of 4.36 square miles.\nWhat is the area, in square yards, of this town?\n(1 mile = 1,760 yards)\nA) 404\nB) 7,674\nC) 710,459\nD) 13,505,536\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A square mile contains $1760^2$ square yards.",
+      "Compute $4.36(1760)^2=13505536$ square yards."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t19-m2-q23A@@",
+      "@@t19-m2-q23B@@",
+      "@@t19-m2-q23C@@",
+      "@@t19-m2-q23D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q24",
+    "prompt": "@@t19-m2-q24p@@",
+    "searchText": "A square is inscribed in a circle. The radius of the\ncircle is 20 2\n2\ninches. What is the side length, in\ninches, of the square?\nA) 20\nB)\n20 2\n2\nC) 20 2\nD) 40\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The square's diagonal equals the circle's diameter, $20\\sqrt2$.",
+      "Since a square diagonal equals its side times $\\sqrt2$, the side is 20 inches."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t19-m2-q24A@@",
+      "@@t19-m2-q24B@@",
+      "@@t19-m2-q24C@@",
+      "@@t19-m2-q24D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q25",
+    "prompt": "@@t19-m2-q25p@@",
+    "searchText": "Which expression is equivalent\nto y\nx\ny x\nx y\nxy\n+ 12\n−8 +\n( −8)\n−8\n2\n?\nA)\nxy\ny\nx y\nx y\nxy\n+\n+ 4\n−16\n+ 64\n3\n2\nB)\nxy\ny\nx y\nxy\nx\n+ 9 + 12\n−8\n+\n−8\n2\nC) xy\nxy\ny\nx y\nxy\n+ 13\n−8\n−8\n2\n2\nD)\nxy\nxy\ny\nx y\nx y\nxy\n+ 13\n−8\n−16\n+ 64\n2\n3\n2\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use the common denominator $x^2y-8xy=xy(x-8)$, where $x\\ne0,8$ and $y\\ne0$.",
+      "The numerator becomes $xy(y+12)+y(x-8)=xy^2+13xy-8y$, matching choice C."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m2-q25A@@",
+      "@@t19-m2-q25B@@",
+      "@@t19-m2-q25C@@",
+      "@@t19-m2-q25D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q26",
+    "prompt": "@@t19-m2-q26p@@",
+    "searchText": "The function f is defined by f x\na\n( ) =\n2.2 + 2.2\nx\nb\n(\n),\nwhere a and b are integer constants and\na\nb\n0 <\n<\n.\nThe functions g and h are equivalent to function f,\nwhere k and m are constants. Which of the\nfollowing equations displays the y-coordinate of the\ny-intercept of the graph of y\nf x\n= ( ) in the xy-plane\nas a constant or coefficient?\nI. g x\na\nk\n( ) =\n(2.2 + )\nx\nII. h x\na\nm\n( ) =\n(2.2) +\nx\nA) I only\nB) II only\nC) I and II\nD) Neither I nor II\nS\nIf\nfi i h b f\nti\ni\nll d\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At $x=0$, the y-coordinate is $a(1+2.2^b)$.",
+      "Form I shows a and k separately, and form II shows a and m separately. Neither directly displays the entire y-intercept as one constant or coefficient."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t19-m2-q26A@@",
+      "@@t19-m2-q26B@@",
+      "@@t19-m2-q26C@@",
+      "@@t19-m2-q26D@@"
+    ]
+  },
+  {
+    "id": "t19-m2-q27",
+    "prompt": "@@t19-m2-q27p@@",
+    "searchText": "x kx\n(\n−56) = −16\nIn the given equation, k is an integer constant. If\nthe equation has no real solution, what is the least\npossible value of k ?\nk\nk\nthi\nd l\nl\n",
+    "answer": "50",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Expand to $kx^2-56x+16=0$.",
+      "No real solutions requires $(-56)^2-4(k)(16)<0$, or $k>49$. The least integer is 50."
+    ],
+    "parentTestId": "test-19",
+    "referenceModule": 2,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 9 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  }
+]

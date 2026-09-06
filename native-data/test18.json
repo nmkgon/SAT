@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "t18-m1-q1",
+    "prompt": "@@t18-m1-q1p@@",
+    "searchText": "A bus is traveling at a constant speed along a straight\nportion of road. The equation d\nt\n= 30 gives the\ndistance d, in feet from a road marker, that the bus\nwill be t seconds after passing the marker. How\nmany feet from the marker will the bus be 2 seconds\nafter passing the marker?\nA) 30\nB) 32\nC) 60\nD) 90\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $t=2$ into $d=30t$.",
+      "The distance is $30(2)=60$ feet."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q1A@@",
+      "@@t18-m1-q1B@@",
+      "@@t18-m1-q1C@@",
+      "@@t18-m1-q1D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q2",
+    "prompt": "@@t18-m1-q2p@@",
+    "searchText": "For a particular machine that produces beads, 29 out\nof every 100 beads it produces have a defect. A bead\nproduced by the machine will be selected at random.\nWhat is the probability of selecting a bead that has a\ndefect?\nA)\n1\n2,900\nB)\n1\n29\nC)\n29\n100\nD) 29\n10\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "There are 29 defective beads per 100 beads produced.",
+      "The probability is $29/100$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t18-m1-q2A@@",
+      "@@t18-m1-q2B@@",
+      "@@t18-m1-q2C@@",
+      "@@t18-m1-q2D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q3",
+    "prompt": "@@t18-m1-q3p@@",
+    "searchText": "What is the y-intercept of the graph shown?\nA) (−8, 0)\nB) (−6, 0)\nC) (0, 6)\nD) (0, 8)\ny \n114 \n11, \nI \n110 \nI s / \ny \n........ 6 \nl \nl \nf 1 \n1 \n-10 -8 -6 -4 -2 V \n. \nI \nI \nI \nX \n246810 \n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The y-intercept is the point where the graph crosses the vertical axis.",
+      "The graph crosses at $y=8$, giving $(0,8)$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q3A@@",
+      "@@t18-m1-q3B@@",
+      "@@t18-m1-q3C@@",
+      "@@t18-m1-q3D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q4",
+    "prompt": "@@t18-m1-q4p@@",
+    "searchText": "Which expression is equivalent to\nx\nx\nx\nx\n2\n+\n−9 +\n+ 6 + 1\n2\n2\n(\n)\n(\n) ?\nA)\nx\nx\n2\n+ 7 + 10\n2\nB)\nx\nx\n2\n+ 6 −8\n2\nC)\nx\nx\n3\n+ 7 −10\n2\nD)\nx\nx\n3\n+ 7 −8\n2\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Combine quadratic terms: $2x^2+x^2=3x^2$.",
+      "Combine linear and constant terms: $x+6x=7x$ and $-9+1=-8$, giving $3x^2+7x-8$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t18-m1-q4A@@",
+      "@@t18-m1-q4B@@",
+      "@@t18-m1-q4C@@",
+      "@@t18-m1-q4D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q5",
+    "prompt": "@@t18-m1-q5p@@",
+    "searchText": "An analyst collected data on the price of a carton of\ngrape tomatoes at 30 locations selected at random in\nUtah. The mean price of a carton of grape tomatoes\nin Utah was estimated to be $4.23, with an associated\nmargin of error of $0.08. Which of the following is a\nplausible statement about the mean price of a carton\nof grape tomatoes for all locations that sell this\nproduct in Utah?\nA) It is between $4.15 and $4.31.\nB) It is either less than $4.15 or greater than $4.31.\nC) It is less than $4.15.\nD) It is greater than $4.31.\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Add and subtract the margin of error from the estimate.",
+      "The interval is $4.23\\pm0.08$, or 4.15 to 4.31 dollars."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t18-m1-q5A@@",
+      "@@t18-m1-q5B@@",
+      "@@t18-m1-q5C@@",
+      "@@t18-m1-q5D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q6",
+    "prompt": "@@t18-m1-q6p@@",
+    "searchText": "x\n2.6 +\n= 2.8\nWhat value of x is the solution to the given\nequation?\n",
+    "answer": "0.2",
+    "acceptedAnswers": [
+      "1/5"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract 2.6 from both sides.",
+      "Then $x=2.8-2.6=0.2$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m1-q7",
+    "prompt": "@@t18-m1-q7p@@",
+    "searchText": "Out of 300 seeds that were planted, 80% sprouted.\nHow many of these seeds sprouted?\n",
+    "answer": "240",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "80% means a fraction of 0.80.",
+      "Compute $0.80(300)=240$ sprouted seeds."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m1-q8",
+    "prompt": "@@t18-m1-q8p@@",
+    "searchText": "f x\nx\nb\n= 4 +\n( )\nFor the linear function f, b is a constant\nand f 7 = 28\n( )\n. What is the value of b ?\nA) 0\nB) 1\nC) 4\nD) 7\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $x=7$ and $f(7)=28$ into $f(x)=4x+b$.",
+      "Then $28=28+b$, so $b=0$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q8A@@",
+      "@@t18-m1-q8B@@",
+      "@@t18-m1-q8C@@",
+      "@@t18-m1-q8D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q9",
+    "prompt": "@@t18-m1-q9p@@",
+    "searchText": "Right triangles LMN and PQR are similar, where L\nand M correspond to P and Q, respectively. Angle M\nhas a measure of 53°. What is the measure of\nangle Q ?\nA) 37°\nB) 53°\nC) 127°\nD) 143°\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Corresponding angles of similar triangles are equal.",
+      "M corresponds to Q, so angle Q measures $53^\\circ$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m1-q9A@@",
+      "@@t18-m1-q9B@@",
+      "@@t18-m1-q9C@@",
+      "@@t18-m1-q9D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q10",
+    "prompt": "What is the equation of the line that passes through $(0,5)$ and is parallel to $y=7x+4$?",
+    "searchText": "What is the equation of the line that passes through\nthe point (0, 5) and is parallel to the graph of\ny\nx\n= 7 + 4 in the xy-plane?\nA) y\nx\n= 5\nB)\ny\nx\n= 7 + 5\nC) y\nx\n= 7\nD) y\nx\n= 5 + 7\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A parallel line has the same slope, 7.",
+      "Passing through $(0,5)$ gives y-intercept 5. Its equation is $y=7x+5$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$y=5x$",
+      "$y=7x+5$",
+      "$y=7x$",
+      "$y=5x+7$"
+    ]
+  },
+  {
+    "id": "t18-m1-q11",
+    "prompt": "@@t18-m1-q11p@@",
+    "searchText": "Which of the following equations is the most\nappropriate linear model for the data shown in the\nscatterplot?\nA) y\nx\n= −1.9 −10.1\nB)\ny\nx\n= −1.9 + 10.1\nC) y\nx\n= 1.9 −10.1\nD) y\nx\n= 1.9 + 10.1\ny \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \nu \n• • \n• \nt -.. \n• \n\"' \n• • \nX \n12345678910 \n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The points trend downward, so the slope must be negative.",
+      "They meet the y-axis near 10, so the intercept is positive. The suitable model is $y=-1.9x+10.1$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t18-m1-q11A@@",
+      "@@t18-m1-q11B@@",
+      "@@t18-m1-q11C@@",
+      "@@t18-m1-q11D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q12",
+    "prompt": "@@t18-m1-q12p@@",
+    "searchText": "A model predicts that the population of Bergen was\n15,000 in 2005. The model also predicts that each\nyear for the next 5 years, the population p increased\nby 4% of the previous year’s population. Which\nequation best represents this model, where x is the\nnumber of years after 2005, for x ≤5 ?\nA) p = 0.96 15,000 x\n(\n)\nB)\np = 1.04 15,000 x\n(\n)\nC) p = 15,000 0.96 x\n(\n)\nD) p = 15,000 1.04 x\n(\n)\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "An annual increase of 4% means multiplying by 1.04 each year.",
+      "Starting from 15,000 gives $p=15000(1.04)^x$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q12A@@",
+      "@@t18-m1-q12B@@",
+      "@@t18-m1-q12C@@",
+      "@@t18-m1-q12D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q13",
+    "prompt": "@@t18-m1-q13p@@",
+    "searchText": "a\nb\na\nb\n2 + 8\n= 198\n2 + 4\n= 98\nThe solution to the given system of equations is\na b\n,\n(\n). What is the value of b ?\n",
+    "answer": "25",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract the second equation from the first to eliminate $2a$.",
+      "This gives $4b=100$, so $b=25$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m1-q14",
+    "prompt": "The expression $90y^5-54y^4$ is equivalent to $ry^4(15y-9)$, where $r$ is a constant. What is $r$?",
+    "searchText": "The expression\ny\ny\n90\n−54\n5\n4 is equivalent to\nry\ny\n15 −9\n4(\n), where r is a constant. What is the value\nof r ?\n",
+    "answer": "6",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Expand the target form: $ry^4(15y-9)=15ry^5-9ry^4$.",
+      "Matching coefficients requires $15r=90$ and $9r=54$, both giving $r=6$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math"
+  },
+  {
+    "id": "t18-m1-q15",
+    "prompt": "@@t18-m1-q15p@@",
+    "searchText": "The graph of y\nf x\n= ( ) is shown, where the\nfunction f is defined by f x\nax\nbx\ncx\nd\n( ) =\n+\n+\n+\n3\n2\nand a, b, c, and d are constants. For how many\nvalues of x does f x = 0\n( )\n?\nA) One\nB) Two\nC) Three\nD) Four\ny \n' 16 \nI 14 \n12 \n10 \n\\ $ \n\\~ \n,4 \n..-... \n,2 \nV ' \n8-.=6-.=4-.=2_~ >- _ z_ /4-_6 _ \\8-\n4, \nI/ \n, \n6 I'-.,,, \n8 \nX \nI 19 \nI 12 \nI 1~ \n. 16 \n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The equation $f(x)=0$ holds at x-intercepts.",
+      "The cubic crosses the x-axis at three distinct points, so there are three such values of x."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q15A@@",
+      "@@t18-m1-q15B@@",
+      "@@t18-m1-q15C@@",
+      "@@t18-m1-q15D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q16",
+    "prompt": "@@t18-m1-q16p@@",
+    "searchText": "The area A, in square centimeters, of a rectangular\ncutting board can be represented by the expression\nw w + 9\n(\n), where w is the width, in centimeters, of\nthe cutting board. Which expression represents the\nlength, in centimeters, of the cutting board?\nA) w w + 9\n(\n)\nB) w\nC) 9\nD)\nw + 9\n(\n)\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Rectangle area is width times length.",
+      "Dividing $w(w+9)$ by its width $w$ gives length $w+9$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q16A@@",
+      "@@t18-m1-q16B@@",
+      "@@t18-m1-q16C@@",
+      "@@t18-m1-q16D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q17",
+    "prompt": "@@t18-m1-q17p@@",
+    "searchText": "p\nk\nj\n= 4 + 9\nThe given equation relates the distinct positive\nnumbers p, k, and j. Which equation correctly\nexpresses j4 + 9 in terms of p and k ?\nA)\nj\nk\np\n4 + 9 =\nB)\nj\nkp\n4 + 9 =\nC)\nj\nk\np\n4 + 9 =\n−\nD)\nj\np\nk\n4 + 9 =\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Multiply $p=k/(4j+9)$ by $4j+9$.",
+      "Divide by positive $p$ to obtain $4j+9=k/p$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q17A@@",
+      "@@t18-m1-q17B@@",
+      "@@t18-m1-q17C@@",
+      "@@t18-m1-q17D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q18",
+    "prompt": "@@t18-m1-q18p@@",
+    "searchText": "Circle A has a radius of n\n3\nand circle B has a radius\nof\nn\n129 , where n is a positive constant. The area of\ncircle B is how many times the area of circle A?\nA) 43\nB) 86\nC) 129\nD) 1,849\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The radius ratio is $129n/(3n)=43$.",
+      "Circle area scales as radius squared, so the area ratio is $43^2=1849$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m1-q18A@@",
+      "@@t18-m1-q18B@@",
+      "@@t18-m1-q18C@@",
+      "@@t18-m1-q18D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q19",
+    "prompt": "@@t18-m1-q19p@@",
+    "searchText": "The measure of angle R is\nπ\n2\n3 radians. The measure\nof angle T is\nπ\n5\n12 radians greater than the measure of\nangle R. What is the measure of angle T, in Start referenced Content:degrees End referenced Content?\nA) 75\nB) 120\nC) 195\nD) 390\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Add the radian measures: $2\\pi/3+5\\pi/12=13\\pi/12$.",
+      "Multiply by $180/\\pi$ to get $195^\\circ$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m1-q19A@@",
+      "@@t18-m1-q19B@@",
+      "@@t18-m1-q19C@@",
+      "@@t18-m1-q19D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q20",
+    "prompt": "@@t18-m1-q20p@@",
+    "searchText": "y\nx\nx\n=\n−14 + 22\n2\nThe given equation relates the variables x and y.\nFor what value of x does the value of y reach its\nminimum?\n",
+    "answer": "7",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "For $y=x^2-14x+22$, the vertex x-coordinate is $-b/(2a)$.",
+      "It is $14/2=7$, and the positive leading coefficient makes this a minimum."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m1-q21",
+    "prompt": "@@t18-m1-q21p@@",
+    "searchText": "A small business owner budgets $2,200 to purchase\ncandles. The owner must purchase a minimum of\n200 candles to maintain the discounted pricing. If the\nowner pays $4.90 per candle to purchase small\ncandles and $11.60 per candle to purchase large\ncandles, what is the maximum number of large\ncandles the owner can purchase to stay within the\nbudget and maintain the discounted pricing?\n",
+    "answer": "182",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "For $L$ large candles, buying exactly 200 candles minimizes cost: $S=200-L$.",
+      "Then $11.60L+4.90(200-L)\\le2200$ gives $L\\le1220/6.70\\approx182.09$. The greatest integer is 182; 18 small candles bring the total cost to 2199.40 dollars."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m1-q22",
+    "prompt": "@@t18-m1-q22p@@",
+    "searchText": "y\nx\ny\nx\n≤\n+ 7\n≥−2 −1\nWhich point x y\n( , ) is a solution to the given system\nof inequalities in the xy-plane?\nA) (−14, 0)\nB) (0, −14)\nC) (0, 14)\nD) (14, 0)\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Test $(14,0)$ in both inequalities.",
+      "It gives $0\\le21$ and $0\\ge-29$, so choice D satisfies the system."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q22A@@",
+      "@@t18-m1-q22B@@",
+      "@@t18-m1-q22C@@",
+      "@@t18-m1-q22D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q23",
+    "prompt": "@@t18-m1-q23p@@",
+    "searchText": "Weight (pounds) Frequency\n13\n12\n14\n8\n15\n5\n16\n7\n17\n9\n18\n10\n19\n13\n20\n7\nThe frequency table summarizes a data set of the\nweights, rounded to the nearest pound, of\n71 tortoises. A weight of 39 pounds is added to the\noriginal data set, creating a new data set of the\nweights, rounded to the nearest pound, of\n72 tortoises. Which statement best compares the\nmean and median of the new data set to the mean\nand median of the original data set?\nA) The mean of the new data set is greater than the\nmean of the original data set, and the median of\nthe new data set is greater than the median of the\noriginal data set.\nB) The mean of the new data set is greater than the\nmean of the original data set, and the medians of\nthe two data sets are equal.\nC) The mean of the new data set is less than the\nmean of the original data set, and the median of\nthe new data set is less than the median of the\noriginal data set.\nD) The mean of the new data set is less than the\nmean of the original data set, and the medians of\nthe two data sets are equal.\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The added value 39 exceeds every original value, so it increases the mean.",
+      "Originally the median is the 36th value. The 36th and 37th values are both 17, so the new median remains 17."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t18-m1-q23A@@",
+      "@@t18-m1-q23B@@",
+      "@@t18-m1-q23C@@",
+      "@@t18-m1-q23D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q24",
+    "prompt": "For $x-29=(x-a)(x-29)$, where $a>30$ is a constant, which of the following are solutions? I. $a$; II. $a+1$; III. $29$",
+    "searchText": "x\nx\na x\n−29 =\n−\n−29\n(\n)(\n)\nWhich of the following are solutions to the given\nequation, where a is a constant and a > 30 ?\nI. a\nII. a + 1\nIII. 29\nA) I and II only\nB) I and III only\nC) II and III only\nD) I, II, and III\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Bring everything to one side and factor: $(x-a)(x-29)-(x-29)=(x-29)(x-a-1)=0$.",
+      "Thus $x=29$ or $x=a+1$. Since $a>30$, $a$ is neither root. Statements II and III only are correct."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Factoring equations with a repeated linear factor",
+    "choices": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II, and III"
+    ],
+    "generationText": "For $x-29=(x-a)(x-29)$, where $a>30$ is a constant, which of the following are solutions? I. $a$; II. $a+1$; III. $29$"
+  },
+  {
+    "id": "t18-m1-q25",
+    "prompt": "@@t18-m1-q25p@@",
+    "searchText": "In the xy-plane, the graph of the equation\ny\nx\nx\n= −\n+ 9 −100\n2\nintersects the line y\nc\n=\nat\n exactly one point. What is the value of c?\nA) −481\n4\nB) −100\nC) −319\n4\nD) −9\n2\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A horizontal line meets this downward-opening parabola exactly once at its vertex.",
+      "The vertex has $x=9/2$ and $y=-(9/2)^2+9(9/2)-100=-319/4$, so $c=-319/4$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q25A@@",
+      "@@t18-m1-q25B@@",
+      "@@t18-m1-q25C@@",
+      "@@t18-m1-q25D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q26",
+    "prompt": "@@t18-m1-q26p@@",
+    "searchText": "The functions f and g are defined by the given\nequations, where x ≥0. Which of the following\nequations displays, as a constant or coefficient, the\nmaximum value of the function it defines, where\nx ≥0 ?\nI. f x = 18 1.25\n+ 41\nx\n( )\n(\n)\nII. g x = 9 0.73 x\n( )\n(\n)\nA) I only\nB) II only\nC) I and II\nD) Neither I nor II\nS\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Function I increases without bound because its exponential base exceeds 1, so it has no maximum on $x\\ge0$.",
+      "Function II decreases from $g(0)=9$ because $0<0.73<1$. Its displayed coefficient 9 is its maximum, so II only."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 40,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m1-q26A@@",
+      "@@t18-m1-q26B@@",
+      "@@t18-m1-q26C@@",
+      "@@t18-m1-q26D@@"
+    ]
+  },
+  {
+    "id": "t18-m1-q27",
+    "prompt": "@@t18-m1-q27p@@",
+    "searchText": "The perimeter of an equilateral triangle is\n852 centimeters. The three vertices of the triangle lie\non a circle. The radius of the circle is\nw 3 centimeters. What is the value of w ?\n",
+    "answer": "284/3",
+    "acceptedAnswers": [
+      "94.66",
+      "94.67"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Each side is $852/3=284$ centimeters. An equilateral triangle's circumradius is side length divided by $\\sqrt3$.",
+      "Thus $R=284\\sqrt3/3=w\\sqrt3$, giving $w=284/3$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 1,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 40,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t18-m2-q1",
+    "prompt": "@@t18-m2-q1p@@",
+    "searchText": "What is the y-intercept of the line graphed?\nA) (−5, 0)\nB) (0, 0)\nC) (0, 5)\nD) (0, 9)\ny \n10 \n8 \n6 .,,,,,.~ \n~ ,,,, \n~v \n4 \n.,,, \n2 \nl/ \n,J' , \nl'?f' -8 \n-6 \n-4 \n-2 \nu \n2 \nX \n.2 \n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At the y-intercept, $x=0$.",
+      "The line crosses the vertical axis at 5, so the point is $(0,5)$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q1A@@",
+      "@@t18-m2-q1B@@",
+      "@@t18-m2-q1C@@",
+      "@@t18-m2-q1D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q2",
+    "prompt": "@@t18-m2-q2p@@",
+    "searchText": "Average number of\nType of store\nemployees\nWarehouse store\n365\nDepartment store\n213\nSupermarket\n130\nFor a certain region, the table shows the average\nnumber of store employees in 2016 by type of store.\nBased on the table, how much greater was the\naverage number of store employees in warehouse\nstores than in supermarkets?\nA) 83\nB) 152\nC) 235\nD) 495\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract the supermarket average from the warehouse-store average.",
+      "The difference is $365-130=235$ employees."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q2A@@",
+      "@@t18-m2-q2B@@",
+      "@@t18-m2-q2C@@",
+      "@@t18-m2-q2D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q3",
+    "prompt": "@@t18-m2-q3p@@",
+    "searchText": "In the figure, line m is parallel to line n, and line t\nintersects both lines. What is the value of x ?\nA) 33\nB) 57\nC) 123\nD) 147\nt \nm \nn \n33 \nNote: Figure not drawn to scale. \n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Parallel-line angle relationships make the marked obtuse angle supplementary to $33^\\circ$.",
+      "Thus $x=180-33=147$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q3A@@",
+      "@@t18-m2-q3B@@",
+      "@@t18-m2-q3C@@",
+      "@@t18-m2-q3D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q4",
+    "prompt": "@@t18-m2-q4p@@",
+    "searchText": "Sean rents a tent at a cost of $11 per day plus a\nonetime insurance fee of $10. Which equation\nrepresents the total cost c, in dollars, to rent the tent\nwith insurance for d days?\nA) c\nd\n= 11( + 10)\nB) c\nd\n= 10( + 11)\nC) c\nd\n= 11\n+ 10\nD) c\nd\n= 10\n+ 11\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The daily charge for d days is $11d$, and insurance adds 10 once.",
+      "Therefore $c=11d+10$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q4A@@",
+      "@@t18-m2-q4B@@",
+      "@@t18-m2-q4C@@",
+      "@@t18-m2-q4D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q5",
+    "prompt": "@@t18-m2-q5p@@",
+    "searchText": "For the right triangle shown, a = 4 and b = 5.\nWhich expression represents the value of c ?\nA) 4 + 5\nB)\n(4)(5)\nC)\n4 + 5\nD)\n4 + 5\n2\n2\na \nb \nNote: Figure not drawn to scale. \n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The Pythagorean theorem gives $c^2=a^2+b^2$.",
+      "With legs 4 and 5, $c=\\sqrt{4^2+5^2}$, choice D."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m2-q5A@@",
+      "@@t18-m2-q5B@@",
+      "@@t18-m2-q5C@@",
+      "@@t18-m2-q5D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q6",
+    "prompt": "The function $g$ is defined by $g(x)=6x$. For what value of $x$ is $g(x)=54$?",
+    "searchText": "The function g is defined by g x\nx\n( ) = 6 . For what\nvalue of x is g x = 54\n( )\n?\n",
+    "answer": "9",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Solve $6x=54$.",
+      "Dividing by 6 gives $x=9$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m2-q7",
+    "prompt": "@@t18-m2-q7p@@",
+    "searchText": "The function f is defined by f x\nx\n( ) = 8\n+ 4\n3\n. What is\nthe value of f (2) ?\n",
+    "answer": "68",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute 2 into $f(x)=8x^3+4$.",
+      "Compute $8(2^3)+4=64+4=68$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m2-q8",
+    "prompt": "The function $f$ is defined by $f(x)=\\frac{1}{10}x-2$. What is the y-intercept of $y=f(x)$?",
+    "searchText": "The function f is defined by f x\nx\n= 1\n10\n−2\n( )\n. What\nis the y-intercept of the graph of y\nf x\n= ( ) in the\nxy-plane?\nA)\n−2, 0\n(\n)\nB)\n0, −2\n(\n)\nC)\n0, 1\n10\n\n\n\n\n\nD)\n1\n10 , 0\n\n\n\n\n\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At the y-intercept, evaluate the function at $x=0$.",
+      "Then $f(0)=0/10-2=-2$, giving $(0,-2)$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q8A@@",
+      "@@t18-m2-q8B@@",
+      "@@t18-m2-q8C@@",
+      "@@t18-m2-q8D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q9",
+    "prompt": "@@t18-m2-q9p@@",
+    "searchText": "A producer is creating a video with a length of\n70 minutes. The video will consist of segments that\nare 1 minute long and segments that are 3 minutes\nlong. Which equation represents this situation,\nwhere x represents the number of 1-minute\nsegments and y represents the number of 3-minute\nsegments?\nA)\nxy\n4\n= 70\nB)\nx\ny\n4( + ) = 70\nC)\nx\ny\n3 +\n= 70\nD) x\ny\n+ 3\n= 70\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The x one-minute segments contribute x minutes, and the y three-minute segments contribute $3y$ minutes.",
+      "The total length condition is $x+3y=70$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q9A@@",
+      "@@t18-m2-q9B@@",
+      "@@t18-m2-q9C@@",
+      "@@t18-m2-q9D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q10",
+    "prompt": "@@t18-m2-q10p@@",
+    "searchText": "The function f is defined by f x\nx\n( ) = 7 3. In the\nxy-plane, the graph of y\ng x\n=\n( ) is the result of\nshifting the graph of y\nf x\n= ( ) down 2 units. Which\nequation defines function g ?\nA) g x\nx\n( ) = 7\n2\n3\nB)\ng x\nx\n( ) = 7\n3\n2\nC) g x\nx\n( ) = 7\n+ 2\n3\nD) g x\nx\n( ) = 7\n−2\n3\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Moving a graph down 2 subtracts 2 from every output.",
+      "Thus $g(x)=f(x)-2=7x^3-2$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q10A@@",
+      "@@t18-m2-q10B@@",
+      "@@t18-m2-q10C@@",
+      "@@t18-m2-q10D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q11",
+    "prompt": "@@t18-m2-q11p@@",
+    "searchText": "y\nx\n= −3\nx\ny\n4 +\n= 15\nThe solution to the given system of equations\nis x y\n( , ). What is the value of x ?\nA) 1\nB) 5\nC) 15\nD) 45\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $y=-3x$ into $4x+y=15$.",
+      "Then $4x-3x=15$, so $x=15$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q11A@@",
+      "@@t18-m2-q11B@@",
+      "@@t18-m2-q11C@@",
+      "@@t18-m2-q11D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q12",
+    "prompt": "@@t18-m2-q12p@@",
+    "searchText": "In the right triangle shown, what is the value of\nA\nsin\n?\nA)\n1\n171\nB)\n35\n171\nC) 171\n35\nD) 171\nB \n35 \nC \nA \nNote: Figure not drawn to scale. \n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Sine is opposite side divided by hypotenuse.",
+      "For angle A, those lengths are 35 and 171, so $\\sin A=35/171$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m2-q12A@@",
+      "@@t18-m2-q12B@@",
+      "@@t18-m2-q12C@@",
+      "@@t18-m2-q12D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q13",
+    "prompt": "@@t18-m2-q13p@@",
+    "searchText": "What is the area, in square centimeters, of a rectangle\nwith a length of 34 centimeters (cm) and a width of\n29 cm?\n",
+    "answer": "986",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Rectangle area equals length times width.",
+      "Compute $34(29)=986$ square centimeters."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t18-m2-q14",
+    "prompt": "If $\\frac{x}{y}=4$ and $\\frac{24x}{ny}=4$, what is $n$?",
+    "searchText": "If x\ny = 4 and\nx\nny\n24\n= 4, what is the value of n ?\n",
+    "answer": "24",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use $x/y=4$ to rewrite $24x/(ny)$ as $96/n$.",
+      "The given equality $96/n=4$ yields $n=24$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m2-q15",
+    "prompt": "@@t18-m2-q15p@@",
+    "searchText": "A bowl contains 20 ounces of water. When the bowl\nis uncovered, the amount of water in the bowl\ndecreases by 1 ounce every 4 days. If 9 ounces of\nwater remain in this bowl, for how many days has it\nbeen uncovered? \nA) 3\nB) 7\nC) 36\nD) 44\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The bowl lost $20-9=11$ ounces.",
+      "At 4 days per ounce, the elapsed time is $11(4)=44$ days."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q15A@@",
+      "@@t18-m2-q15B@@",
+      "@@t18-m2-q15C@@",
+      "@@t18-m2-q15D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q16",
+    "prompt": "If $9(4x-3)+2=8(4x-3)+18$, what is the value of $4x-3$?",
+    "searchText": "If\nx\nx\n9 4 −3\n+ 2 = 8 4 −3\n+ 18\n(\n)\n(\n)\n, what is the value\nof\nx\n4 −3\n?\nA) −16\nB) −4\nC) 4\nD) 16\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Let $u=4x-3$. The equation becomes $9u+2=8u+18$.",
+      "Subtract $8u+2$ to obtain $u=16$, so $4x-3=16$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q16A@@",
+      "@@t18-m2-q16B@@",
+      "@@t18-m2-q16C@@",
+      "@@t18-m2-q16D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q17",
+    "prompt": "@@t18-m2-q17p@@",
+    "searchText": "A certain township consists of a 5-hectare industrial\npark and a 24-hectare neighborhood. The total\nnumber of trees in the township is 4,529. The\nequation x\ny\n5 + 24\n= 4,529 represents this situation.\nWhich of the following is the best interpretation of x\nin this context?\nA) The average number of trees per hectare in the\nindustrial park\nB) The average number of trees per hectare in the\nneighborhood\nC) The total number of trees in the industrial park\nD) The total number of trees in the neighborhood\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The industrial park has 5 hectares, and its contribution to the tree count is $5x$.",
+      "Thus x is the average number of trees per hectare in the industrial park."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q17A@@",
+      "@@t18-m2-q17B@@",
+      "@@t18-m2-q17C@@",
+      "@@t18-m2-q17D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q18",
+    "prompt": "Which expression is equivalent to $a^{\\frac{11}{12}}$, where $a>0$?",
+    "searchText": "Which expression is equivalent to a\n11\n12 ,\nwhere a > 0 ?\nA)\na132\n12\nB)\na132\n144\nC)\na132\n121\nD)\na132\n11\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A radical with index 144 and radicand $a^{132}$ equals $a^{132/144}$.",
+      "Since $132/144=11/12$, this is the required expression, choice B."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t18-m2-q18A@@",
+      "@@t18-m2-q18B@@",
+      "@@t18-m2-q18C@@",
+      "@@t18-m2-q18D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q19",
+    "prompt": "@@t18-m2-q19p@@",
+    "searchText": "The dot plots represent the distributions of values in\ndata sets A and B.\nWhich of the following statements must be true?\nI. The median of data set A is equal to the\nmedian of data set B.\nII. The standard deviation of data set A\nis equal to the standard deviation of\ndata set B.\nA) I only\nB) II only\nC) I and II\nD) Neither I nor II\nData Set A \nData Set B \n• \n• \n• \n• \n• \n• \n• \n• \n• \n• • • • • \n• • • \n• • • \n• • • • • • • \n• • • • • • • \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \nI \n10 11 12 13 14 15 16 \n10 11 12 13 14 15 16 \nValue \nValue \n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Both dot plots have the same middle value, so their medians agree.",
+      "Their spreads around that center differ, so their standard deviations do not agree. Only statement I holds."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t18-m2-q19A@@",
+      "@@t18-m2-q19B@@",
+      "@@t18-m2-q19C@@",
+      "@@t18-m2-q19D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q20",
+    "prompt": "@@t18-m2-q20p@@",
+    "searchText": "A circle has center O, and points R and S lie on the\ncircle. In triangle ORS, the measure of\nROS\n∠\nis 88°.\nWhat is the measure of\nRSO\n∠\n, in degrees?\n(Disregard the degree symbol when entering your\nanswer.)\n",
+    "answer": "46",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "OR and OS are radii, making triangle ORS isosceles.",
+      "The two equal base angles total $180-88=92^\\circ$, so angle RSO is $46^\\circ$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t18-m2-q21",
+    "prompt": "@@t18-m2-q21p@@",
+    "searchText": "The regular price of a shirt at a store is $11.70. The\nsale price of the shirt is 80% less than the regular\nprice, and the sale price is 30% greater than the\nstore’s cost for the shirt. What was the store’s cost, in\ndollars, for the shirt? (Disregard the $ sign when\nentering your answer. For example, if your answer is\n$4.97, enter 4.97)\n",
+    "answer": "1.8",
+    "acceptedAnswers": [
+      "9/5"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "An 80% reduction leaves 20% of the regular price: $0.20(11.70)=2.34$.",
+      "This equals 1.30 times the store's cost, so the cost is $2.34/1.30=1.80$ dollars."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t18-m2-q22",
+    "prompt": "@@t18-m2-q22p@@",
+    "searchText": "A cube has an edge length of 68 inches. A solid\nsphere with a radius of 34 inches is inside the cube,\nsuch that the sphere touches the center of each face\nof the cube. To the nearest cubic inch, what is the\nvolume of the space in the cubeStart referenced Content: not End referenced Contenttaken up by the\nsphere?\nA) 149,796\nB) 164,500\nC) 190,955\nD) 310,800\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The unoccupied volume is cube volume minus sphere volume.",
+      "Compute $68^3-\\frac43\\pi(34^3)\\approx149795.884$, which rounds to 149,796 cubic inches."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m2-q22A@@",
+      "@@t18-m2-q22B@@",
+      "@@t18-m2-q22C@@",
+      "@@t18-m2-q22D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q23",
+    "prompt": "@@t18-m2-q23p@@",
+    "searchText": "y\nx\n= 6 + 18\nOne of the equations in a system of two linear\nequations is given. The system has no solution.\nWhich equation could be the second equation in the\nsystem?\nA)\nx\ny\n−6 +\n= 18\nB)\nx\ny\n−6 +\n= 22\nC)\nx\ny\n−12 +\n= 36\nD)\nx\ny\n−12 +\n= 18\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "No solution requires distinct parallel lines: same slope, different intercept.",
+      "Choice B is $y=6x+22$, parallel to $y=6x+18$ with a different intercept."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q23A@@",
+      "@@t18-m2-q23B@@",
+      "@@t18-m2-q23C@@",
+      "@@t18-m2-q23D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q24",
+    "prompt": "@@t18-m2-q24p@@",
+    "searchText": "Triangles PQR and LMN are graphed in the\nxy-plane. Triangle PQR has vertices P, Q, and R at\n(4, 5), (4, 7), and (6, 5), respectively. Triangle LMN\nhas vertices L, M, and N at (4, 5),\nk\n(4, 7 + ),\nand\nk\n(6 + , 5), respectively, where k is a positive\nconstant. If the measure of\nQ\n∠\nis t°, what is the\nmeasure of\nN\n∠\n?\nA)\nt\nk\n(90 −( −))°\nB)\nt\nk\n(90 −( + ))°\nC)\nt\n(90 −)°\nD)\nk\n(90 + )°\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Both triangles are right isosceles triangles: their horizontal and vertical legs are equal.",
+      "They are similar, so angle N equals the acute angle complementary to Q: $(90-t)^\\circ$."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t18-m2-q24A@@",
+      "@@t18-m2-q24B@@",
+      "@@t18-m2-q24C@@",
+      "@@t18-m2-q24D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q25",
+    "prompt": "@@t18-m2-q25p@@",
+    "searchText": "x\ny\n2 + 3\n= 7\nx\ny\n10 + 15\n= 35\nFor each real number r, which of the following\npoints lies on the graph of each equation in the\nxy-plane for the given system?\nA)\nr\nr\n5 + 7, −5 + 35\n\n\n\n\nB)\nr\nr\n−3\n2 + 7\n2,\n\n\n\n\n\nC)\nr\nr\n, 2\n3 + 7\n3\n\n\n\n\n\nD)\nr\nr\n, −3\n2 + 7\n2\n\n\n\n\n\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The second equation is five times the first, so they define the same line.",
+      "Set $y=r$ in $2x+3y=7$: $x=-3r/2+7/2$, giving choice B."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q25A@@",
+      "@@t18-m2-q25B@@",
+      "@@t18-m2-q25C@@",
+      "@@t18-m2-q25D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q26",
+    "prompt": "@@t18-m2-q26p@@",
+    "searchText": "x\nx\nc\nc\nx\nc\n−\n=\n−\n+ 39\n2\n2\n2\n2\n2\n2\nIn the given equation, c is a positive constant. Which\nof the following is one of the solutions to the given\nequation?\nA)\nc\n−\nB)\nc\n−\n−39\n2\n2\nC)\nc\n−39 −\n2\n2\nD)\nc\n−\n+ 39\n2\n2\nS\nIf\nfi i h b f\nti\ni\nll d\n✓ \n✓,----\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract the fractions to get $(x^2-c^2)/\\sqrt{x^2-c^2}=39$, so $\\sqrt{x^2-c^2}=39$.",
+      "Then $x^2=c^2+39^2$. The negative root $-\\sqrt{c^2+39^2}$ is choice D and keeps the denominator nonzero."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 50,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t18-m2-q26A@@",
+      "@@t18-m2-q26B@@",
+      "@@t18-m2-q26C@@",
+      "@@t18-m2-q26D@@"
+    ]
+  },
+  {
+    "id": "t18-m2-q27",
+    "prompt": "@@t18-m2-q27p@@",
+    "searchText": "The quadratic function g models the depth, in\nmeters, below the surface of the water of a seal\nt minutes after the seal entered the water during a\ndive. The function estimates that the seal reached its\nmaximum depth of 302.4 meters 6 minutes after it\nentered the water and then reached the surface of the\nwater 12 minutes after it entered the water. Based on\nthe function, what was the estimated depth, to the\nnearest meter, of the seal 10 minutes after it entered\nthe water?\nk\nk\nthi\nd l\nl\n",
+    "answer": "168",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use vertex form $g(t)=a(t-6)^2+302.4$. Since $g(12)=0$, $36a=-302.4$, giving $a=-8.4$.",
+      "At 10 minutes, $g(10)=-8.4(4^2)+302.4=168$ meters."
+    ],
+    "parentTestId": "test-18",
+    "referenceModule": 2,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 8 · Math",
+    "sourcePage": 50,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math"
+  }
+]

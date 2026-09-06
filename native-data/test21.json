@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "t21-m1-q1",
+    "prompt": "@@t21-m1-q1p@@",
+    "searchText": "In the triangle shown, PQ\nQR\n=\n. What is the value \nof x?\nA)\t \t156\nB)\t \t66\nC)\t \t48\nD)\t\t24\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Equal sides PQ and QR make the opposite base angles P and R equal.",
+      "Since angle P is $24^\\circ$, $x=24$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t21-m1-q1A@@",
+      "@@t21-m1-q1B@@",
+      "@@t21-m1-q1C@@",
+      "@@t21-m1-q1D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q2",
+    "prompt": "@@t21-m1-q2p@@",
+    "searchText": "x\n4\n1\n33\n+\n=\nWhich equation has the same solution as the given \nequation?\nA)\t \t x\n4\n32\n=\nB)\t \t x\n4\n5\n=\nC)\t \t x\n4\n1\n=\nD)\t\t x\n4\n32\n= -\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract 1 from both sides of $4x+1=33$.",
+      "The equivalent equation is $4x=32$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q2A@@",
+      "@@t21-m1-q2B@@",
+      "@@t21-m1-q2C@@",
+      "@@t21-m1-q2D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q3",
+    "prompt": "@@t21-m1-q3p@@",
+    "searchText": "For the linear function f , the graph of  y\nf x\n= ^ h in \nthe xy-plane has a slope of 7  and passes through the \npoint \n,0 5\n^\nh. Which equation defines f ?\nA)\t \t f x\nx\n5\n=\n^ h\nB)\t \t f x\nx\n35\n=\n^ h\nC)\t \t f x\nx\n7\n5\n=\n+\n^ h\nD)\t\t f x\nx\n12\n5\n=\n+\n^ h\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A linear function with slope 7 has form $f(x)=7x+b$.",
+      "The point $(0,5)$ gives $b=5$, so $f(x)=7x+5$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q3A@@",
+      "@@t21-m1-q3B@@",
+      "@@t21-m1-q3C@@",
+      "@@t21-m1-q3D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q4",
+    "prompt": "@@t21-m1-q4p@@",
+    "searchText": "x\n8\n40\n32\n2 -\n=\nWhat is the positive solution to the given equation?\nA)\t \t3\nB)\t \t4\nC)\t \t9\nD)\t\t72\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Add 40 to obtain $8x^2=72$, then divide by 8.",
+      "Thus $x^2=9$, and the positive solution is 3."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 34,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q4A@@",
+      "@@t21-m1-q4B@@",
+      "@@t21-m1-q4C@@",
+      "@@t21-m1-q4D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q5",
+    "prompt": "@@t21-m1-q5p@@",
+    "searchText": "A total of 50  children attended a summer camp and \nwere offered 4  types of sandwiches. The table shows \nthe number of children who chose each type of \nsandwich.\nType of sandwich\nNumber of children\nTurkey\n15\nChicken\n23\nHam\n3\nVegetarian\n9\nTotal\n50\nIf one of these children is selected at random, what is \nthe probability of selecting a child who chose a \nvegetarian sandwich?\nA)\t \t100\n9\nB)\t \t50\n9\nC)\t \t4\n1\nD)\t\t10\n9\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Nine of the 50 children chose vegetarian sandwiches.",
+      "The probability is $9/50$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t21-m1-q5A@@",
+      "@@t21-m1-q5B@@",
+      "@@t21-m1-q5C@@",
+      "@@t21-m1-q5D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q6",
+    "prompt": "@@t21-m1-q6p@@",
+    "searchText": "Amara grows cherry tomatoes in her backyard. This \nyear, she harvested 750  cherry tomatoes and gave \n%\n10\n of them to her neighbor. How many of the \nharvested cherry tomatoes did Amara give to her \nneighbor?\n",
+    "answer": "75",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Convert 10% to 0.10.",
+      "Compute $0.10(750)=75$ tomatoes."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m1-q7",
+    "prompt": "@@t21-m1-q7p@@",
+    "searchText": "x\ny\n125\n+\n=\nx\ny\ny\n155\n+\n+\n=\nThe solution to the given system of equations is \n,x y\n^\nh. What is the value of y?\n",
+    "answer": "30",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract $x+y=125$ from $x+2y=155$.",
+      "The result is $y=30$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m1-q8",
+    "prompt": "@@t21-m1-q8p@@",
+    "searchText": "In a chess tournament, each participant earns \n1 point for each game the participant plays that ends \nin a draw and 3 points for each game the participant \nwins. A certain participant in this tournament has \nearned 41 points. Which equation represents this \nsituation, where d  represents the number of games \nthis participant has played that ended in a draw and \nw  represents the number of games this participant \nhas won?\nA)\t \td\nw\n3\n41\n+\n=\nB)\t \t d\nw\n3\n41\n+\n=\nC)\t \td\nw\n3\n41\n+\n=\nD)\t\td\nw\n3\n41\n+\n=\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Draws contribute d points, and wins contribute $3w$ points.",
+      "The total-score equation is $d+3w=41$, choice A."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 35,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q8A@@",
+      "@@t21-m1-q8B@@",
+      "@@t21-m1-q8C@@",
+      "@@t21-m1-q8D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q9",
+    "prompt": "@@t21-m1-q9p@@",
+    "searchText": "The function g  is defined by g x\nx\n300\n=\n+\n^ h\n. \nWhat is the value of g x\n^ h when x\n81\n=\n?\nA)\t \t9\nB)\t \t300\nC)\t \t309\nD)\t\t381\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute 81 into $g(x)=\\sqrt{x}+300$.",
+      "Since $\\sqrt{81}=9$, the value is 309."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q9A@@",
+      "@@t21-m1-q9B@@",
+      "@@t21-m1-q9C@@",
+      "@@t21-m1-q9D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q10",
+    "prompt": "@@t21-m1-q10p@@",
+    "searchText": "A cable provider wanted to know how many of its \n,\n30 000  customers would be interested in a new \nservice plan. The provider selected 300  customers at \nrandom and asked each customer whether the \ncustomer would be interested in the new plan. Of \nthose surveyed, 8  said they would be interested. \nWhich of the following is the best estimate of the \ntotal number of customers who would be interested \nin the new service plan?\nA)\t \t8\nB)\t \t80\nC)\t \t800\nD)\t\t ,8 000\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The sample interested fraction is $8/300$.",
+      "Apply it to 30,000 customers: $30000(8/300)=800$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t21-m1-q10A@@",
+      "@@t21-m1-q10B@@",
+      "@@t21-m1-q10C@@",
+      "@@t21-m1-q10D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q11",
+    "prompt": "@@t21-m1-q11p@@",
+    "searchText": "Which expression is equivalent to \nt s\nt s\n64\n56\n2 3\n3\n-\n?\nA)\t \t ts\ns\nts\n4\n16\n14\n2 -\n^\nh\nB)\t \t ts\nt s\nt\n4\n16\n14\n2 2 -\n^\nh\nC)\t \t t s\nts\ns\n4\n16\n14\n2\n-\n^\nh\nD)\t\t t s\ns\nt\n4\n16\n14\n2\n2 -\n^\nh\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Take out the common factor $4t^2s$.",
+      "The remaining factor is $16s^2-14t$, giving $4t^2s(16s^2-14t)$, choice D."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m1-q11A@@",
+      "@@t21-m1-q11B@@",
+      "@@t21-m1-q11C@@",
+      "@@t21-m1-q11D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q12",
+    "prompt": "@@t21-m1-q12p@@",
+    "searchText": "x\n5\n14\n+\n=\ny\nx\n4\n4\n2\n=\n+\nAt what point \n,x y\n^\nh do the graphs of the equations in \nthe given system intersect?\nA)\t \t\n,9 324\n^\nh\nB)\t \t\n,9 328\n^\nh\nC)\t \t\n,\n14 4\n^\nh\nD)\t\t\n,\n14 788\n^\nh\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "From $x+5=14$, obtain $x=9$.",
+      "Then $y=4(9)^2+4=328$, so the intersection is $(9,328)$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q12A@@",
+      "@@t21-m1-q12B@@",
+      "@@t21-m1-q12C@@",
+      "@@t21-m1-q12D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q13",
+    "prompt": "@@t21-m1-q13p@@",
+    "searchText": "x\ny\n8\n11\n170\n+\n=\nThe equation gives the possible combinations of the \nnumber of 2009  premium grade Log Cabin Pennies, \nx, and the number of 1996  select grade Lincoln \nPennies, y, in a collection that is worth a total of \n$170. If there are 6  1996  select grade Lincoln \nPennies in the collection, how many 2009  premium \ngrade Log Cabin Pennies are in the collection?\n",
+    "answer": "13",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $y=6$ into $8x+11y=170$.",
+      "Then $8x=104$, so $x=13$ pennies."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 36,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m1-q14",
+    "prompt": "@@t21-m1-q14p@@",
+    "searchText": "The population of the town of Smithville doubled \nevery 75  years from 1659  to 1959. The population of \nthis town was \n,\n240 000  in 1959. What was the \npopulation of this town in 1659?\n",
+    "answer": "15000",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The time span is $1959-1659=300$ years, or four doubling periods.",
+      "Work backward: $240000/2^4=15000$ people."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m1-q15",
+    "prompt": "@@t21-m1-q15p@@",
+    "searchText": "The scatterplot shows the relationship between x  \nand y. A line of best fit is also shown. \nWhich of the following is closest to the slope of this \nline of best fit?\nA)\t \t .0 60\nB)\t \t .2 50\nC)\t \t .7 80\nD)\t\t .8 00\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Slope is rise divided by run along the fitted line.",
+      "The line rises approximately 6 units over a run of 10, so its slope is closest to 0.60."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t21-m1-q15A@@",
+      "@@t21-m1-q15B@@",
+      "@@t21-m1-q15C@@",
+      "@@t21-m1-q15D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q16",
+    "prompt": "@@t21-m1-q16p@@",
+    "searchText": "Which quadratic equation has exactly one distinct \nreal solution?\nA)\t \t x\n15\n0\n2\n+\n=\n^\nh\nB)\t \t x\n15\n45\n2\n+\n= -\n^\nh\nC)\t \t x\n15\n45\n2\n+\n=\n^\nh\nD)\t\t x\n15\n135\n2\n+\n=\n^\nh\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "A square equals zero only when its base equals zero.",
+      "Thus $(x+15)^2=0$ has the one distinct solution $x=-15$. Negative right sides give no real roots and positive right sides give two."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m1-q16A@@",
+      "@@t21-m1-q16B@@",
+      "@@t21-m1-q16C@@",
+      "@@t21-m1-q16D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q17",
+    "prompt": "@@t21-m1-q17p@@",
+    "searchText": "The cost to rent a bus from Company X is $950  for \nthe first 3 hours and an additional $50  per hour for \neach hour after the first 3 hours. If the total cost to \nrent the bus from Company X for t  hours, where \nt\n3\n>\n, is $ ,1 150, which equation represents this \nsituation?\nA)\t \t\n,\nt\nt\n950\n3\n50\n1 150\n-\n+\n=\n^\nh\nB)\t \t\n,\nt\nt\n950 3\n50\n1 150\n+\n=\n^ h\nC)\t \t\n,\nt\n950\n50\n3\n1 150\n+\n-\n=\n^\nh\nD)\t\t\n,\nt\n950\n50 3\n1 150\n+\n=\n^ h\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The 950-dollar fee covers the first 3 hours, leaving $t-3$ additional hours at 50 dollars each.",
+      "The total-cost equation is $950+50(t-3)=1150$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 37,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q17A@@",
+      "@@t21-m1-q17B@@",
+      "@@t21-m1-q17C@@",
+      "@@t21-m1-q17D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q18",
+    "prompt": "@@t21-m1-q18p@@",
+    "searchText": "A)\t  \nB)\t  \n10\n20\n30\n40\n50\n60\n70\n80\nx\n10\n20\n30\n40\n50\n60\n70\n80\ny\nO\n10\n20\n30\n40\n50\n60\n70\n80\nx\n10\n20\n30\n40\n50\n60\n70\n80\ny\nO\nC)\t  \nD)\t \n10\n20\n30\n40\n50\n60\n70\n80\nx\n10\n20\n30\n40\n50\n60\n70\n80\ny\nO\n10\n20\n30\n40\n50\n60\n70\n80\nx\n10\n20\n30\n40\n50\n60\n70\n80\ny\nO\nx\ny\n53\n+\n=\nx\ny\n11\n18\n730\n+\n=\nThe given equations represent the possible numbers of beach chairs, x, \nand umbrellas, y, rented at a park last month and the total spent, in \ndollars, to rent those beach chairs and umbrellas. Which of the \nfollowing graphs represents this situation?\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The line $x+y=53$ has intercepts 53 on both axes. The cost line has intercepts $730/11\\approx66.36$ and $730/18\\approx40.56$.",
+      "The graph showing these two decreasing lines is B. Solving confirms their intersection at $(32,21)$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 38,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q18A@@",
+      "@@t21-m1-q18B@@",
+      "@@t21-m1-q18C@@",
+      "@@t21-m1-q18D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q19",
+    "prompt": "@@t21-m1-q19p@@",
+    "searchText": "In triangle QRS  shown, QR\nRS\n<\n. Which expression \nrepresents the length of QS ?\nA)\t \t\ncosQ\n18\nB)\t \t\nsinQ\n18\nC)\t \tcosQ\n18\nD)\t\tsinQ\n18\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Relative to angle Q, side RS is opposite and QS is the hypotenuse.",
+      "Thus $\\sin Q=18/QS$, giving $QS=18/\\sin Q$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t21-m1-q19A@@",
+      "@@t21-m1-q19B@@",
+      "@@t21-m1-q19C@@",
+      "@@t21-m1-q19D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q20",
+    "prompt": "@@t21-m1-q20p@@",
+    "searchText": "Circle A in the xy-plane has the equation \nx\ny\n5\n5\n25\n2\n2\n+\n+\n-\n=\n^\n^\nh\nh\n. Circle B has the same \ncenter as circle A. The radius of circle B is two times \nthe radius of circle A. The equation defining circle B \nin the xy-plane is x\ny\nk\n5\n5\n2\n2\n+\n+\n-\n=\n^\n^\nh\nh\n, where k  \nis a constant. What is the value of k?\n",
+    "answer": "100",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Circle A has radius $\\sqrt{25}=5$.",
+      "Circle B's radius is 10, so its squared-radius constant is $k=100$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t21-m1-q21",
+    "prompt": "@@t21-m1-q21p@@",
+    "searchText": "x\nx\n7\n5\n0\n2 +\n+\n=\nOne solution to the given equation can be written as \nx\nk\n2\n7\n= - +\n, where k  is a constant. What is the \nvalue of k?\n",
+    "answer": "29",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use the quadratic formula for $x^2+7x+5=0$.",
+      "The discriminant is $7^2-4(1)(5)=29$, giving $(-7\\pm\\sqrt{29})/2$, so $k=29$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m1-q22",
+    "prompt": "@@t21-m1-q22p@@",
+    "searchText": "A scientist measured the lengths of 240  gray seals \nfrom Muskeget Island and 120  gray seals from Sable \nIsland. The scientist determined that the mean \nlength of the 240  gray seals from Muskeget Island \nwas 88  inches and the mean length of the 120  gray \nseals from Sable Island was 94  inches. What was the \nmean length of all 360  gray seals the scientist \nmeasured for this study?\nA)\t \t89\nB)\t \t90\nC)\t \t91\nD)\t\t92\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Compute the combined length using the group counts: $240(88)+120(94)=32400$.",
+      "Divide by 360 seals to obtain a weighted mean of 90 inches."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 39,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t21-m1-q22A@@",
+      "@@t21-m1-q22B@@",
+      "@@t21-m1-q22C@@",
+      "@@t21-m1-q22D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q23",
+    "prompt": "@@t21-m1-q23p@@",
+    "searchText": "‒1\n1\n2\n3\n4\n5\nx\n‒4\n‒2\n2\n4\n6\n8\n10\ny\nO\nThe graph of y\nf x\n4\n=\n+\n^ h\n is shown. Which \nequation defines function f ?\nA)\t \t f x\n3\n1\nx\n= -\n+\n^ h\nB)\t \t f x\n3\n5\nx\n= -\n+\n^ h\nC)\t \t f x\n3\n8\nx\n= -\n+\n^ h\nD)\t\t f x\n3\n9\nx\n= -\n+\n^ h\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The displayed graph has y-intercept 8, so $f(0)+4=8$, giving $f(0)=4$.",
+      "Choice B, $f(x)=-3^x+5$, gives $f(0)=-1+5=4$ and the displayed decreasing exponential shape after shifting up 4."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 40,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q23A@@",
+      "@@t21-m1-q23B@@",
+      "@@t21-m1-q23C@@",
+      "@@t21-m1-q23D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q24",
+    "prompt": "@@t21-m1-q24p@@",
+    "searchText": "Two lines intersect at exactly one point, forming two \nacute angles and two obtuse angles. The measure of \none of these angles is \n°\nx\n9\n140\n-\n^\nh . Which of the \nfollowing could NOT be the sum of the measures of \nany two of these angles?\nA)\t \t\n°\nx\n18\n280\n-\n+\n^\nh\nB)\t \t\n°\nx\n18\n640\n-\n+\n^\nh\nC)\t \t\n°\nx\n18\n280\n-\n^\nh\nD)\t\t\n°\n180\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Let the given angle be $A=9x-140$. Its supplement is $180-A=320-9x$.",
+      "Two-angle sums can be $2A=18x-280$, $2(180-A)=640-18x$, or 180. Choice A, $280-18x=-2A$, is negative for a valid positive angle and cannot be a sum."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 40,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t21-m1-q24A@@",
+      "@@t21-m1-q24B@@",
+      "@@t21-m1-q24C@@",
+      "@@t21-m1-q24D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q25",
+    "prompt": "@@t21-m1-q25p@@",
+    "searchText": "x\ny\n2\n9\n7\n+\n=\nThe given equation is one equation in a system of \ntwo linear equations. If the system of equations has \nat least one solution, which of the following \nequations could be the other equation in the system?\nI.\t\n.\n.\nx\ny\n3\n13 5\n10 5\n+\n=\nII.\t\n.\n.\nx\ny\n3\n13 5\n10 5\n-\n=\nA)\t I only\nB)\t II only\nC)\t I and II\nD)\t Neither I nor II\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Equation I is 1.5 times the original equation, so the two share infinitely many solutions.",
+      "Equation II has a different slope from the original and therefore intersects it once. Either equation gives at least one solution."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 40,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q25A@@",
+      "@@t21-m1-q25B@@",
+      "@@t21-m1-q25C@@",
+      "@@t21-m1-q25D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q26",
+    "prompt": "@@t21-m1-q26p@@",
+    "searchText": "S\nIf you finish before time is called, you \nA right rectangular prism has a base area of \nt\n24 square centimeters cm2\n^\nh. The length of the base \nof the rectangular prism is 3\n8 cm, and the height of \nthe rectangular prism is 15 cm. Which expression \nrepresents the surface area, in cm2, of the right \nrectangular prism?\nA)\t \t\nt\n48\n160\n+\nB)\t \t\nt\n318\n80\n+\nC)\t \t ,\nt\n1 968\n80\n+\nD)\t\t\nt\n360\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The width is base area divided by length: $24t/(8/3)=9t$.",
+      "Surface area is $2(24t)+2(15)(8/3+9t)=318t+80$ square centimeters."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 41,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m1-q26A@@",
+      "@@t21-m1-q26B@@",
+      "@@t21-m1-q26C@@",
+      "@@t21-m1-q26D@@"
+    ]
+  },
+  {
+    "id": "t21-m1-q27",
+    "prompt": "@@t21-m1-q27p@@",
+    "searchText": "eck your work on this module only.\nFor a particular car, the linear function f  \ngives the predicted power, in brake \nhorsepower bhp\n^\nh, for engine speeds between \n1,000 revolutions per minute (rpm) and 6,000 rpm. \nAccording to this function, the car’s predicted power \nis 433 bhp  at an engine speed of 3,331 rpm  and \n600 bhp  at an engine speed of 4,500 rpm. The \nequation f x\nx\na\n7\n1\n433\n=\n-\n+\n^\n^\nh\nh\n defines f , where \nx  is the engine speed, in rpm, and a  is a constant. \nWhat is the value of a?\n",
+    "answer": "3331",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The form $f(x)=(x-a)/7+433$ yields 433 exactly when $x=a$.",
+      "The given point has output 433 at input 3331, so $a=3331$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 1,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 41,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m2-q1",
+    "prompt": "Which expression is equivalent to $6x+5x+4y$?",
+    "searchText": "Which expression is equivalent to  x\nx\ny\n6\n5\n4\n+\n+\n?\nA)\t \t\nx\n15\nB)\t \t\ny\n15\nC)\t \t\nx\ny\n11\n4\n+\nD)\t\t\nx\ny\n30\n4\n+\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Combine the like terms $6x+5x=11x$.",
+      "The expression becomes $11x+4y$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m2-q1A@@",
+      "@@t21-m2-q1B@@",
+      "@@t21-m2-q1C@@",
+      "@@t21-m2-q1D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q2",
+    "prompt": "@@t21-m2-q2p@@",
+    "searchText": "To study the characteristics of sea stars in a group of \ntide pools, researchers measured the diameter of the \nsea stars within the tide pools. The dot plot gives the \ndiameter, to the nearest inch, of each of the sea stars \nin these tide pools.\nDiameter (inches)\n16 17 18 19 20\nBased on the dot plot, how many sea stars had a \ndiameter, to the nearest inch, of 16  inches?\nA)\t \t16\nB)\t \t6\nC)\t \t4\nD)\t\t1\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Each dot represents one sea star.",
+      "There are six dots above 16 inches, so the count is 6."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q2A@@",
+      "@@t21-m2-q2B@@",
+      "@@t21-m2-q2C@@",
+      "@@t21-m2-q2D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q3",
+    "prompt": "@@t21-m2-q3p@@",
+    "searchText": "A rectangle has a length of 56  inches and a width of \n28  inches. What is the area, in square inches, of the \nrectangle?\nA)\t \t28\nB)\t \t84\nC)\t \t168\nD)\t\t ,1 568\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Rectangle area is length times width.",
+      "Compute $56(28)=1568$ square inches."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t21-m2-q3A@@",
+      "@@t21-m2-q3B@@",
+      "@@t21-m2-q3C@@",
+      "@@t21-m2-q3D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q4",
+    "prompt": "@@t21-m2-q4p@@",
+    "searchText": "x\n10\n110\n=\nx\ny\n6\n63\n-\n=\nThe solution to the given system of equations is \n,x y\n^\nh. What is the value of y?\nA)\t \t63\nB)\t \t11\nC)\t \t10\nD)\t\t3\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "From $10x=110$, $x=11$.",
+      "Substitute into $6x-y=63$: $66-y=63$, so $y=3$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 44,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q4A@@",
+      "@@t21-m2-q4B@@",
+      "@@t21-m2-q4C@@",
+      "@@t21-m2-q4D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q5",
+    "prompt": "The function $f$ is defined by $f(x)=9(2x+3)$. For what value of $x$ does $f(x)=63$?",
+    "searchText": "The function f  is defined by f x\nx\n9 2\n3\n=\n+\n^\n^\nh\nh. For \nwhat value of x  does f x\n63\n=\n^ h\n?\nA)\t \t2\nB)\t \t5\nC)\t \t7\nD)\t\t30\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Divide $9(2x+3)=63$ by 9.",
+      "Then $2x+3=7$, giving $x=2$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q5A@@",
+      "@@t21-m2-q5B@@",
+      "@@t21-m2-q5C@@",
+      "@@t21-m2-q5D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q6",
+    "prompt": "@@t21-m2-q6p@@",
+    "searchText": "x\n10\n86\n=\nWhat value of x  is the solution to the given \nequation?\n",
+    "answer": "8.6",
+    "acceptedAnswers": [
+      "43/5"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Divide both sides of $10x=86$ by 10.",
+      "The solution is $x=8.6$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m2-q7",
+    "prompt": "@@t21-m2-q7p@@",
+    "searchText": ",\n( )\ny\na\n3 600\nx\n=\nThe given equation, where a  is a positive constant, \ngives the predicted number of bacteria, y, in a \ngrowth medium x  hours after the number of \nbacteria was initially measured. According to the \nequation, what was the predicted number of bacteria \ninitially measured in the growth medium?\n",
+    "answer": "3600",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Initially, $x=0$ and $a^0=1$.",
+      "Therefore the initial count is $3600(1)=3600$ bacteria."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m2-q8",
+    "prompt": "@@t21-m2-q8p@@",
+    "searchText": "Leo goes to a packing store to buy containers and \ntape. Leo has $15. Each container costs \n.\n$1 87  and \neach roll of tape costs \n.\n$2 40. Which inequality \nrepresents the relationship between the number of \ncontainers, c, and the number of rolls of tape, t, Leo \ncan buy?\nA)\t \t .\n.\nc\nt\n1 87\n2 40\n15\n#\n+\nB)\t \t .\n.\nc\nt\n1 87\n2 40\n15\n$\n+\nC)\t \t .\n.\nc\nt\n2 40\n1 87\n15\n#\n+\nD)\t\t .\n.\nc\nt\n2 40\n1 87\n15\n$\n+\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Containers cost $1.87c$ and tape costs $2.40t$.",
+      "The total cannot exceed 15 dollars, so $1.87c+2.40t\\le15$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q8A@@",
+      "@@t21-m2-q8B@@",
+      "@@t21-m2-q8C@@",
+      "@@t21-m2-q8D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q9",
+    "prompt": "@@t21-m2-q9p@@",
+    "searchText": "The graph of the function f  is shown, where \ny\nf x\n= ^ h.\nWhich of the following best describes the \nfunction f ?\nA)\t Decreasing exponential\nB)\t Increasing exponential\nC)\t Decreasing linear\nD)\tIncreasing linear\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The graph increases and curves upward with an increasing rate of change.",
+      "This shape represents an increasing exponential function."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 45,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m2-q9A@@",
+      "@@t21-m2-q9B@@",
+      "@@t21-m2-q9C@@",
+      "@@t21-m2-q9D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q10",
+    "prompt": "@@t21-m2-q10p@@",
+    "searchText": "‒15\n‒10\n‒5\n5\n10\n15\nx\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\ny\n35\n40\n45\n50\n55\n60\nO\nThe shaded region shown in the graph represents all \nthe solutions to which inequality?\nA)\t \tx\n36\n#\nB)\t \tx\n36\n$\nC)\t \ty\n36\n#\nD)\t\ty\n36\n$\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The horizontal boundary is $y=36$, and the region above it is shaded.",
+      "The boundary is included, so the inequality is $y\\ge36$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q10A@@",
+      "@@t21-m2-q10B@@",
+      "@@t21-m2-q10C@@",
+      "@@t21-m2-q10D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q11",
+    "prompt": "@@t21-m2-q11p@@",
+    "searchText": "There are 240  players in a tennis competition that \nincludes 4  rounds of matches. Each player in the \ncompetition will play a match against another player \nin round 1. At the end of each round, the player who \nloses the match is eliminated and the player who \nwon the match advances to the next round to play a \nmatch against another winning player. Which \nequation gives the number of players, p, eliminated \nat the end of round r, where r\n4\n#\n?\nA)\t \tp\n15 2\n1 r\n=\nc m\nB)\t \t\n( )\np\n15 2 r\n=\nC)\t \tp\n240 2\n1 r\n=\nc m\nD)\t\t\n( )\np\n240 2 r\n=\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Half the remaining players are eliminated in each round: 120 in round 1, 60 in round 2, and so on.",
+      "The number eliminated in round r is $p=240(1/2)^r$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q11A@@",
+      "@@t21-m2-q11B@@",
+      "@@t21-m2-q11C@@",
+      "@@t21-m2-q11D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q12",
+    "prompt": "@@t21-m2-q12p@@",
+    "searchText": "Line k  is defined by y\nx\n6\n4\n=\n+ . Line j  is parallel to \nline k  in the xy-plane and passes through the point \n,0 5\n^\nh. Which equation defines line j? \nA)\t \ty\nx\n6\n5\n=\n+\nB)\t \ty\nx\n5\n5\n= -\n+\nC)\t \ty\nx\n6\n5\n= -\n+\nD)\t\ty\nx\n5\n5\n=\n+\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Parallel lines have equal slopes, so line j has slope 6.",
+      "Its point $(0,5)$ gives intercept 5, hence $y=6x+5$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 46,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q12A@@",
+      "@@t21-m2-q12B@@",
+      "@@t21-m2-q12C@@",
+      "@@t21-m2-q12D@@"
+    ],
+    "generationText": "Line k is defined by $y=6x+4$. Line j is parallel to k and passes through $(0,5)$. Which equation defines line j?"
+  },
+  {
+    "id": "t21-m2-q13",
+    "prompt": "@@t21-m2-q13p@@",
+    "searchText": "In the triangle shown, what is the value of x?\n",
+    "answer": "45",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The right triangle has two equal legs of length 15, so its acute angles are equal.",
+      "They sum to $90^\\circ$, so each is $45^\\circ$ and $x=45$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t21-m2-q14",
+    "prompt": "@@t21-m2-q14p@@",
+    "searchText": "What is the radius of the circle in the xy-plane \ndefined by x\ny\n2\n5\n169\n2\n2\n+\n+\n+\n=\n^\n^\nh\nh\n?  \n",
+    "answer": "13",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "In the standard circle equation, the right side is the squared radius.",
+      "Thus the radius is $\\sqrt{169}=13$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t21-m2-q15",
+    "prompt": "@@t21-m2-q15p@@",
+    "searchText": "50\n100\n150\n200\n250\nx\n‒200\n‒150\n‒100\n‒50\n50\n100\n150\n200\n250\n300\n350\ny\nO\nThe graph shows the estimated boiling point y, in \ndegrees Celsius, of a normal paraffin with a \nmolecular weight of x  grams per mole, where \nx\n1\n280\n#\n#\n. Which statement is the best \ninterpretation of the point \n.\n,\n.\n149 02 186 05\n^\nh?\nA)\t A normal paraffin with a molecular weight of \n.\n186 05  grams per mole has an estimated boiling \npoint of \n.\n149 02  degrees Celsius.\nB)\t A normal paraffin with a molecular weight of \n.\n149 02  grams per mole has an estimated boiling \npoint of \n.\n186 05  degrees Celsius.\nC)\t The minimum estimated boiling point for \nnormal paraffins corresponds to a paraffin with \na molecular weight of \n.\n149 02  grams per mole \nand an estimated boiling point of \n.\n186 05  degrees \nCelsius.\nD)\t The maximum estimated boiling point for \nnormal paraffins corresponds to a paraffin with \na molecular weight of \n.\n149 02  grams per mole \nand an estimated boiling point of \n.\n186 05  degrees \nCelsius.\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The x-coordinate represents molecular weight and the y-coordinate represents estimated boiling point.",
+      "The point means 149.02 grams per mole corresponds to an estimated boiling point of 186.05 degrees Celsius."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 47,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "A normal paraffin with molecular weight 186.05 grams per mole has an estimated boiling point of 149.02 degrees Celsius.",
+      "A normal paraffin with molecular weight 149.02 grams per mole has an estimated boiling point of 186.05 degrees Celsius.",
+      "The minimum estimated boiling point occurs at molecular weight 149.02 grams per mole and boiling point 186.05 degrees Celsius.",
+      "The maximum estimated boiling point occurs at molecular weight 149.02 grams per mole and boiling point 186.05 degrees Celsius."
+    ]
+  },
+  {
+    "id": "t21-m2-q16",
+    "prompt": "@@t21-m2-q16p@@",
+    "searchText": "For the polynomial function f , the graph of \ny\nf x\n= ^ h in the xy-plane passes through the points \n,5 0\n-\n^\nh, \n,1 0\n^\nh, and \n,4 0\n^\nh. Which of the following \nmust be a factor of f x\n^ h?\nA)\t \tx\n1\n+\nB)\t \tx\n4\n+\nC)\t \tx\n1\n-\nD)\t\tx\n5\n-\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The point $(1,0)$ means $f(1)=0$.",
+      "By the factor theorem, $x-1$ must be a factor."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m2-q16A@@",
+      "@@t21-m2-q16B@@",
+      "@@t21-m2-q16C@@",
+      "@@t21-m2-q16D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q17",
+    "prompt": "@@t21-m2-q17p@@",
+    "searchText": "x\ng x\n^ h\n1\n32\n2\n28\n3\n24\n4\n20\nFor the linear function g, the table shows four values \nof x  and their corresponding values of g x\n^ h. The \nfunction can be written as g x\nmx\nb\n=\n+\n^ h\n, where m  \nand b  are constants. What is the value of b?\nA)\t \t4\nB)\t \t16\nC)\t \t32\nD)\t\t36\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Each increase of 1 in x decreases g(x) by 4, so $m=-4$.",
+      "Using $g(1)=32$, $32=-4+b$, giving $b=36$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q17A@@",
+      "@@t21-m2-q17B@@",
+      "@@t21-m2-q17C@@",
+      "@@t21-m2-q17D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q18",
+    "prompt": "@@t21-m2-q18p@@",
+    "searchText": "x\n24\n30\n32\nf x\n^ h\n8\n-\n8\n-\n8\nFor the quadratic function f , the table shows three \nvalues of x  and their corresponding values of  f x\n^ h. \nWhich equation defines f ?\nA)\t \t f x\nx\nx\n24\n30\n4\n=\n-\n-\n+\n^\n^\n^\nh\nh\nh\nB)\t \t f x\nx\nx\n24\n30\n8\n=\n-\n-\n-\n^\n^\n^\nh\nh\nh\nC)\t \t f x\nx\nx\n8\n32\n32\n=\n-\n-\n+\n^\n^\n^\nh\nh\nh\nD)\t\t f x\nx\nx\n8\n32\n32\n=\n-\n-\n-\n^\n^\n^\nh\nh\nh\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The equal outputs at 24 and 30 suggest $f(x)=a(x-24)(x-30)-8$.",
+      "At 32, $8=a(8)(2)-8$, so $a=1$. This is choice B."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 48,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m2-q18A@@",
+      "@@t21-m2-q18B@@",
+      "@@t21-m2-q18C@@",
+      "@@t21-m2-q18D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q19",
+    "prompt": "@@t21-m2-q19p@@",
+    "searchText": "A certain open star cluster contains M-type stars \nand K-type stars. The estimated total mass of \nM-type and K-type stars in this open star cluster \nis \n,\n127 882 quettagrams. The graph shown models \nthe possible combinations of the number of M-type \nstars, x, and K-type stars, y, that could be in this \nopen star cluster if all the M-type stars have the \nsame estimated mass and all the K-type stars have \nthe same estimated mass. Based on the graph, which \nof the following is closest to the estimated mass, in \nquettagrams, of each M-type star in this cluster?\nA)\t \t811\nB)\t \t938\nC)\t \t\n,\n51 904\nD)\t\t\n,\n75 978\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The x-intercept represents the number of M-type stars if they alone supplied the total mass; the graph shows approximately 158.",
+      "Divide $127882$ by about 158 to estimate the mass per M-type star, about 810 quettagrams, closest to 811."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q19A@@",
+      "@@t21-m2-q19B@@",
+      "@@t21-m2-q19C@@",
+      "@@t21-m2-q19D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q20",
+    "prompt": "@@t21-m2-q20p@@",
+    "searchText": "p2\n3\n7\n9\nt\n=\nIn the given equation, p\n1\n>\n and t\n1\n> . If \nt\np n\n3\n1\n=\n- , where n  is a constant, what is the value \nof n?\n",
+    "answer": "41/81",
+    "acceptedAnswers": [
+      ".5061",
+      ".5062"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Rewrite the equation as $p^{2/3}=t^{9/7}$, then raise both sides to $7/9$: $t=p^{14/27}$.",
+      "Since $p>1$, equate exponents: $3n-1=14/27$, so $n=41/81\\approx0.50617$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m2-q21",
+    "prompt": "The number $a$ is 55% less than $b$. The number $b$ is 320% greater than 160. What is $a$?",
+    "searchText": "The number a  is \n%\n55\n less than the number b. The \nnumber b  is \n%\n320\n greater than 160. What is the \nvalue of a?\n",
+    "answer": "1512/5",
+    "acceptedAnswers": [
+      "302.4"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "320% greater than 160 is $b=4.20(160)=672$.",
+      "55% less than b is $a=0.45(672)=302.4=1512/5$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t21-m2-q22",
+    "prompt": "@@t21-m2-q22p@@",
+    "searchText": "f x\nx\nx\n6\n60\n126\n2\n= -\n+\n-\n^ h\nThe function f  is defined by the given equation. \nWhich of the following equivalent forms of the \nequation displays the maximum value of the \nfunction as a constant or coefficient?\nA)\t \t f x\nx\nx\nx\n6\n42\n18\n126\n2\n= -\n+\n+\n-\n^ h\nB)\t \t f x\nx x\nx\n6\n7\n18\n7\n= -\n-\n+\n-\n^\n^\n^\nh\nh\nh\nC)\t \t f x\nx\n6\n5\n24\n2\n= -\n-\n+\n^\n^\nh\nh\nD)\t\t f x\nx\nx\n6\n7\n3\n= -\n-\n-\n^\n^\n^\nh\nh\nh\n",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Complete the square: $-6x^2+60x-126=-6(x-5)^2+24$.",
+      "The squared term is nonnegative and multiplied by $-6$, so the maximum is the displayed constant 24, choice C."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 49,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math",
+    "choices": [
+      "@@t21-m2-q22A@@",
+      "@@t21-m2-q22B@@",
+      "@@t21-m2-q22C@@",
+      "@@t21-m2-q22D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q23",
+    "prompt": "@@t21-m2-q23p@@",
+    "searchText": "In the figure shown, WZ  and XY  intersect at \npoint Q, YQ\n21\n=\n, WQ\n70\n=\n, WX\n60\n=\n, and \nXQ\n120\n=\n. What is the length of YZ ?\nA)\t \t18\nB)\t \t36\nC)\t \t120\nD)\t\t200\n",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The marked angles and vertical angles at Q make triangles WQX and YQZ similar.",
+      "Their scale factor is $YQ/WQ=21/70=3/10$, so $YZ=(3/10)(60)=18$."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 50,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q23A@@",
+      "@@t21-m2-q23B@@",
+      "@@t21-m2-q23C@@",
+      "@@t21-m2-q23D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q24",
+    "prompt": "@@t21-m2-q24p@@",
+    "searchText": "x\nx\n52\n64\n81\n0\n3\n4\n+\n-\n=\n^\n^h\nh\nHow many distinct real solutions does the given \nequation have?\nA)\t Exactly two\nB)\t Exactly three\nC)\t Exactly five\nD)\tExactly seven\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The factor $x^3+52$ has one real zero.",
+      "The factor $64x^4-81$ has two real zeros, positive and negative. These differ from the cubic's zero, giving three distinct real solutions."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 50,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t21-m2-q24A@@",
+      "@@t21-m2-q24B@@",
+      "@@t21-m2-q24C@@",
+      "@@t21-m2-q24D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q25",
+    "prompt": "@@t21-m2-q25p@@",
+    "searchText": "The histogram summarizes data set A, which \nrepresents the number of points per player earned by \n50  players of a game. A new player earns 18  points \nplaying the game, and this number of points is added \nto data set A to create data set B with 51 values. \nWhich of the following must be true?\nI.\t The median number of points per player for \ndata set B is less than the median number of \npoints per player for data set A.\nII.\t The mean number of points per player for \ndata set B is less than the mean number of \npoints per player for data set A.\nA)\t I only\nB)\t II only\nC)\t I and II\nD)\t Neither I nor II\n",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Every original score is above 18, so adding 18 must decrease the mean.",
+      "The new median is the original 25th value, whereas the old median averages the 25th and 26th values. These two may be equal, so a strict median decrease is not guaranteed. Only II must hold."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 50,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t21-m2-q25A@@",
+      "@@t21-m2-q25B@@",
+      "@@t21-m2-q25C@@",
+      "@@t21-m2-q25D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q26",
+    "prompt": "@@t21-m2-q26p@@",
+    "searchText": "S\nIf you finish before time is called, you \nIn triangle XYZ, the measure of angle X  is \n°\n90 . \nPoint W  lies on segment YZ, and segment WX  is \nperpendicular to segment YZ. The length of segment \nWY  is 572, and the length of segment WX  is 429. \nWhat is the value of tanZ?\nA)\t \t5\n3\nB)\t \t4\n3\nC)\t \t5\n4\nD)\t\t3\n4\n",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The altitude creates similar right triangles. Angle Z equals angle YXW, so its tangent in triangle XYW is $WY/WX$.",
+      "Therefore $\\tan Z=572/429=4/3$, choice D."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 51,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t21-m2-q26A@@",
+      "@@t21-m2-q26B@@",
+      "@@t21-m2-q26C@@",
+      "@@t21-m2-q26D@@"
+    ]
+  },
+  {
+    "id": "t21-m2-q27",
+    "prompt": "@@t21-m2-q27p@@",
+    "searchText": "eck your work on this module only.\nAn area of \n.\n46 00  square nautical miles is equivalent \nto k  square kilometers. To the nearest tenth, what is \nthe value of k? \n.\n1\n1 852\nnautical mile\nkilometers\n=\n^\nh\n",
+    "answer": "157.8",
+    "acceptedAnswers": [
+      "789/5"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Square the conversion factor when converting square units.",
+      "Compute $46.00(1.852)^2=157.775584$, which rounds to 157.8 square kilometers."
+    ],
+    "parentTestId": "test-21",
+    "referenceModule": 2,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 11 · Math",
+    "sourcePage": 51,
+    "visual": null,
+    "level": "Source",
+    "domain": "Advanced",
+    "skill": "Advanced math"
+  }
+]

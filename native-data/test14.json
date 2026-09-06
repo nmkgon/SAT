@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "t14-m1-q1",
+    "prompt": "@@t14-m1-q1p@@",
+    "searchText": "A group of students voted on five after-school activities. The bar graph shows the number of students who voted for each of the five activities.",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Read the height of the bar labeled activity 3.",
+      "The bar corresponds to 39 students, choice B."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 1,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t14-m1-q1A@@",
+      "@@t14-m1-q1B@@",
+      "@@t14-m1-q1C@@",
+      "@@t14-m1-q1D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q2",
+    "prompt": "@@t14-m1-q2p@@",
+    "searchText": "",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Divide the part by the whole: $75/300=1/4$.",
+      "Convert to a percentage: $1/4=25\\%$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 1,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q2A@@",
+      "@@t14-m1-q2B@@",
+      "@@t14-m1-q2C@@",
+      "@@t14-m1-q2D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q3",
+    "prompt": "@@t14-m1-q3p@@",
+    "searchText": "What is a solution to the given equation?",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Multiply $x^2/25=36$ by 25 to get $x^2=900$.",
+      "The solutions are $x=\\pm30$; the listed solution is 30."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 1,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "6",
+      "30",
+      "450",
+      "900"
+    ]
+  },
+  {
+    "id": "t14-m1-q4",
+    "prompt": "@@t14-m1-q4p@@",
+    "searchText": "Which equation represents this situation?",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Eight times x is $8x$, and 3 more than that is $8x+3$.",
+      "Setting this equal to 83 gives $8x+3=83$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 1,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q4A@@",
+      "@@t14-m1-q4B@@",
+      "@@t14-m1-q4C@@",
+      "@@t14-m1-q4D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q5",
+    "prompt": "@@t14-m1-q5p@@",
+    "searchText": "Hana deposited a fixed amount into her bank gives the amount, in dollars, in Hana’s bank account after t monthly deposits. What is the best",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "In $f(t)=100+25t$, increasing t by 1 increases the balance by 25.",
+      "Thus each monthly deposit adds 25 dollars to the account."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 2,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q5A@@",
+      "@@t14-m1-q5B@@",
+      "@@t14-m1-q5C@@",
+      "@@t14-m1-q5D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q6",
+    "prompt": "@@t14-m1-q6p@@",
+    "searchText": "pound. How many pounds of oranges did the customer purchase?",
+    "answer": "9",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Divide the total cost by the price per pound.",
+      "The customer bought $27/3=9$ pounds."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 2,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m1-q7",
+    "prompt": "@@t14-m1-q7p@@",
+    "searchText": "purchase. The cost for the entire purchase after using",
+    "answer": "10",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Before the 63-dollar discount, the nine bins cost $27+63=90$ dollars.",
+      "Each bin's original price was $90/9=10$ dollars."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 2,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m1-q8",
+    "prompt": "@@t14-m1-q8p@@",
+    "searchText": "For the linear function f, the table shows three values of x and their corresponding values of f(x). Which equation defines f(x) ?",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The outputs rise by 3 for each unit increase in x, so the slope is 3.",
+      "The output at zero is 29, giving $f(x)=3x+29$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 2,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$f(x)=3x+29$",
+      "$f(x)=29x+32$",
+      "$f(x)=35x+29$",
+      "$f(x)=32x+35$"
+    ]
+  },
+  {
+    "id": "t14-m1-q9",
+    "prompt": "@@t14-m1-q9p@@",
+    "searchText": "Right triangles PQR and STU are similar, where P",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "In right triangle PQR, the other acute angle P is $90-18=72^\\circ$.",
+      "P corresponds to S in the similar triangle, so S measures $72^\\circ$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 2,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t14-m1-q9A@@",
+      "@@t14-m1-q9B@@",
+      "@@t14-m1-q9C@@",
+      "@@t14-m1-q9D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q10",
+    "prompt": "@@t14-m1-q10p@@",
+    "searchText": "two variables, x and y. Which of the following equations is the most appropriate linear model for the data shown?",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The scatterplot trends downward, with a y-intercept near 9.4.",
+      "The reasonable slope is about $-0.9$, so the model is $y=9.4-0.9x$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 3,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q10A@@",
+      "@@t14-m1-q10B@@",
+      "@@t14-m1-q10C@@",
+      "@@t14-m1-q10D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q11",
+    "prompt": "@@t14-m1-q11p@@",
+    "searchText": "The given equation describes the relationship between the number of birds, b, and the number of reptiles, r, that can be cared for at a pet care business a given day, how many birds can it care for on this",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute $r=16$ into $2.5b+5r=80$.",
+      "Then $2.5b+80=80$, so $b=0$ birds."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 3,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "0",
+      "5",
+      "40",
+      "80"
+    ]
+  },
+  {
+    "id": "t14-m1-q12",
+    "prompt": "@@t14-m1-q12p@@",
+    "searchText": "What is an equation of the graph shown?",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The graph crosses the y-axis at $-8$ and falls 1 unit for each unit right.",
+      "Its equation is $y=-x-8$, choice C."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 3,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q12A@@",
+      "@@t14-m1-q12B@@",
+      "@@t14-m1-q12C@@",
+      "@@t14-m1-q12D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q13",
+    "prompt": "@@t14-m1-q13p@@",
+    "searchText": "",
+    "answer": "1/5",
+    "acceptedAnswers": [
+      ".2"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "The quantities $x/8$ and $8/x$ are reciprocals.",
+      "Since $x/8=5$, $8/x=1/5$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 3,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m1-q14",
+    "prompt": "@@t14-m1-q14p@@",
+    "searchText": "The solution to the given system of equations is (x, y). What is the value of y ?",
+    "answer": "80",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Subtract $6x+y=72$ from $24x+y=48$: $18x=-24$, so $x=-4/3$.",
+      "Substitute into the second equation: $-8+y=72$, hence $y=80$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 3,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m1-q15",
+    "prompt": "@@t14-m1-q15p@@",
+    "searchText": "",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use $y=-x/3+b$ for a line of slope $-1/3$.",
+      "The point $(9,10)$ gives $10=-3+b$, so $b=13$ and $y=-x/3+13$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 4,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q15A@@",
+      "@@t14-m1-q15B@@",
+      "@@t14-m1-q15C@@",
+      "@@t14-m1-q15D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q16",
+    "prompt": "@@t14-m1-q16p@@",
+    "searchText": "in dollars, of a certain bank account by the end of",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The input counts years after 1957, so an input of 5 means 1962.",
+      "The output is dollars, so $f(5)\\approx243$ predicts a balance of approximately 243 dollars in 1962."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 4,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q16A@@",
+      "@@t14-m1-q16B@@",
+      "@@t14-m1-q16C@@",
+      "@@t14-m1-q16D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q17",
+    "prompt": "@@t14-m1-q17p@@",
+    "searchText": "For a certain rectangular region, the ratio of its length change to maintain this ratio?",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The length-to-width ratio is $35/10=3.5$.",
+      "A width increase of 7 requires a length increase of $3.5(7)=24.5$ units."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 4,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t14-m1-q17A@@",
+      "@@t14-m1-q17B@@",
+      "@@t14-m1-q17C@@",
+      "@@t14-m1-q17D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q18",
+    "prompt": "@@t14-m1-q18p@@",
+    "searchText": "Square P has a side length of x inches. Square Q has perimeter of square P. The function f gives the area of square Q, in square inches. Which of the following",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Square P's perimeter is $4x$, so square Q's perimeter is $4x+176$.",
+      "Q's side is $x+44$, giving area $f(x)=(x+44)^2$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 4,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "$f(x)=(x+44)^2$",
+      "$f(x)=(x+176)^2$",
+      "$f(x)=(176x+44)^2$",
+      "$f(x)=(176x+176)^2$"
+    ]
+  },
+  {
+    "id": "t14-m1-q19",
+    "prompt": "@@t14-m1-q19p@@",
+    "searchText": "The given equation relates the distinct positive real numbers w, x, and y. Which equation correctly",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Simplify the given equation to $x/y=\\sqrt{w+19}$.",
+      "Square both sides and subtract 19: $w=(x/y)^2-19$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 5,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$w=\\sqrt{\\frac{x}{y}}-19$",
+      "$w=\\sqrt{\\frac{28x}{14y}}-19$",
+      "$w=(\\frac{x}{y})^2-19$",
+      "$w=(\\frac{28x}{14y})^2-19$"
+    ]
+  },
+  {
+    "id": "t14-m1-q20",
+    "prompt": "@@t14-m1-q20p@@",
+    "searchText": "Point O is the center of a circle. The measure of degrees, of its associated angle ROS ?",
+    "answer": "100",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The angle at the center has the same degree measure as its intercepted arc.",
+      "Therefore angle ROS measures $100^\\circ$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 5,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t14-m1-q21",
+    "prompt": "@@t14-m1-q21p@@",
+    "searchText": "",
+    "answer": "361/8",
+    "acceptedAnswers": [
+      "45.12",
+      "45.13"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "The first factor simplifies to $6(3x^9)=18x^9$, and the second to $2x^{1/8}$.",
+      "Their product is $36x^{73/8}$, so $a+b=36+73/8=361/8$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 5,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m1-q22",
+    "prompt": "A right triangle has sides of length $2\\sqrt{2}$, $6\\sqrt{2}$, and $\\sqrt{80}$ units. What is its area, in square units?",
+    "searchText": "",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The longest side, $\\sqrt{80}$, is the hypotenuse, leaving legs $2\\sqrt2$ and $6\\sqrt2$.",
+      "The area is $\\frac12(2\\sqrt2)(6\\sqrt2)=12$ square units."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 5,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$8\\sqrt{2}+\\sqrt{80}$",
+      "12",
+      "$24\\sqrt{80}$",
+      "24"
+    ]
+  },
+  {
+    "id": "t14-m1-q23",
+    "prompt": "@@t14-m1-q23p@@",
+    "searchText": "are integer constants. Which of the following must",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Expanding $(hx+k)(x+j)$ shows that its constant term is $kj=-45$.",
+      "Thus $45/k=-j$, which must be an integer because j is an integer."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 5,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$\\frac{b}{h}$",
+      "$\\frac{b}{k}$",
+      "$\\frac{45}{h}$",
+      "$\\frac{45}{k}$"
+    ]
+  },
+  {
+    "id": "t14-m1-q24",
+    "prompt": "@@t14-m1-q24p@@",
+    "searchText": "In the given system of equations, a is a constant. The graphs of the equations in the given system intersect at exactly one point, (x, y), in the xy-plane. What is the value of x ?",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Equate the two expressions for y to obtain $2x^2-24x+(64-a)=0$.",
+      "A single intersection means a repeated root at $x=-(-24)/(2\\cdot2)=6$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 6,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m1-q24A@@",
+      "@@t14-m1-q24B@@",
+      "@@t14-m1-q24C@@",
+      "@@t14-m1-q24D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q25",
+    "prompt": "@@t14-m1-q25p@@",
+    "searchText": "An isosceles right triangle has a hypotenuse of length",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Each leg of an isosceles right triangle is hypotenuse divided by $\\sqrt2$, so each leg is $29\\sqrt2$.",
+      "Add all sides: the perimeter is $58+58\\sqrt2$ inches."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 6,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry",
+    "choices": [
+      "@@t14-m1-q25A@@",
+      "@@t14-m1-q25B@@",
+      "@@t14-m1-q25C@@",
+      "@@t14-m1-q25D@@"
+    ]
+  },
+  {
+    "id": "t14-m1-q26",
+    "prompt": "@@t14-m1-q26p@@",
+    "searchText": "intersects the x-axis at two points. If the equation of where a, b, and c are constants, which of the",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Since the vertex is below the x-axis and there are two x-intercepts, the parabola opens upward: $y=a(x-9)^2-14$ with $a>0$.",
+      "Then $a+b+c=f(1)=64a-14>-14$. Of the choices, only $-12$ is possible."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 6,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "-23",
+      "-19",
+      "-14",
+      "-12"
+    ]
+  },
+  {
+    "id": "t14-m1-q27",
+    "prompt": "@@t14-m1-q27p@@",
+    "searchText": "and b are constants. In the xy-plane, the graph of",
+    "answer": "5",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At zero, $f(0)-15=-1+b-15=b-16=-99/7$, so $b=13/7$.",
+      "Using $ab=65/7$ gives $a=(65/7)/(13/7)=5$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 1,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 6,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m2-q1",
+    "prompt": "@@t14-m2-q1p@@",
+    "searchText": "The line graph shows the estimated number of Based on the line graph, in which year was the estimated number of chipmunks in the state park the",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Find the highest point on the line graph.",
+      "It occurs in 1994, so that year had the greatest estimated population."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 1,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 9,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q1A@@",
+      "@@t14-m2-q1B@@",
+      "@@t14-m2-q1C@@",
+      "@@t14-m2-q1D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q2",
+    "prompt": "@@t14-m2-q2p@@",
+    "searchText": "",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Convert yards to miles by dividing by 1760.",
+      "The distance is $5104/1760=2.9$ miles."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 2,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 9,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q2A@@",
+      "@@t14-m2-q2B@@",
+      "@@t14-m2-q2C@@",
+      "@@t14-m2-q2D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q3",
+    "prompt": "Which expression is equivalent to $12x^3-5x^3$?",
+    "searchText": "",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Both terms are multiples of $x^3$.",
+      "Subtract their coefficients: $12x^3-5x^3=7x^3$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 3,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 9,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$7x^6$",
+      "$17x^3$",
+      "$7x^3$",
+      "$17x^6$"
+    ]
+  },
+  {
+    "id": "t14-m2-q4",
+    "prompt": "@@t14-m2-q4p@@",
+    "searchText": "What is the solution (x, y) to the given system of",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Use $x=5y$ in $x+y=18$ to get $6y=18$.",
+      "Then $y=3$ and $x=15$, so the solution is $(15,3)$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 4,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 9,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q4A@@",
+      "@@t14-m2-q4B@@",
+      "@@t14-m2-q4C@@",
+      "@@t14-m2-q4D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q5",
+    "prompt": "@@t14-m2-q5p@@",
+    "searchText": "which of the following systems of inequalities?",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The point has $x=8>0$ and $y=2>0$.",
+      "It therefore satisfies the system $x>0$ and $y>0$, choice A."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 5,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 10,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q5A@@",
+      "@@t14-m2-q5B@@",
+      "@@t14-m2-q5C@@",
+      "@@t14-m2-q5D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q6",
+    "prompt": "@@t14-m2-q6p@@",
+    "searchText": "What is one possible solution to the given equation?",
+    "answer": "15",
+    "acceptedAnswers": [
+      "-5"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "The absolute-value equation means $x-5=10$ or $x-5=-10$.",
+      "Thus $x=15$ or $x=-5$; either is valid."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 6,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 10,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m2-q7",
+    "prompt": "@@t14-m2-q7p@@",
+    "searchText": "The function gives the total number of people on a company retreat with x managers. What is the total number of people on a company retreat with",
+    "answer": "50",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Substitute 7 into $f(x)=7x+1$.",
+      "There are $7(7)+1=50$ people."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 7,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 10,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m2-q8",
+    "prompt": "@@t14-m2-q8p@@",
+    "searchText": "Which table gives three values of x and their corresponding values of h(x) for the given",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Evaluate $h(x)=x^2-3$ at 1, 2, and 3.",
+      "The outputs are $-2,1,6$, which match table B."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 8,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 10,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q8A@@",
+      "@@t14-m2-q8B@@",
+      "@@t14-m2-q8C@@",
+      "@@t14-m2-q8D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q9",
+    "prompt": "@@t14-m2-q9p@@",
+    "searchText": "",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "At $x=0$, $(0.1)^0=1$.",
+      "Thus $f(0)=270$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 9,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 10,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "0",
+      "1",
+      "27",
+      "270"
+    ]
+  },
+  {
+    "id": "t14-m2-q10",
+    "prompt": "@@t14-m2-q10p@@",
+    "searchText": "To estimate the proportion of a population that has a certain characteristic, a random sample was selected from the population. Based on the sample, it is estimated that the proportion of the population that margin of error, which of the following is the most appropriate conclusion about the proportion of the population that has the characteristic?",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Form the estimate plus or minus its margin of error.",
+      "The plausible interval is $0.49\\pm0.04$, or 0.45 to 0.53."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 10,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 11,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t14-m2-q10A@@",
+      "@@t14-m2-q10B@@",
+      "@@t14-m2-q10C@@",
+      "@@t14-m2-q10D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q11",
+    "prompt": "@@t14-m2-q11p@@",
+    "searchText": "A moving truck can tow a trailer if the combined weight of the trailer and the boxes it contains is no number of boxes this truck can tow in a trailer with a",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "After allowing 500 pounds for the trailer, 4100 pounds remain for boxes.",
+      "The bound is $4100/120\\approx34.17$, so the truck can tow at most 34 whole boxes."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 11,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 11,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q11A@@",
+      "@@t14-m2-q11B@@",
+      "@@t14-m2-q11C@@",
+      "@@t14-m2-q11D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q12",
+    "prompt": "@@t14-m2-q12p@@",
+    "searchText": "What is the positive solution to the given equation?",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Rearrange to $4x^2+7x-36=0$ and factor as $(4x-9)(x+4)=0$.",
+      "The positive root is $x=9/4$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 12,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 11,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q12A@@",
+      "@@t14-m2-q12B@@",
+      "@@t14-m2-q12C@@",
+      "@@t14-m2-q12D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q13",
+    "prompt": "@@t14-m2-q13p@@",
+    "searchText": "The table summarizes the distribution of color and If one of these tiles is selected at random, what is the probability of selecting a red tile? (Express your answer as a decimal or fraction, not as a percent.)",
+    "answer": ".3",
+    "acceptedAnswers": [
+      "3/10"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "The table contains 30 red tiles among 100 tiles total.",
+      "The probability is $30/100=0.3$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 13,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 11,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis"
+  },
+  {
+    "id": "t14-m2-q14",
+    "prompt": "@@t14-m2-q14p@@",
+    "searchText": "xy-plane is parallel to line j. What is the slope of",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The function $f(x)=2x+3$ has slope 2.",
+      "Parallel lines have equal slopes, so line j also has slope 2."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 14,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 11,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m2-q15",
+    "prompt": "@@t14-m2-q15p@@",
+    "searchText": "A proposal for a new library was included on an many people voted in favor of the proposal as people who voted against it. A social media post reported proposal than voted against it. Based on these data, how many people voted against the proposal?",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "If a people voted against, then $3a$ voted in favor.",
+      "The difference is $3a-a=15000$, so $a=7500$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 15,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 12,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "7500",
+      "15000",
+      "22500",
+      "45000"
+    ]
+  },
+  {
+    "id": "t14-m2-q16",
+    "prompt": "@@t14-m2-q16p@@",
+    "searchText": "In the figure, lines m and n are parallel. If",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Angles x and y are vertical, so $6k+13=8k-29$, giving $k=21$ and $x=y=139^\\circ$.",
+      "Parallel-line relationships make z supplementary to these angles, so $z=180-139=41$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 16,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 12,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q16A@@",
+      "@@t14-m2-q16B@@",
+      "@@t14-m2-q16C@@",
+      "@@t14-m2-q16D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q17",
+    "prompt": "@@t14-m2-q17p@@",
+    "searchText": "In the given equation, p is a constant. The equation has no solution. What is the value of p ?",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Collect x terms to obtain $(21p-3)x=84$.",
+      "No solution requires the x coefficient to be zero: $21p-3=0$, so $p=1/7$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 17,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 12,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "0",
+      "$\\frac{1}{7}$",
+      "$\\frac{4}{3}$",
+      "4"
+    ]
+  },
+  {
+    "id": "t14-m2-q18",
+    "prompt": "@@t14-m2-q18p@@",
+    "searchText": "The function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The zeros are 10 and $-13$. The positive leading coefficient makes the vertex a minimum.",
+      "Its x-coordinate is the midpoint of the zeros: $(10-13)/2=-3/2$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 18,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 12,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q18A@@",
+      "@@t14-m2-q18B@@",
+      "@@t14-m2-q18C@@",
+      "@@t14-m2-q18D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q19",
+    "prompt": "@@t14-m2-q19p@@",
+    "searchText": "ball’s height above the ground f(x), in inches, x seconds after it started moving on a track, where interpretation of the vertex of the graph of",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The function is in vertex form with a positive coefficient on the squared term and vertical offset 3.",
+      "The vertex gives the minimum height, 3 inches above the ground."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 19,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 13,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q19A@@",
+      "@@t14-m2-q19B@@",
+      "@@t14-m2-q19C@@",
+      "@@t14-m2-q19D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q20",
+    "prompt": "@@t14-m2-q20p@@",
+    "searchText": "angle. What is the value of cos(L) ?",
+    "answer": "15/17",
+    "acceptedAnswers": [
+      ".8824",
+      ".8823"
+    ],
+    "tolerance": 1e-06,
+    "steps": [
+      "Angles K and L are complementary, so $\\cos L=\\sin K$.",
+      "Since $\\cos K=24/51=8/17$, $\\sin K=\\sqrt{1-(8/17)^2}=15/17$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 20,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 13,
+    "visual": null,
+    "level": "Source",
+    "domain": "Geometry",
+    "skill": "Geometry"
+  },
+  {
+    "id": "t14-m2-q21",
+    "prompt": "@@t14-m2-q21p@@",
+    "searchText": "In the given equation, b is a positive integer. The equation has no real solution. What is the greatest possible value of b ?",
+    "answer": "51",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "For $-x^2+bx-676=0$, the discriminant is $b^2-2704$.",
+      "No real solution requires $b^2<52^2$. The greatest positive integer b is 51."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 21,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 13,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  },
+  {
+    "id": "t14-m2-q22",
+    "prompt": "@@t14-m2-q22p@@",
+    "searchText": "If a new graph of three linear equations is created using the system of equations shown and the will the resulting system of three equations have?",
+    "answer": "0",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The existing graph shows the line with slope $-1/4$ and y-intercept 4.",
+      "The added equation is $y=-x/4-4$, a distinct parallel line. No point lies on all three equations, so there are zero solutions."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 22,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 13,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q22A@@",
+      "@@t14-m2-q22B@@",
+      "@@t14-m2-q22C@@",
+      "@@t14-m2-q22D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q23",
+    "prompt": "@@t14-m2-q23p@@",
+    "searchText": "The function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p ?",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "After 12 months, the exponential factor multiplies the value by 0.64.",
+      "That leaves 64% of the previous year's value, a decrease of $100-64=36\\%$, so $p=36$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 23,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 14,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "@@t14-m2-q23A@@",
+      "@@t14-m2-q23B@@",
+      "@@t14-m2-q23C@@",
+      "@@t14-m2-q23D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q24",
+    "prompt": "@@t14-m2-q24p@@",
+    "searchText": "values in data set A. Which of the following correctly compares the medians and the ranges of data sets A",
+    "answer": "2",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "Adding 56 to every value increases the median by 56.",
+      "Both the maximum and minimum also increase by 56, leaving their difference, the range, unchanged."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 24,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 14,
+    "visual": null,
+    "level": "Source",
+    "domain": "Data",
+    "skill": "Data analysis",
+    "choices": [
+      "@@t14-m2-q24A@@",
+      "@@t14-m2-q24B@@",
+      "@@t14-m2-q24C@@",
+      "@@t14-m2-q24D@@"
+    ]
+  },
+  {
+    "id": "t14-m2-q25",
+    "prompt": "@@t14-m2-q25p@@",
+    "searchText": "in the xy-plane. Which of the following equations",
+    "answer": "3",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The original center is $(0,1)$ and radius is 7.",
+      "Moving down 2 gives center $(0,-1)$, so the equation is $x^2+(y+1)^2=49$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 25,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 15,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "$(x-2)^2+(y-1)^2=49$",
+      "$x^2+(y-3)^2=49$",
+      "$(x+2)^2+(y-1)^2=49$",
+      "$x^2+(y+1)^2=49$"
+    ]
+  },
+  {
+    "id": "t14-m2-q26",
+    "prompt": "@@t14-m2-q26p@@",
+    "searchText": "If the prisms are glued together along a square base, What is the side length, in cm, of each square base?",
+    "answer": "1",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "If the square side is s, each prism has area $K=2s^2+360s$. The glued prism has area $2s^2+720s$.",
+      "Set $2s^2+720s=(92/47)(2s^2+360s)$. Simplification gives $90s(s-8)=0$, so the positive side length is 8 centimeters."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 26,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 15,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra",
+    "choices": [
+      "4",
+      "8",
+      "9",
+      "16"
+    ]
+  },
+  {
+    "id": "t14-m2-q27",
+    "prompt": "@@t14-m2-q27p@@",
+    "searchText": "",
+    "answer": "600",
+    "acceptedAnswers": [],
+    "tolerance": 1e-06,
+    "steps": [
+      "The increase from 30 to 210 is $210-30=180$.",
+      "Relative to the original value, the percentage increase is $(180/30)(100)=600$, so $p=600$."
+    ],
+    "parentTestId": "test-14",
+    "referenceModule": 2,
+    "referenceQuestion": 27,
+    "source": "College Board Practice Test 4 · Math",
+    "sourcePage": 15,
+    "visual": null,
+    "level": "Source",
+    "domain": "Algebra",
+    "skill": "Algebra"
+  }
+]
