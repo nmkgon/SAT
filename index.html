@@ -1,0 +1,121 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vertex · SAT Math</title><script src="assets/js/hub.js"></script><script src="config/tests.js"></script><script src="assets/js/catalog.js"></script><style>
+:root{--ink:#142d43;--muted:#596b7b;--line:#dce4ea;--paper:#fff;--bg:#f2f5f8;--paper-2:#f7f9fb;--accent:#076b5c;--mint:#e3f5ed;--blue:#315fe5;--red:#b93549;--gold:#9a5c0d;--focus:#315fe5}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit}
+:where(button,a,input,select):focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+button,a.button{border:1px solid var(--line);border-radius:9px;padding:9px 15px;cursor:pointer;background:var(--paper);color:var(--ink);font-weight:600;text-decoration:none;display:inline-block;transition:background .12s,border-color .12s}
+button:hover,a.button:hover{background:#eaf0f5}
+button:not(:disabled):active{transform:translateY(1px)}
+button:disabled{opacity:.45;cursor:not-allowed}
+.primary,a.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.primary:hover,a.primary:hover{background:#055447}
+.quiet{background:transparent;border-color:transparent}
+.small{font-size:14px}
+input,select{width:100%;padding:10px 12px;border:1px solid #b9c7d2;border-radius:8px;color:var(--ink);background:var(--paper)}
+label{display:block;font-size:14px;font-weight:650;margin-bottom:6px}
+header{position:sticky;top:0;z-index:20;height:64px;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(20px,calc((100% - 1040px)/2))}
+.brand{display:flex;gap:9px;align-items:center;font-size:21px;letter-spacing:-.6px;font-weight:800}
+.brand-mark{width:30px;height:30px;display:grid;place-items:center;background:var(--ink);color:#79e8bd;font-size:19px;border-radius:8px}
+.brand small{display:block;font-size:10.5px;letter-spacing:1.2px;font-weight:650;color:var(--muted);line-height:1.2;margin-top:1px}
+main{max-width:1040px;margin:0 auto;padding:28px 20px 48px}
+h1{font-size:27px;letter-spacing:-.6px;margin:0}
+h2{font-size:20px;margin:0}
+p{margin:6px 0 16px}
+.muted{color:var(--muted);font-size:14px}
+.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.between{justify-content:space-between}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px}
+.badge{font-size:12px;font-weight:600;padding:5px 9px;background:#edf1f6;border-radius:6px;color:#53687b;white-space:nowrap}
+.badge.ok{background:var(--mint);color:var(--accent)}
+.hidden{display:none!important}
+.error{color:var(--red);font-size:14px;min-height:20px;margin:8px 0 0}
+/* Login */
+.login{max-width:400px;margin:10vh auto 0;padding:30px 28px 24px}
+.login .brand{margin-bottom:22px}
+.login h1{font-size:24px}
+.login .primary{width:100%;margin-top:14px;padding:12px}
+/* Home */
+.page-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.page-head p{margin:4px 0 0}
+#testList{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;background:none;border:0}
+.test-row{display:flex;flex-direction:column;gap:14px;padding:22px 22px 20px;background:var(--paper);border:1px solid var(--line);border-radius:12px;position:relative;overflow:hidden}
+.test-row::before{content:'';position:absolute;left:0;top:0;right:0;height:4px;background:var(--accent)}
+.test-row:nth-child(2)::before{background:var(--ink)}
+.test-row:nth-child(3)::before{background:#d18b26}
+.test-row:nth-child(n+4)::before{background:#7c4dbe}
+.test-row h2{font-size:19px;letter-spacing:-.3px}
+.test-row>div:first-child{min-width:0;overflow-wrap:anywhere;flex:1}
+.test-row p{margin:8px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.test-row p span{font-size:12.5px;padding:3px 8px;border-radius:999px;background:var(--paper-2);border:1px solid var(--line);color:var(--muted)}
+.test-row .row{gap:6px;margin-top:auto}
+.test-row .row .button{flex:1;text-align:center;padding:10px 14px}
+.test-row .row button{padding:6px 10px;font-size:13px}
+.manage-bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 14px}
+.manage-bar .muted{flex-basis:100%;margin:0}
+.footer{margin-top:26px;font-size:12px;color:#6a7b8b;text-align:center}
+/* Dialogs */
+dialog{width:480px;max-width:calc(100vw - 24px);border:1px solid #d1dce5;border-radius:14px;padding:24px;color:var(--ink);box-shadow:0 20px 80px #122d4433}
+dialog::backdrop{background:#10263d55}
+dialog .row.between h2{font-size:18px}
+dialog .row.between button[aria-label=Close]{width:34px;height:34px;padding:0;border-radius:50%;font-size:18px}
+.field{margin:16px 0}
+.key-choice{display:flex;gap:10px}
+.key-choice label{flex:1;border:1px solid #d3dfe6;padding:10px;border-radius:8px}
+.key-choice input{width:auto;margin-right:6px}
+details.field summary{cursor:pointer;font-weight:600}
+@media(max-width:550px){
+ header{padding:0 14px;height:58px}
+ .brand{font-size:19px}
+ header .row{gap:6px}
+ header button{padding:7px 10px;font-size:13px}
+ main{padding:20px 14px 40px}
+ h1{font-size:23px}
+ #testList{grid-template-columns:1fr;gap:10px}
+ .test-row{padding:18px 16px 16px}
+ .login{margin-top:6vh;padding:24px 20px}
+}
+</style></head><body>
+<header>
+<div class="brand"><span class="brand-mark">∠</span><div>vertex<small>SAT MATH</small></div></div>
+<div id="headerActions" class="row hidden">
+<button id="aiSetup" class="small">AI setup</button>
+<button id="lockSite" class="small">Lock</button>
+</div>
+</header>
+<main>
+<section id="login" class="card login">
+<div class="brand"><span class="brand-mark">∠</span><div>vertex<small>SAT MATH</small></div></div>
+<h1>Welcome back</h1>
+<p class="muted">Enter the website password to open your practice.</p>
+<form id="loginForm">
+<label for="password">Password</label>
+<input id="password" type="password" autocomplete="current-password" required autofocus>
+<button class="primary" type="submit">Open practice</button>
+<p id="loginError" class="error" role="status"></p>
+</form>
+</section>
+<section id="home" class="hidden">
+<div class="page-head">
+<div><h1>Your tests</h1><p class="muted">Pick a test to study, rehearse under time, or generate practice.</p></div>
+<span id="aiStatus" class="badge">AI not configured</span>
+</div>
+<div class="manage-bar">
+<button id="addTest" class="small">+ Add test</button>
+<button id="manageTests" class="small" aria-pressed="false">Manage tests</button>
+<div id="catalogTools" class="row hidden" style="gap:8px">
+<button id="exportTests" class="small">Export test list</button>
+<button id="restoreTests" class="small">Restore removed</button>
+<button id="resetTests" class="small">Use published list</button>
+</div>
+<span id="catalogHint" class="muted hidden">Edits stay in this browser. Export the list to publish on GitHub.</span>
+</div>
+<p id="catalogStatus" class="error" role="status"></p>
+<div id="testList"></div>
+<p class="footer">Original SAT-style practice. Not affiliated with College Board.</p>
+</section>
+</main>
+<dialog id="testEditor"><form id="testForm"><div class="row between"><h2 id="editorTitle">Add test</h2><button type="button" id="closeEditor" aria-label="Close">×</button></div><input type="hidden" id="editId"><div class="field"><label for="testName">Name</label><input id="testName" maxlength="100" required placeholder="Test 3"></div><div class="field"><label for="testPath">HTML file path</label><input id="testPath" required placeholder="test3.html"><p class="muted">Place the HTML file beside index.html in your GitHub package. Adding a link does not upload or create the test.</p></div><div class="field"><label for="testDescription">Description</label><input id="testDescription" maxlength="240"></div><label><input id="testReady" type="checkbox" style="width:auto"> Ready to open</label><p id="editorError" class="error" role="status"></p><button class="primary" type="submit">Save test</button></form></dialog><dialog id="aiDialog"><div class="row between"><h2>Shared AI setup</h2><button id="closeAI" aria-label="Close">×</button></div><form id="aiForm"><div class="field"><label for="provider">Generate with</label><select id="provider" style="width:100%;padding:10px"><option value="gemini">Gemini · Cloud</option><option value="lmstudio">LM Studio · Local</option></select></div><div id="geminiFields"><div class="field"><label for="key1">Gemini API 1</label><input id="key1" type="password" autocomplete="off" placeholder="Paste first API key"></div><div class="field"><label for="key2">Gemini API 2 · optional</label><input id="key2" type="password" autocomplete="off" placeholder="Paste second API key"></div><p class="muted">API 1 is primary. API 2 is used automatically if API 1 reaches its quota or has a service or key-access failure. Paid API 2 usage may incur charges.</p><details class="field"><summary class="small">Model options</summary><label for="model" style="margin-top:12px">Model ID</label><input id="model" value="gemini-3.5-flash" list="models"><datalist id="models"><option value="gemini-3.5-flash"><option value="gemini-3.1-flash-lite"><option value="gemini-2.5-flash"></datalist></details></div><details class="field"><summary>Monthly budget: $10 · Cost settings</summary><p class="muted">Gemini pauses at $10 of tracked monthly usage (UTC). Paid requests pause below $0.25 remaining. LM Studio remains available. Browser tracking is not a Google billing cap and does not cover other devices or apps.</p><p class="muted">Set the billing tier for each key. These are your selections; billing cannot be detected from a key.</p><label for="billing1">API 1</label><select id="billing1"><option value="free">Free tier</option><option value="paid">Paid</option></select><label for="billing2">API 2</label><select id="billing2"><option value="paid">Paid</option><option value="free">Free tier</option></select><p class="muted">Optional prices for the selected Gemini model, in dollars per million tokens. Leave blank to use a known standard rate; unsupported models show an unknown estimate.</p><label for="inputRate">Input $ / million</label><input id="inputRate" type="number" min="0" step="any" placeholder="Automatic"><label for="outputRate">Output + thinking $ / million</label><input id="outputRate" type="number" min="0" step="any" placeholder="Automatic"><p class="muted">Gemini 3.5 Flash standard: $1.50 input / $9.00 output. Checked September 5, 2026. Estimates exclude taxes, credits and billing adjustments. <a href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank" rel="noopener">Google pricing</a></p></details><div id="localFields" class="hidden"><p class="muted">Load your model in LM Studio, start the Developer server, and enable CORS.</p><label for="localUrl">Server address</label><input id="localUrl" value="http://localhost:1234/v1"><details class="field"><summary>Server authentication · optional</summary><label for="localToken">LM Studio token</label><input id="localToken" type="password" autocomplete="off"></details><div class="row" style="margin:12px 0"><button id="connectLocal" type="button">Connect &amp; list models</button><button id="testLocal" type="button">Test model</button></div><label for="localModel">Model</label><select id="localModel" style="width:100%;padding:10px"><option value="">Connect to select a model</option></select><p class="muted">Runs one question at a time, followed by an answer check. Keep LM Studio open. Local mode uses no Gemini keys.</p></div><div class="row"><button class="primary" type="submit">Save on this computer</button><button id="clearKeys" type="button">Remove keys</button></div><p class="muted" style="margin-top:14px;font-size:12px">Keys stay in this browser’s local storage, accessible to this browser profile. They are not uploaded to GitHub. Quota limits still apply; changing keys does not combine project quotas.</p><p id="aiError" class="error" role="status"></p></form></dialog><script src="assets/js/index.js"></script>
+<script>document.getElementById("manageTests").addEventListener("click",()=>document.getElementById("catalogHint").classList.toggle("hidden",document.getElementById("catalogTools").classList.contains("hidden")));</script>
+<script src="assets/js/daily-review.js"></script></body></html>
